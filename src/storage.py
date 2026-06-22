@@ -95,6 +95,13 @@ class StorageHandler:
                 spreadsheet_name = "F1 War Room Leaderboard"
                 
             if spreadsheet_id:
+                # Auto-extract ID if the user provided a full Google Sheet URL
+                if "docs.google.com/spreadsheets" in spreadsheet_id or spreadsheet_id.startswith("http"):
+                    import re
+                    match = re.search(r"/d/([a-zA-Z0-9-_]+)", spreadsheet_id)
+                    if match:
+                        spreadsheet_id = match.group(1)
+                        
                 self.spreadsheet = self.client.open_by_key(spreadsheet_id)
             else:
                 self.spreadsheet = self.client.open(spreadsheet_name)
