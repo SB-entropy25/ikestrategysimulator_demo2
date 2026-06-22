@@ -1,0 +1,11 @@
+team_id,pitstop_speed,base_pace,reliability,strategy_rating,upgrade_slots
+TEAM-01,2.54,92,78,76,5
+TEAM-02,2.83,96,80,98,5
+TEAM-03,3.22,95,86,70,5
+TEAM-04,3.43,93,92,97,5
+TEAM-05,3.17,87,95,82,5
+TEAM-06,2.88,99,88,68,5
+TEAM-07,2.09,89,89,93,5
+TEAM-08,3.33,80,94,64,5
+TEAM-09,2.17,97,94,91,5
+TEAM-10,2.25,95,90,92,5

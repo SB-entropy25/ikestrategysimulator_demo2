@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap');
+
+/* Main App Background - Dark Carbon feel */
+.stApp {
+    background-color: #0e0e0e;
+    background-image: radial-gradient(#1f1f1f 1px, transparent 1px);
+    background-size: 20px 20px;
+    color: #e0e0e0;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Teko', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #FF1801; /* F1 Red */
+    text-shadow: 0 0 10px rgba(255, 24, 1, 0.5);
+    border-bottom: 2px solid #FF1801;
+    padding-bottom: 10px;
+}
+
+/* Buttons */
+.stButton>button {
+    background-color: #FF1801;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 2rem;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.stButton>button:hover {
+    background-color: #ff331f;
+    box-shadow: 0 0 15px rgba(255, 24, 1, 0.6);
+    transform: translateY(-2px);
+    color: white;
+}
+
+/* Metrics and Data Cards */
+div[data-testid="stMetricValue"] {
+    font-family: 'Share Tech Mono', monospace;
+    color: #FF1801;
+    font-size: 2.5rem;
+    text-shadow: 0 0 5px rgba(255, 24, 1, 0.3);
+}
+
+div[data-testid="stMetricLabel"] {
+    font-family: 'Teko', sans-serif;
+    color: #a0a0a0;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+/* Containers / Panels - Target only official bordered containers */
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    background-color: rgba(20, 20, 20, 0.85) !important;
+    border: 1px solid #333 !important;
+    border-left: 4px solid #FF1801 !important;
+    border-radius: 6px !important;
+    padding: 20px !important;
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.5), 0 4px 10px rgba(0,0,0,0.3) !important;
+    margin-bottom: 20px !important;
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Inputs */
+.stTextInput>div>div>input {
+    background-color: #1a1a1a;
+    color: #00ff00; /* Telemetry Green */
+    font-family: 'Share Tech Mono', monospace;
+    border: 1px solid #444;
+}
+
+/* Hide default streamlit branding */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
+/* Custom elements */
+.telemetry-green { color: #00ff00; font-weight: bold; }
+.telemetry-red { color: #ff0000; font-weight: bold; }
+.telemetry-yellow { color: #ffcc00; font-weight: bold; }
+.radio-box {
+    background-color: #2a2a2a;
+    border-left: 5px solid #FF1801;
+    padding: 10px;
+    margin: 10px 0;
+    font-family: 'Share Tech Mono', monospace;
+    color: #fff;
+}
+.radio-engineer {
+    color: #00bfff;
+    font-weight: bold;
+}
+.radio-driver {
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+/* Animations */
+@keyframes pulse {
+    0% { box-shadow: 0 0 5px #ff0000; }
+    50% { box-shadow: 0 0 20px #ff0000; }
+    100% { box-shadow: 0 0 5px #ff0000; }
+}
+
+.pulse-alert {
+    animation: pulse 1.5s infinite;
+    border: 2px solid #ff0000 !important;
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}

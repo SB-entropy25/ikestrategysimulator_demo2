@@ -1,0 +1,6 @@
+team_id,principal_name,team_name,driver_profile,upgrades,race_position,strategy_score,total_score
+TID-7547,SB,IKE,"{'driver_id': 'V-76', 'aggression': 62, 'risk_appetite': 62, 'data_trust': 86, 'tire_management': 98, 'adaptability': 98}","['Weather Center (40 cr)', 'AI Strategy Assistant (50 cr)']",6,100,579
+TID-6965,S,S,"{'driver_id': 'VX-19', 'aggression': 98, 'risk_appetite': 62, 'data_reliance': 98, 'tire_management': 86, 'adaptability': 74}","['AI Strategy Assistant (50 cr)', 'Reliability Package (35 cr)']",8,100,596
+TID-8082,s,hsd,"{'driver_id': 'VX-15', 'aggression': 98, 'risk_appetite': 74, 'data_reliance': 74, 'tire_management': 74, 'adaptability': 98}","['AI Strategy Assistant (50 cr)', 'Reliability Package (35 cr)']",4,100,666
+TID-7028,Srijan,BITS,"{'driver_id': 'VX-13', 'aggression': 62, 'risk_appetite': 62, 'data_reliance': 74, 'tire_management': 98, 'adaptability': 62}","['AI Strategy Assistant (50 cr)', 'Reliability Package (35 cr)']",10,100,546
+TID-4977,xyz,xyz,"{'driver_id': 'VX-26', 'aggression': 98, 'risk_appetite': 86, 'data_reliance': 62, 'tire_management': 86, 'adaptability': 86}","['Weather Center (40 cr)', 'AI Strategy Assistant (50 cr)']",15,100,484
