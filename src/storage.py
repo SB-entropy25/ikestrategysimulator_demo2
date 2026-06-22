@@ -20,6 +20,7 @@ class StorageHandler:
         self.sheet = None
         self.status_message = "Initializing..."
         self.error_details = None
+        self.save_error = None
         self.init_gsheets()
 
     def init_gsheets(self):
@@ -143,6 +144,9 @@ class StorageHandler:
             self.error_details = f"{type(e).__name__}: {str(e)}"
 
     def save_participant(self, p_data):
+        # Reset save error state
+        self.save_error = None
+        
         # Always save locally as a backup
         self.save_local(p_data)
         
@@ -165,13 +169,21 @@ class StorageHandler:
                 
                 if p_data["team_id"] in col_team_ids:
                     row_idx = col_team_ids.index(p_data["team_id"]) + 1  # 1-indexed
-                    self.sheet.update(range_name=f"A{row_idx}:H{row_idx}", values=[row_data])
+                    
+                    try:
+                        # Try gspread v6+ keyword argument syntax
+                        self.sheet.update(values=[row_data], range_name=f"A{row_idx}:H{row_idx}")
+                    except (TypeError, Exception):
+                        # Fall back to gspread v5- positional argument syntax: update(range_name, values)
+                        self.sheet.update(f"A{row_idx}:H{row_idx}", [row_data])
+                        
                     print(f"[StorageHandler] Updated Google Sheets row {row_idx} for team {p_data['team_id']}")
                 else:
                     self.sheet.append_row(row_data)
                     print(f"[StorageHandler] Appended new row to Google Sheets for team {p_data['team_id']}")
             except Exception as e:
                 print(f"[StorageHandler] Error saving to Google Sheets: {e}")
+                self.save_error = f"{type(e).__name__}: {str(e)}"
 
     def save_local(self, p_data):
         df = pd.read_csv(self.participants_file)

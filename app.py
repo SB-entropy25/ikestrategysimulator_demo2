@@ -397,16 +397,21 @@ def phase_5_report():
             "total_score": score_breakdown['total_score']
         }
         storage.save_participant(p_data)
-        st.balloons()
-        st.success("Results saved and exported to Excel.")
+        
+        # Check if the Google Sheets save had any errors
+        if storage.save_error:
+            st.error(f"⚠️ **Google Sheets Sync Failed:** `{storage.save_error}`. Your results have still been saved successfully in local backups (CSV/Excel)!")
+        else:
+            st.balloons()
+            st.success("Results saved successfully and synced with Google Sheets!")
         
         st.markdown("### Leaderboard")
         st.dataframe(storage.get_leaderboard())
         
         if storage.gsheets_enabled:
-            st.success(f"🟢 **Data Synchronized:** {storage.status_message}")
+            st.info(f"🌐 **Database Status:** {storage.status_message}")
         else:
-            st.warning(f"⚠️ **Offline Mode:** {storage.status_message}")
+            st.warning(f"⚠️ **Database Status:** {storage.status_message}")
 
 # --- Router ---
 if st.session_state.phase == 1:
