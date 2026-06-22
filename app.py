@@ -314,7 +314,8 @@ def phase_4_race():
                 st.session_state.decision_history.append({"lap": rs['lap'], "event": evt['event_type'], "decision": decision})
                 st.session_state.current_event = None
                 
-                if new_state['lap'] >= 60:
+                # End race if lap count is reached or the car has DNF'd/DSQ'd (reliability reaches 0)
+                if new_state['lap'] >= 60 or new_state['reliability'] <= 0:
                     st.session_state.phase = 5
                 
                 st.rerun()
@@ -357,7 +358,19 @@ def phase_5_report():
     col1, col2 = st.columns(2)
     with col1:
         with st.container(border=True):
-            st.markdown(f"## Final Position: P{st.session_state.race_state.get('position', 'DNF')}")
+            rs = st.session_state.race_state
+            if rs.get("reliability", 100) <= 0:
+                if rs.get("fuel_load", 10.0) <= 0.0:
+                    st.markdown("## Final Status: DSQ (Disqualified - Out of Fuel)")
+                elif rs.get("tire_health", 100) < 10:
+                    st.markdown("## Final Status: DNF (Retired - Tire Blowout)")
+                elif rs.get("track_dampness", 0) > 35 and rs.get("tire_compound") in ["Soft", "Medium", "Hard"]:
+                    st.markdown("## Final Status: DNF (Retired - Crash in Wet)")
+                else:
+                    st.markdown("## Final Status: DNF (Retired - Engine Failure)")
+            else:
+                st.markdown(f"## Final Position: P{rs.get('position', 10)}")
+                
             st.markdown(f"### Total Score: {score_breakdown['total_score']} / 1000")
             
             # Display score dynamically

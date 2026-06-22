@@ -134,6 +134,60 @@ class SimulationEngine:
                 new_state["reliability"] = max(0, new_state["reliability"] - 30)
                 new_state["driver_confidence"] = max(0, new_state["driver_confidence"] - 20)
 
+        # Check for Critical Telemetry Penalties (Be mindful of actual F1 Tech/Sporting Regs)
+        
+        # 1. CRITICAL TYRES (<25% health)
+        if current_state.get("tire_health", 100) < 25:
+            if decision == "Push":
+                if random.randint(0, 100) < 60: # 60% chance of tire blowout
+                    new_state["reliability"] = 0
+                    new_state["driver_confidence"] = 0
+                    new_state["position"] = 20 # DNF
+                    new_state["strategy_bonus"] = new_state.get("strategy_bonus", 0) - 100
+                    print("[F1 PENALTY] Tire blowout! Terminal puncture from pushing on dead tires.")
+            elif decision == "Defend":
+                if random.randint(0, 100) < 30: # 30% chance of minor puncture
+                    new_state["reliability"] = max(0, new_state["reliability"] - 40)
+                    new_state["gap_ahead"] += 15.0 # Crawls to pitlane
+                    print("[F1 PENALTY] Minor tire puncture under defense.")
+
+        # 2. CRITICAL FUEL (<8.0 kg)
+        if current_state.get("fuel_load", 110.0) < 8.0:
+            if decision in ["Push", "Defend"]:
+                fuel_burn = random.uniform(3.5, 5.0)
+                new_state["fuel_load"] = max(0.0, new_state["fuel_load"] - fuel_burn)
+                if new_state["fuel_load"] <= 0.0:
+                    new_state["position"] = 20 # DSQ / DNF
+                    new_state["reliability"] = 0
+                    new_state["strategy_bonus"] = new_state.get("strategy_bonus", 0) - 150
+                    print("[F1 PENALTY] Disqualified! Car stopped on track with zero fuel (F1 Tech Reg 6.6.2).")
+
+        # 3. CRITICAL RELIABILITY / SUB-SYSTEMS (<25% reliability)
+        if current_state.get("reliability", 100) < 25:
+            if decision == "Push":
+                if random.randint(0, 100) < 70: # 70% chance of PU failure
+                    new_state["reliability"] = 0 # Terminal engine blowout
+                    new_state["position"] = 20 # DNF
+                    new_state["driver_confidence"] = max(0, new_state["driver_confidence"] - 50)
+                    new_state["strategy_bonus"] = new_state.get("strategy_bonus", 0) - 120
+                    print("[F1 PENALTY] Engine Blowout DNF! Pushing on terminal power unit temperatures.")
+            elif decision == "Defend":
+                if random.randint(0, 100) < 40:
+                    new_state["reliability"] = 0 # Component failure DNF
+                    new_state["position"] = 20
+                    new_state["strategy_bonus"] = new_state.get("strategy_bonus", 0) - 80
+
+        # 4. WET TRACK ON SLICKS (>35% track dampness on slick tires)
+        is_slick = compound in ["Soft", "Medium", "Hard"]
+        if dampness > 35 and is_slick:
+            if decision in ["Push", "Defend"]:
+                if random.randint(0, 100) < 65: # 65% chance of spin/crash into wall
+                    new_state["reliability"] = 0 # Crash DNF
+                    new_state["position"] = 20
+                    new_state["driver_confidence"] = 10
+                    new_state["strategy_bonus"] = new_state.get("strategy_bonus", 0) - 130
+                    print("[F1 PENALTY] Crash DNF! Spun off into the barriers on slick tires in wet conditions.")
+
         # Reliability decay
         rel_decay = random.randint(1, 4)
         if has_reliability:
@@ -151,6 +205,17 @@ class SimulationEngine:
         return new_state
 
     def generate_radio_message(self, state):
+        # Terminal messages if the car has retired (DNF/DSQ)
+        if state.get("reliability", 100) <= 0:
+            if state.get("fuel_load", 10.0) <= 0.0:
+                return "Engine sputtered out. I'm completely out of fuel. Technical disqualification... stopping on track."
+            elif state.get("tire_health", 100) < 10:
+                return "The rear tire blew out at high speed! Suspension is damaged, I'm sliding into the barriers. It's over."
+            elif state.get("track_dampness", 0) > 35 and state.get("tire_compound") in ["Soft", "Medium", "Hard"]:
+                return "I've lost the rear! Aqua-planing... I'm in the barrier at Turn 4. Extensive wing and floor damage. I'm out."
+            else:
+                return "Smoke in the cockpit! Loss of drive, gearbox is locked. I'm stopping the car next to a marshal post."
+
         messages = [
             "Tires are holding up fine, let's keep going.",
             "Getting some front-wing vibration, can you check telemetry?",
