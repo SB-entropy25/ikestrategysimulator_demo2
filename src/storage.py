@@ -18,6 +18,8 @@ class StorageHandler:
         self.gsheets_enabled = False
         self.client = None
         self.sheet = None
+        self.status_message = "Initializing..."
+        self.error_details = None
         self.init_gsheets()
 
     def init_gsheets(self):
@@ -69,6 +71,8 @@ class StorageHandler:
             
             if not creds:
                 print("[StorageHandler] No Google credentials found. Using local storage fallback.")
+                self.status_message = "Offline Mode (Local backup active)"
+                self.error_details = "No Google Cloud credentials found in environment variables (GOOGLE_SERVICE_ACCOUNT_JSON), local credentials.json file, or Streamlit secrets."
                 return
                 
             self.client = gspread.authorize(creds)
@@ -97,6 +101,8 @@ class StorageHandler:
                 
             self.sheet = self.spreadsheet.get_worksheet(0)
             self.gsheets_enabled = True
+            self.status_message = f"Connected to Google Sheets: {self.spreadsheet.title}"
+            self.error_details = None
             print(f"[StorageHandler] Google Sheets connected successfully to: {self.spreadsheet.title}")
             
             # Ensure headers exist on the sheet
@@ -112,6 +118,8 @@ class StorageHandler:
         except Exception as e:
             print(f"[StorageHandler] Error initializing Google Sheets: {e}. Falling back to local storage.")
             self.gsheets_enabled = False
+            self.status_message = "Connection Error (Local backup active)"
+            self.error_details = f"{type(e).__name__}: {str(e)}"
 
     def save_participant(self, p_data):
         # Always save locally as a backup

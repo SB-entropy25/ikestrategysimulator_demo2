@@ -106,6 +106,15 @@ def phase_1_registration():
                 else:
                     st.error("Authentication failed. Provide valid credentials.")
                     
+            st.markdown("---")
+            if storage.gsheets_enabled:
+                st.success(f"🟢 **Database:** {storage.status_message}")
+            else:
+                st.warning(f"⚠️ **Database:** {storage.status_message}")
+                with st.expander("Show Connection Diagnostics"):
+                    st.write("**Error Details:**")
+                    st.code(storage.error_details)
+                    
     with col2:
         with st.container(border=True):
             st.markdown("### 📋 Operations Briefing & Rules")
@@ -380,6 +389,11 @@ def phase_5_report():
         
         st.markdown("### Leaderboard")
         st.dataframe(storage.get_leaderboard())
+        
+        if storage.gsheets_enabled:
+            st.success(f"🟢 **Data Synchronized:** {storage.status_message}")
+        else:
+            st.warning(f"⚠️ **Offline Mode:** {storage.status_message}")
 
 # --- Router ---
 if st.session_state.phase == 1:
