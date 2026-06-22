@@ -1,251 +1,251 @@
 event_id,event_type,lap_range,probability,severity,description,possible_actions,expected_consequences
-EVT-001,Brake Failure Warning,5-30,0.2,High,Detected Brake Failure Warning with High severity.,Save Tires|Push|Ignore|Defend,Varies based on action and team attributes
-EVT-002,Driver Complaint,15-50,0.26,Critical,Detected Driver Complaint with Critical severity.,Lift and Coast|Change Engine Mode|Push|Save Tires,Varies based on action and team attributes
-EVT-003,Overheating Issue,13-38,0.16,Low,Detected Overheating Issue with Low severity.,Pit|Lift and Coast,Varies based on action and team attributes
-EVT-004,Undercut Threat,1-36,0.23,Medium,Detected Undercut Threat with Medium severity.,Pit|Change Engine Mode,Varies based on action and team attributes
-EVT-005,Rain Starts,20-26,0.32,Medium,Detected Rain Starts with Medium severity.,Defend|Save Tires|Push|Lift and Coast,Varies based on action and team attributes
-EVT-006,Engine Mode Restriction,16-22,0.37,Low,Detected Engine Mode Restriction with Low severity.,Change Engine Mode|Push,Varies based on action and team attributes
-EVT-007,Red Flag,19-45,0.35,Medium,Detected Red Flag with Medium severity.,Change Engine Mode|Defend,Varies based on action and team attributes
-EVT-008,Pit Lane Congestion,18-33,0.26,High,Detected Pit Lane Congestion with High severity.,Change Engine Mode|Ignore|Defend|Lift and Coast,Varies based on action and team attributes
-EVT-009,Fuel Concern,10-29,0.17,Low,Detected Fuel Concern with Low severity.,Push|Lift and Coast|Change Engine Mode,Varies based on action and team attributes
-EVT-010,Red Flag,10-21,0.21,Medium,Detected Red Flag with Medium severity.,Pit|Defend|Save Tires,Varies based on action and team attributes
-EVT-011,Undercut Threat,19-37,0.15,Low,Detected Undercut Threat with Low severity.,Defend|Lift and Coast,Varies based on action and team attributes
-EVT-012,Pit Lane Congestion,14-23,0.22,Low,Detected Pit Lane Congestion with Low severity.,Ignore|Change Engine Mode|Save Tires,Varies based on action and team attributes
-EVT-013,Gearbox Alert,7-46,0.09,Medium,Detected Gearbox Alert with Medium severity.,Ignore|Push,Varies based on action and team attributes
-EVT-014,Tire Blistering,14-27,0.02,Critical,Detected Tire Blistering with Critical severity.,Lift and Coast|Push|Ignore,Varies based on action and team attributes
-EVT-015,Engine Mode Restriction,20-37,0.06,High,Detected Engine Mode Restriction with High severity.,Defend|Pit,Varies based on action and team attributes
-EVT-016,Pit Lane Congestion,17-28,0.25,Critical,Detected Pit Lane Congestion with Critical severity.,Change Engine Mode|Ignore,Varies based on action and team attributes
-EVT-017,Engine Mode Restriction,10-46,0.39,Critical,Detected Engine Mode Restriction with Critical severity.,Lift and Coast|Ignore|Save Tires,Varies based on action and team attributes
-EVT-018,Safety Car,16-43,0.02,High,Detected Safety Car with High severity.,Ignore|Save Tires|Push,Varies based on action and team attributes
-EVT-019,Undercut Threat,18-33,0.39,Medium,Detected Undercut Threat with Medium severity.,Ignore|Change Engine Mode,Varies based on action and team attributes
-EVT-020,Gearbox Alert,10-49,0.3,Low,Detected Gearbox Alert with Low severity.,Ignore|Save Tires|Push,Varies based on action and team attributes
-EVT-021,Driver Complaint,10-21,0.03,High,Detected Driver Complaint with High severity.,Pit|Lift and Coast|Ignore,Varies based on action and team attributes
-EVT-022,Engine Mode Restriction,5-42,0.25,High,Detected Engine Mode Restriction with High severity.,Push|Change Engine Mode|Lift and Coast|Pit,Varies based on action and team attributes
-EVT-023,Brake Failure Warning,5-42,0.29,High,Detected Brake Failure Warning with High severity.,Save Tires|Change Engine Mode|Lift and Coast|Push,Varies based on action and team attributes
-EVT-024,Red Flag,8-36,0.16,Medium,Detected Red Flag with Medium severity.,Save Tires|Ignore|Change Engine Mode,Varies based on action and team attributes
-EVT-025,Engine Mode Restriction,10-21,0.32,Critical,Detected Engine Mode Restriction with Critical severity.,Pit|Defend|Lift and Coast,Varies based on action and team attributes
-EVT-026,Driver Complaint,5-28,0.26,Critical,Detected Driver Complaint with Critical severity.,Defend|Ignore|Lift and Coast|Push,Varies based on action and team attributes
-EVT-027,Fuel Concern,7-34,0.08,Low,Detected Fuel Concern with Low severity.,Ignore|Change Engine Mode|Lift and Coast|Save Tires,Varies based on action and team attributes
-EVT-028,Track Evolution,6-22,0.04,Low,Detected Track Evolution with Low severity.,Ignore|Save Tires|Pit,Varies based on action and team attributes
-EVT-029,Hydraulic Warning,17-25,0.14,High,Detected Hydraulic Warning with High severity.,Defend|Ignore,Varies based on action and team attributes
-EVT-030,Brake Failure Warning,12-35,0.04,Low,Detected Brake Failure Warning with Low severity.,Save Tires|Pit,Varies based on action and team attributes
-EVT-031,Red Flag,16-39,0.09,Medium,Detected Red Flag with Medium severity.,Lift and Coast|Ignore|Save Tires,Varies based on action and team attributes
-EVT-032,Gearbox Alert,1-31,0.07,Low,Detected Gearbox Alert with Low severity.,Lift and Coast|Ignore,Varies based on action and team attributes
-EVT-033,Hydraulic Warning,13-41,0.12,High,Detected Hydraulic Warning with High severity.,Lift and Coast|Save Tires|Push|Ignore,Varies based on action and team attributes
-EVT-034,Pit Lane Congestion,18-44,0.25,Critical,Detected Pit Lane Congestion with Critical severity.,Defend|Ignore|Change Engine Mode|Pit,Varies based on action and team attributes
-EVT-035,Yellow Flag,3-45,0.1,Low,Detected Yellow Flag with Low severity.,Ignore|Pit|Lift and Coast|Push,Varies based on action and team attributes
-EVT-036,Pit Lane Congestion,5-24,0.38,Critical,Detected Pit Lane Congestion with Critical severity.,Ignore|Push|Defend,Varies based on action and team attributes
-EVT-037,Track Evolution,8-39,0.35,High,Detected Track Evolution with High severity.,Change Engine Mode|Push|Ignore|Save Tires,Varies based on action and team attributes
-EVT-038,Overheating Issue,6-42,0.15,Medium,Detected Overheating Issue with Medium severity.,Pit|Push,Varies based on action and team attributes
-EVT-039,Rain Stops,4-36,0.09,Medium,Detected Rain Stops with Medium severity.,Push|Lift and Coast|Defend,Varies based on action and team attributes
-EVT-040,Track Evolution,8-24,0.17,Medium,Detected Track Evolution with Medium severity.,Lift and Coast|Pit|Defend|Push,Varies based on action and team attributes
-EVT-041,Hydraulic Warning,16-26,0.25,Low,Detected Hydraulic Warning with Low severity.,Defend|Save Tires,Varies based on action and team attributes
-EVT-042,Driver Complaint,6-40,0.37,Medium,Detected Driver Complaint with Medium severity.,Save Tires|Ignore|Push,Varies based on action and team attributes
-EVT-043,Yellow Flag,13-30,0.36,Low,Detected Yellow Flag with Low severity.,Pit|Save Tires|Defend|Push,Varies based on action and team attributes
-EVT-044,Hydraulic Warning,12-22,0.12,High,Detected Hydraulic Warning with High severity.,Lift and Coast|Pit|Push|Defend,Varies based on action and team attributes
-EVT-045,Rain Starts,14-41,0.05,High,Detected Rain Starts with High severity.,Pit|Lift and Coast|Change Engine Mode,Varies based on action and team attributes
-EVT-046,Driver Complaint,19-26,0.21,Critical,Detected Driver Complaint with Critical severity.,Ignore|Lift and Coast,Varies based on action and team attributes
-EVT-047,Driver Complaint,12-27,0.34,High,Detected Driver Complaint with High severity.,Pit|Push|Save Tires|Change Engine Mode,Varies based on action and team attributes
-EVT-048,Fuel Concern,4-29,0.2,High,Detected Fuel Concern with High severity.,Ignore|Defend|Save Tires|Lift and Coast,Varies based on action and team attributes
-EVT-049,Driver Complaint,1-47,0.16,Critical,Detected Driver Complaint with Critical severity.,Pit|Lift and Coast,Varies based on action and team attributes
-EVT-050,Pit Lane Congestion,9-21,0.11,Low,Detected Pit Lane Congestion with Low severity.,Ignore|Save Tires|Pit|Push,Varies based on action and team attributes
-EVT-051,Tire Blistering,8-27,0.02,Critical,Detected Tire Blistering with Critical severity.,Pit|Change Engine Mode|Defend,Varies based on action and team attributes
-EVT-052,Yellow Flag,19-41,0.23,Medium,Detected Yellow Flag with Medium severity.,Push|Pit|Ignore,Varies based on action and team attributes
-EVT-053,Red Flag,12-32,0.33,Critical,Detected Red Flag with Critical severity.,Change Engine Mode|Lift and Coast|Ignore,Varies based on action and team attributes
-EVT-054,Hydraulic Warning,2-29,0.33,Low,Detected Hydraulic Warning with Low severity.,Pit|Defend,Varies based on action and team attributes
-EVT-055,Fuel Concern,7-46,0.09,High,Detected Fuel Concern with High severity.,Change Engine Mode|Save Tires|Pit,Varies based on action and team attributes
-EVT-056,Yellow Flag,12-46,0.06,Critical,Detected Yellow Flag with Critical severity.,Ignore|Pit|Change Engine Mode|Defend,Varies based on action and team attributes
-EVT-057,Brake Failure Warning,7-22,0.34,Medium,Detected Brake Failure Warning with Medium severity.,Lift and Coast|Pit|Push,Varies based on action and team attributes
-EVT-058,Brake Failure Warning,6-38,0.37,Low,Detected Brake Failure Warning with Low severity.,Save Tires|Ignore|Defend,Varies based on action and team attributes
-EVT-059,Front Wing Damage,3-42,0.03,Critical,Detected Front Wing Damage with Critical severity.,Save Tires|Change Engine Mode|Ignore|Pit,Varies based on action and team attributes
-EVT-060,Gearbox Alert,11-36,0.01,Critical,Detected Gearbox Alert with Critical severity.,Defend|Lift and Coast|Push,Varies based on action and team attributes
-EVT-061,Driver Complaint,4-25,0.26,Medium,Detected Driver Complaint with Medium severity.,Ignore|Change Engine Mode|Lift and Coast,Varies based on action and team attributes
-EVT-062,Fuel Concern,15-31,0.31,High,Detected Fuel Concern with High severity.,Change Engine Mode|Defend,Varies based on action and team attributes
-EVT-063,Rain Starts,6-29,0.23,Low,Detected Rain Starts with Low severity.,Change Engine Mode|Lift and Coast,Varies based on action and team attributes
-EVT-064,Overcut Opportunity,8-47,0.32,Critical,Detected Overcut Opportunity with Critical severity.,Push|Defend,Varies based on action and team attributes
-EVT-065,Engine Mode Restriction,11-48,0.17,High,Detected Engine Mode Restriction with High severity.,Lift and Coast|Pit|Defend|Save Tires,Varies based on action and team attributes
-EVT-066,Rain Stops,2-34,0.14,High,Detected Rain Stops with High severity.,Push|Pit|Save Tires|Lift and Coast,Varies based on action and team attributes
-EVT-067,Engine Mode Restriction,9-24,0.39,Critical,Detected Engine Mode Restriction with Critical severity.,Ignore|Pit|Push|Lift and Coast,Varies based on action and team attributes
-EVT-068,Undercut Threat,6-38,0.07,Critical,Detected Undercut Threat with Critical severity.,Pit|Change Engine Mode,Varies based on action and team attributes
-EVT-069,Overcut Opportunity,13-49,0.03,Medium,Detected Overcut Opportunity with Medium severity.,Save Tires|Defend|Lift and Coast,Varies based on action and team attributes
-EVT-070,Pit Lane Congestion,14-45,0.17,Medium,Detected Pit Lane Congestion with Medium severity.,Push|Ignore|Defend|Lift and Coast,Varies based on action and team attributes
-EVT-071,Overheating Issue,19-41,0.25,Medium,Detected Overheating Issue with Medium severity.,Push|Lift and Coast|Defend,Varies based on action and team attributes
-EVT-072,Overheating Issue,10-32,0.35,Medium,Detected Overheating Issue with Medium severity.,Push|Defend|Ignore,Varies based on action and team attributes
-EVT-073,Tire Blistering,18-49,0.31,Medium,Detected Tire Blistering with Medium severity.,Change Engine Mode|Save Tires|Pit|Defend,Varies based on action and team attributes
-EVT-074,Hydraulic Warning,20-31,0.24,Medium,Detected Hydraulic Warning with Medium severity.,Ignore|Lift and Coast|Pit,Varies based on action and team attributes
-EVT-075,Overcut Opportunity,5-42,0.34,Critical,Detected Overcut Opportunity with Critical severity.,Change Engine Mode|Ignore,Varies based on action and team attributes
-EVT-076,Engine Mode Restriction,18-39,0.09,High,Detected Engine Mode Restriction with High severity.,Change Engine Mode|Ignore|Defend,Varies based on action and team attributes
-EVT-077,Track Evolution,13-35,0.05,Medium,Detected Track Evolution with Medium severity.,Change Engine Mode|Lift and Coast|Save Tires,Varies based on action and team attributes
-EVT-078,Gearbox Alert,2-22,0.28,High,Detected Gearbox Alert with High severity.,Lift and Coast|Push|Change Engine Mode|Save Tires,Varies based on action and team attributes
-EVT-079,DRS Train,13-42,0.05,Critical,Detected DRS Train with Critical severity.,Save Tires|Change Engine Mode|Defend|Lift and Coast,Varies based on action and team attributes
-EVT-080,Overheating Issue,4-39,0.29,Critical,Detected Overheating Issue with Critical severity.,Pit|Save Tires,Varies based on action and team attributes
-EVT-081,Rain Stops,4-21,0.18,Medium,Detected Rain Stops with Medium severity.,Lift and Coast|Ignore|Change Engine Mode|Pit,Varies based on action and team attributes
-EVT-082,Driver Complaint,11-26,0.11,Critical,Detected Driver Complaint with Critical severity.,Change Engine Mode|Push,Varies based on action and team attributes
-EVT-083,Safety Car,1-22,0.35,Medium,Detected Safety Car with Medium severity.,Pit|Ignore|Push,Varies based on action and team attributes
-EVT-084,Overheating Issue,6-37,0.27,Medium,Detected Overheating Issue with Medium severity.,Push|Save Tires|Ignore|Change Engine Mode,Varies based on action and team attributes
-EVT-085,Rain Starts,4-32,0.37,High,Detected Rain Starts with High severity.,Lift and Coast|Change Engine Mode|Push,Varies based on action and team attributes
-EVT-086,DRS Train,12-41,0.2,High,Detected DRS Train with High severity.,Save Tires|Change Engine Mode|Ignore,Varies based on action and team attributes
-EVT-087,Overcut Opportunity,4-36,0.07,High,Detected Overcut Opportunity with High severity.,Push|Lift and Coast|Ignore|Pit,Varies based on action and team attributes
-EVT-088,Tire Blistering,14-39,0.03,Low,Detected Tire Blistering with Low severity.,Lift and Coast|Pit|Ignore|Defend,Varies based on action and team attributes
-EVT-089,Hydraulic Warning,19-25,0.11,Critical,Detected Hydraulic Warning with Critical severity.,Lift and Coast|Push|Pit,Varies based on action and team attributes
-EVT-090,Track Evolution,1-27,0.23,High,Detected Track Evolution with High severity.,Save Tires|Change Engine Mode|Defend|Pit,Varies based on action and team attributes
-EVT-091,Gearbox Alert,6-49,0.26,Low,Detected Gearbox Alert with Low severity.,Lift and Coast|Change Engine Mode,Varies based on action and team attributes
-EVT-092,Rain Stops,5-48,0.38,Critical,Detected Rain Stops with Critical severity.,Change Engine Mode|Defend|Ignore|Pit,Varies based on action and team attributes
-EVT-093,Virtual Safety Car,18-48,0.09,Medium,Detected Virtual Safety Car with Medium severity.,Ignore|Change Engine Mode|Save Tires|Lift and Coast,Varies based on action and team attributes
-EVT-094,Undercut Threat,15-35,0.32,Medium,Detected Undercut Threat with Medium severity.,Pit|Ignore|Push|Lift and Coast,Varies based on action and team attributes
-EVT-095,DRS Train,13-23,0.18,Low,Detected DRS Train with Low severity.,Defend|Push|Save Tires,Varies based on action and team attributes
-EVT-096,Front Wing Damage,11-35,0.27,High,Detected Front Wing Damage with High severity.,Pit|Ignore,Varies based on action and team attributes
-EVT-097,Yellow Flag,7-36,0.05,Low,Detected Yellow Flag with Low severity.,Push|Pit|Save Tires,Varies based on action and team attributes
-EVT-098,Pit Lane Congestion,16-34,0.25,Medium,Detected Pit Lane Congestion with Medium severity.,Push|Lift and Coast|Save Tires,Varies based on action and team attributes
-EVT-099,Rain Stops,7-49,0.27,Critical,Detected Rain Stops with Critical severity.,Change Engine Mode|Defend|Ignore,Varies based on action and team attributes
-EVT-100,Front Wing Damage,7-43,0.39,Medium,Detected Front Wing Damage with Medium severity.,Save Tires|Ignore|Pit|Lift and Coast,Varies based on action and team attributes
-EVT-101,Brake Failure Warning,3-46,0.26,Medium,Detected Brake Failure Warning with Medium severity.,Ignore|Save Tires|Push,Varies based on action and team attributes
-EVT-102,Yellow Flag,16-38,0.34,Low,Detected Yellow Flag with Low severity.,Push|Pit|Change Engine Mode|Ignore,Varies based on action and team attributes
-EVT-103,Yellow Flag,17-38,0.18,High,Detected Yellow Flag with High severity.,Save Tires|Pit|Ignore|Change Engine Mode,Varies based on action and team attributes
-EVT-104,Gearbox Alert,3-25,0.12,Low,Detected Gearbox Alert with Low severity.,Push|Ignore|Change Engine Mode,Varies based on action and team attributes
-EVT-105,Undercut Threat,3-31,0.04,High,Detected Undercut Threat with High severity.,Defend|Change Engine Mode,Varies based on action and team attributes
-EVT-106,Track Evolution,14-30,0.21,Low,Detected Track Evolution with Low severity.,Defend|Push,Varies based on action and team attributes
-EVT-107,Fuel Concern,6-28,0.32,Low,Detected Fuel Concern with Low severity.,Save Tires|Push,Varies based on action and team attributes
-EVT-108,Red Flag,19-32,0.1,Medium,Detected Red Flag with Medium severity.,Defend|Ignore|Change Engine Mode|Save Tires,Varies based on action and team attributes
-EVT-109,Engine Mode Restriction,1-23,0.14,High,Detected Engine Mode Restriction with High severity.,Save Tires|Change Engine Mode|Pit,Varies based on action and team attributes
-EVT-110,Pit Lane Congestion,18-44,0.2,Low,Detected Pit Lane Congestion with Low severity.,Change Engine Mode|Ignore|Pit|Push,Varies based on action and team attributes
-EVT-111,Gearbox Alert,5-29,0.33,Low,Detected Gearbox Alert with Low severity.,Ignore|Save Tires,Varies based on action and team attributes
-EVT-112,Overheating Issue,9-46,0.23,High,Detected Overheating Issue with High severity.,Lift and Coast|Defend|Change Engine Mode|Pit,Varies based on action and team attributes
-EVT-113,Overheating Issue,18-43,0.34,Low,Detected Overheating Issue with Low severity.,Save Tires|Pit|Push,Varies based on action and team attributes
-EVT-114,Engine Mode Restriction,18-27,0.16,Medium,Detected Engine Mode Restriction with Medium severity.,Pit|Lift and Coast|Save Tires|Change Engine Mode,Varies based on action and team attributes
-EVT-115,Safety Car,15-33,0.2,Critical,Detected Safety Car with Critical severity.,Defend|Lift and Coast|Push,Varies based on action and team attributes
-EVT-116,Brake Failure Warning,20-28,0.08,Low,Detected Brake Failure Warning with Low severity.,Ignore|Push|Change Engine Mode|Defend,Varies based on action and team attributes
-EVT-117,Virtual Safety Car,14-40,0.35,Low,Detected Virtual Safety Car with Low severity.,Pit|Push|Save Tires|Defend,Varies based on action and team attributes
-EVT-118,Safety Car,15-42,0.24,Medium,Detected Safety Car with Medium severity.,Ignore|Save Tires|Lift and Coast,Varies based on action and team attributes
-EVT-119,Undercut Threat,5-26,0.11,Low,Detected Undercut Threat with Low severity.,Pit|Push|Save Tires,Varies based on action and team attributes
-EVT-120,Gearbox Alert,2-37,0.18,Medium,Detected Gearbox Alert with Medium severity.,Change Engine Mode|Lift and Coast|Pit|Ignore,Varies based on action and team attributes
-EVT-121,Yellow Flag,10-26,0.18,Critical,Detected Yellow Flag with Critical severity.,Save Tires|Defend|Change Engine Mode,Varies based on action and team attributes
-EVT-122,Tire Blistering,17-21,0.36,Critical,Detected Tire Blistering with Critical severity.,Pit|Change Engine Mode|Defend,Varies based on action and team attributes
-EVT-123,Hydraulic Warning,15-49,0.03,High,Detected Hydraulic Warning with High severity.,Defend|Ignore|Change Engine Mode,Varies based on action and team attributes
-EVT-124,Virtual Safety Car,11-41,0.28,Low,Detected Virtual Safety Car with Low severity.,Ignore|Save Tires,Varies based on action and team attributes
-EVT-125,Safety Car,1-43,0.34,Medium,Detected Safety Car with Medium severity.,Defend|Pit,Varies based on action and team attributes
-EVT-126,Fuel Concern,7-34,0.31,Medium,Detected Fuel Concern with Medium severity.,Save Tires|Ignore|Change Engine Mode|Push,Varies based on action and team attributes
-EVT-127,Rain Stops,16-32,0.05,High,Detected Rain Stops with High severity.,Defend|Pit|Change Engine Mode|Save Tires,Varies based on action and team attributes
-EVT-128,Yellow Flag,3-28,0.37,Low,Detected Yellow Flag with Low severity.,Ignore|Defend|Push,Varies based on action and team attributes
-EVT-129,Rain Stops,12-42,0.39,Medium,Detected Rain Stops with Medium severity.,Save Tires|Ignore|Push,Varies based on action and team attributes
-EVT-130,Safety Car,19-28,0.23,Low,Detected Safety Car with Low severity.,Defend|Save Tires,Varies based on action and team attributes
-EVT-131,Driver Complaint,3-47,0.23,Medium,Detected Driver Complaint with Medium severity.,Ignore|Defend|Pit|Save Tires,Varies based on action and team attributes
-EVT-132,Gearbox Alert,1-45,0.22,Low,Detected Gearbox Alert with Low severity.,Pit|Defend|Lift and Coast|Save Tires,Varies based on action and team attributes
-EVT-133,Hydraulic Warning,20-48,0.03,High,Detected Hydraulic Warning with High severity.,Defend|Lift and Coast|Change Engine Mode,Varies based on action and team attributes
-EVT-134,Brake Failure Warning,8-21,0.39,High,Detected Brake Failure Warning with High severity.,Pit|Push,Varies based on action and team attributes
-EVT-135,Fuel Concern,2-24,0.09,Critical,Detected Fuel Concern with Critical severity.,Change Engine Mode|Save Tires|Push|Lift and Coast,Varies based on action and team attributes
-EVT-136,Fuel Concern,13-45,0.27,Critical,Detected Fuel Concern with Critical severity.,Change Engine Mode|Ignore|Defend|Save Tires,Varies based on action and team attributes
-EVT-137,Fuel Concern,10-25,0.14,Medium,Detected Fuel Concern with Medium severity.,Pit|Defend,Varies based on action and team attributes
-EVT-138,Hydraulic Warning,19-44,0.32,Critical,Detected Hydraulic Warning with Critical severity.,Ignore|Push,Varies based on action and team attributes
-EVT-139,Safety Car,5-41,0.09,Medium,Detected Safety Car with Medium severity.,Save Tires|Defend|Change Engine Mode|Ignore,Varies based on action and team attributes
-EVT-140,Brake Failure Warning,16-42,0.07,High,Detected Brake Failure Warning with High severity.,Push|Lift and Coast|Pit|Ignore,Varies based on action and team attributes
-EVT-141,Engine Mode Restriction,3-40,0.16,Medium,Detected Engine Mode Restriction with Medium severity.,Change Engine Mode|Save Tires|Ignore|Pit,Varies based on action and team attributes
-EVT-142,Front Wing Damage,19-33,0.29,High,Detected Front Wing Damage with High severity.,Push|Ignore|Lift and Coast|Pit,Varies based on action and team attributes
-EVT-143,Overcut Opportunity,7-40,0.4,Medium,Detected Overcut Opportunity with Medium severity.,Pit|Change Engine Mode,Varies based on action and team attributes
-EVT-144,Hydraulic Warning,17-48,0.1,Critical,Detected Hydraulic Warning with Critical severity.,Lift and Coast|Push,Varies based on action and team attributes
-EVT-145,Rain Starts,4-50,0.24,High,Detected Rain Starts with High severity.,Push|Lift and Coast,Varies based on action and team attributes
-EVT-146,Virtual Safety Car,7-47,0.2,Medium,Detected Virtual Safety Car with Medium severity.,Save Tires|Defend|Change Engine Mode|Lift and Coast,Varies based on action and team attributes
-EVT-147,Fuel Concern,16-49,0.15,Low,Detected Fuel Concern with Low severity.,Push|Change Engine Mode|Lift and Coast|Save Tires,Varies based on action and team attributes
-EVT-148,Gearbox Alert,7-47,0.38,Medium,Detected Gearbox Alert with Medium severity.,Lift and Coast|Change Engine Mode,Varies based on action and team attributes
-EVT-149,Virtual Safety Car,6-32,0.19,Critical,Detected Virtual Safety Car with Critical severity.,Pit|Ignore|Defend,Varies based on action and team attributes
-EVT-150,Pit Lane Congestion,12-25,0.36,Low,Detected Pit Lane Congestion with Low severity.,Pit|Lift and Coast|Save Tires|Push,Varies based on action and team attributes
-EVT-151,Front Wing Damage,13-28,0.15,Medium,Detected Front Wing Damage with Medium severity.,Save Tires|Push,Varies based on action and team attributes
-EVT-152,Undercut Threat,8-49,0.3,Medium,Detected Undercut Threat with Medium severity.,Lift and Coast|Ignore,Varies based on action and team attributes
-EVT-153,Virtual Safety Car,7-41,0.11,Low,Detected Virtual Safety Car with Low severity.,Ignore|Pit|Change Engine Mode,Varies based on action and team attributes
-EVT-154,Virtual Safety Car,10-46,0.07,Critical,Detected Virtual Safety Car with Critical severity.,Pit|Push|Defend|Save Tires,Varies based on action and team attributes
-EVT-155,Overcut Opportunity,5-50,0.37,Medium,Detected Overcut Opportunity with Medium severity.,Change Engine Mode|Push,Varies based on action and team attributes
-EVT-156,Overheating Issue,12-49,0.16,Medium,Detected Overheating Issue with Medium severity.,Lift and Coast|Change Engine Mode|Ignore,Varies based on action and team attributes
-EVT-157,Brake Failure Warning,3-44,0.04,High,Detected Brake Failure Warning with High severity.,Change Engine Mode|Push|Defend|Ignore,Varies based on action and team attributes
-EVT-158,Yellow Flag,8-49,0.15,Low,Detected Yellow Flag with Low severity.,Defend|Change Engine Mode|Lift and Coast,Varies based on action and team attributes
-EVT-159,Track Evolution,3-32,0.02,Low,Detected Track Evolution with Low severity.,Save Tires|Ignore|Defend,Varies based on action and team attributes
-EVT-160,Yellow Flag,4-22,0.14,Critical,Detected Yellow Flag with Critical severity.,Push|Change Engine Mode|Ignore,Varies based on action and team attributes
-EVT-161,Overheating Issue,3-45,0.12,High,Detected Overheating Issue with High severity.,Ignore|Defend|Lift and Coast|Push,Varies based on action and team attributes
-EVT-162,Driver Complaint,2-43,0.39,High,Detected Driver Complaint with High severity.,Lift and Coast|Ignore|Change Engine Mode,Varies based on action and team attributes
-EVT-163,Hydraulic Warning,11-32,0.29,High,Detected Hydraulic Warning with High severity.,Save Tires|Pit|Lift and Coast|Change Engine Mode,Varies based on action and team attributes
-EVT-164,Undercut Threat,14-22,0.13,High,Detected Undercut Threat with High severity.,Lift and Coast|Pit|Push,Varies based on action and team attributes
-EVT-165,Yellow Flag,19-34,0.21,Critical,Detected Yellow Flag with Critical severity.,Change Engine Mode|Save Tires|Pit|Ignore,Varies based on action and team attributes
-EVT-166,Hydraulic Warning,2-24,0.04,Critical,Detected Hydraulic Warning with Critical severity.,Save Tires|Lift and Coast|Ignore,Varies based on action and team attributes
-EVT-167,Engine Mode Restriction,12-46,0.22,High,Detected Engine Mode Restriction with High severity.,Defend|Push,Varies based on action and team attributes
-EVT-168,Driver Complaint,9-29,0.24,High,Detected Driver Complaint with High severity.,Pit|Change Engine Mode|Defend,Varies based on action and team attributes
-EVT-169,Rain Starts,16-23,0.25,Medium,Detected Rain Starts with Medium severity.,Ignore|Pit|Lift and Coast,Varies based on action and team attributes
-EVT-170,Pit Lane Congestion,13-28,0.15,Medium,Detected Pit Lane Congestion with Medium severity.,Save Tires|Push|Ignore|Pit,Varies based on action and team attributes
-EVT-171,Fuel Concern,19-34,0.11,Critical,Detected Fuel Concern with Critical severity.,Defend|Save Tires,Varies based on action and team attributes
-EVT-172,Pit Lane Congestion,14-33,0.06,High,Detected Pit Lane Congestion with High severity.,Push|Defend,Varies based on action and team attributes
-EVT-173,Pit Lane Congestion,16-43,0.39,High,Detected Pit Lane Congestion with High severity.,Pit|Lift and Coast,Varies based on action and team attributes
-EVT-174,Front Wing Damage,15-28,0.26,Critical,Detected Front Wing Damage with Critical severity.,Defend|Save Tires,Varies based on action and team attributes
-EVT-175,Virtual Safety Car,9-49,0.2,Critical,Detected Virtual Safety Car with Critical severity.,Defend|Ignore,Varies based on action and team attributes
-EVT-176,Rain Starts,14-21,0.38,Low,Detected Rain Starts with Low severity.,Save Tires|Ignore|Defend|Lift and Coast,Varies based on action and team attributes
-EVT-177,Brake Failure Warning,11-28,0.04,High,Detected Brake Failure Warning with High severity.,Defend|Save Tires,Varies based on action and team attributes
-EVT-178,Safety Car,6-43,0.36,High,Detected Safety Car with High severity.,Defend|Save Tires|Lift and Coast,Varies based on action and team attributes
-EVT-179,Gearbox Alert,4-21,0.09,Critical,Detected Gearbox Alert with Critical severity.,Ignore|Save Tires|Pit|Push,Varies based on action and team attributes
-EVT-180,Undercut Threat,16-21,0.24,Medium,Detected Undercut Threat with Medium severity.,Push|Save Tires|Lift and Coast,Varies based on action and team attributes
-EVT-181,Overcut Opportunity,9-33,0.31,High,Detected Overcut Opportunity with High severity.,Change Engine Mode|Push,Varies based on action and team attributes
-EVT-182,Engine Mode Restriction,6-32,0.02,High,Detected Engine Mode Restriction with High severity.,Pit|Ignore|Save Tires,Varies based on action and team attributes
-EVT-183,Rain Stops,4-36,0.01,High,Detected Rain Stops with High severity.,Defend|Change Engine Mode|Save Tires|Lift and Coast,Varies based on action and team attributes
-EVT-184,Overheating Issue,3-43,0.02,Low,Detected Overheating Issue with Low severity.,Change Engine Mode|Push,Varies based on action and team attributes
-EVT-185,Red Flag,1-39,0.39,High,Detected Red Flag with High severity.,Lift and Coast|Ignore,Varies based on action and team attributes
-EVT-186,Undercut Threat,17-43,0.02,High,Detected Undercut Threat with High severity.,Save Tires|Push,Varies based on action and team attributes
-EVT-187,Fuel Concern,3-45,0.16,Low,Detected Fuel Concern with Low severity.,Save Tires|Lift and Coast,Varies based on action and team attributes
-EVT-188,Virtual Safety Car,19-46,0.38,Medium,Detected Virtual Safety Car with Medium severity.,Ignore|Save Tires,Varies based on action and team attributes
-EVT-189,Engine Mode Restriction,19-26,0.16,High,Detected Engine Mode Restriction with High severity.,Ignore|Save Tires|Push,Varies based on action and team attributes
-EVT-190,Engine Mode Restriction,18-25,0.36,Low,Detected Engine Mode Restriction with Low severity.,Push|Pit,Varies based on action and team attributes
-EVT-191,Rain Stops,2-33,0.35,Medium,Detected Rain Stops with Medium severity.,Pit|Change Engine Mode|Push|Ignore,Varies based on action and team attributes
-EVT-192,Yellow Flag,20-41,0.2,Medium,Detected Yellow Flag with Medium severity.,Pit|Ignore|Defend,Varies based on action and team attributes
-EVT-193,Yellow Flag,3-46,0.02,Medium,Detected Yellow Flag with Medium severity.,Change Engine Mode|Save Tires|Lift and Coast|Ignore,Varies based on action and team attributes
-EVT-194,Gearbox Alert,1-29,0.25,High,Detected Gearbox Alert with High severity.,Change Engine Mode|Save Tires|Defend,Varies based on action and team attributes
-EVT-195,Pit Lane Congestion,7-49,0.02,High,Detected Pit Lane Congestion with High severity.,Ignore|Defend|Lift and Coast,Varies based on action and team attributes
-EVT-196,Overheating Issue,12-36,0.36,Medium,Detected Overheating Issue with Medium severity.,Save Tires|Change Engine Mode,Varies based on action and team attributes
-EVT-197,Front Wing Damage,4-40,0.14,Low,Detected Front Wing Damage with Low severity.,Push|Defend|Pit|Ignore,Varies based on action and team attributes
-EVT-198,Brake Failure Warning,12-28,0.39,Low,Detected Brake Failure Warning with Low severity.,Change Engine Mode|Save Tires,Varies based on action and team attributes
-EVT-199,Rain Starts,19-43,0.22,Critical,Detected Rain Starts with Critical severity.,Pit|Push,Varies based on action and team attributes
-EVT-200,Engine Mode Restriction,17-32,0.13,Medium,Detected Engine Mode Restriction with Medium severity.,Defend|Push,Varies based on action and team attributes
-EVT-201,Yellow Flag,8-44,0.36,Low,Detected Yellow Flag with Low severity.,Defend|Push,Varies based on action and team attributes
-EVT-202,Rain Starts,9-39,0.29,Critical,Detected Rain Starts with Critical severity.,Ignore|Push,Varies based on action and team attributes
-EVT-203,Track Evolution,1-42,0.36,Low,Detected Track Evolution with Low severity.,Push|Change Engine Mode,Varies based on action and team attributes
-EVT-204,Track Evolution,5-42,0.33,Critical,Detected Track Evolution with Critical severity.,Change Engine Mode|Push|Ignore,Varies based on action and team attributes
-EVT-205,Overcut Opportunity,15-25,0.21,High,Detected Overcut Opportunity with High severity.,Change Engine Mode|Save Tires|Push|Ignore,Varies based on action and team attributes
-EVT-206,Overheating Issue,1-42,0.18,Critical,Detected Overheating Issue with Critical severity.,Ignore|Lift and Coast|Pit,Varies based on action and team attributes
-EVT-207,Engine Mode Restriction,1-35,0.39,Medium,Detected Engine Mode Restriction with Medium severity.,Push|Ignore,Varies based on action and team attributes
-EVT-208,Safety Car,5-40,0.22,Medium,Detected Safety Car with Medium severity.,Pit|Push|Lift and Coast|Defend,Varies based on action and team attributes
-EVT-209,Rain Starts,20-33,0.13,Medium,Detected Rain Starts with Medium severity.,Save Tires|Push,Varies based on action and team attributes
-EVT-210,DRS Train,10-36,0.28,Medium,Detected DRS Train with Medium severity.,Ignore|Change Engine Mode|Lift and Coast|Save Tires,Varies based on action and team attributes
-EVT-211,Engine Mode Restriction,15-33,0.36,High,Detected Engine Mode Restriction with High severity.,Change Engine Mode|Pit|Push|Ignore,Varies based on action and team attributes
-EVT-212,DRS Train,5-23,0.16,High,Detected DRS Train with High severity.,Change Engine Mode|Ignore,Varies based on action and team attributes
-EVT-213,Overheating Issue,20-32,0.34,Critical,Detected Overheating Issue with Critical severity.,Save Tires|Defend,Varies based on action and team attributes
-EVT-214,Tire Blistering,9-35,0.34,Low,Detected Tire Blistering with Low severity.,Defend|Ignore|Change Engine Mode,Varies based on action and team attributes
-EVT-215,Tire Blistering,7-45,0.33,Low,Detected Tire Blistering with Low severity.,Push|Change Engine Mode|Save Tires|Lift and Coast,Varies based on action and team attributes
-EVT-216,Yellow Flag,6-35,0.06,Critical,Detected Yellow Flag with Critical severity.,Lift and Coast|Change Engine Mode,Varies based on action and team attributes
-EVT-217,Undercut Threat,9-49,0.38,Medium,Detected Undercut Threat with Medium severity.,Defend|Save Tires|Lift and Coast,Varies based on action and team attributes
-EVT-218,Undercut Threat,13-43,0.23,Critical,Detected Undercut Threat with Critical severity.,Defend|Lift and Coast|Change Engine Mode,Varies based on action and team attributes
-EVT-219,Overcut Opportunity,2-38,0.16,Critical,Detected Overcut Opportunity with Critical severity.,Change Engine Mode|Ignore,Varies based on action and team attributes
-EVT-220,Gearbox Alert,11-42,0.13,High,Detected Gearbox Alert with High severity.,Save Tires|Change Engine Mode|Push|Ignore,Varies based on action and team attributes
-EVT-221,Front Wing Damage,5-40,0.4,High,Detected Front Wing Damage with High severity.,Lift and Coast|Save Tires|Ignore,Varies based on action and team attributes
-EVT-222,Virtual Safety Car,18-49,0.35,Medium,Detected Virtual Safety Car with Medium severity.,Pit|Push|Defend|Change Engine Mode,Varies based on action and team attributes
-EVT-223,Overcut Opportunity,18-33,0.13,Medium,Detected Overcut Opportunity with Medium severity.,Change Engine Mode|Ignore|Push|Save Tires,Varies based on action and team attributes
-EVT-224,Red Flag,5-27,0.3,Critical,Detected Red Flag with Critical severity.,Push|Pit,Varies based on action and team attributes
-EVT-225,Driver Complaint,3-38,0.25,Critical,Detected Driver Complaint with Critical severity.,Save Tires|Defend,Varies based on action and team attributes
-EVT-226,Track Evolution,3-40,0.18,Critical,Detected Track Evolution with Critical severity.,Change Engine Mode|Save Tires|Ignore|Push,Varies based on action and team attributes
-EVT-227,Yellow Flag,11-49,0.18,Critical,Detected Yellow Flag with Critical severity.,Pit|Ignore|Lift and Coast,Varies based on action and team attributes
-EVT-228,DRS Train,4-24,0.3,Low,Detected DRS Train with Low severity.,Save Tires|Defend,Varies based on action and team attributes
-EVT-229,Driver Complaint,17-50,0.04,Medium,Detected Driver Complaint with Medium severity.,Change Engine Mode|Pit,Varies based on action and team attributes
-EVT-230,Track Evolution,3-29,0.29,High,Detected Track Evolution with High severity.,Push|Lift and Coast|Save Tires|Pit,Varies based on action and team attributes
-EVT-231,Rain Stops,15-38,0.04,Low,Detected Rain Stops with Low severity.,Defend|Pit|Lift and Coast,Varies based on action and team attributes
-EVT-232,Hydraulic Warning,15-32,0.05,Critical,Detected Hydraulic Warning with Critical severity.,Change Engine Mode|Save Tires|Pit,Varies based on action and team attributes
-EVT-233,Track Evolution,8-45,0.36,High,Detected Track Evolution with High severity.,Defend|Change Engine Mode|Lift and Coast,Varies based on action and team attributes
-EVT-234,Rain Stops,7-48,0.34,Low,Detected Rain Stops with Low severity.,Save Tires|Change Engine Mode|Lift and Coast,Varies based on action and team attributes
-EVT-235,Rain Stops,20-21,0.09,Low,Detected Rain Stops with Low severity.,Save Tires|Change Engine Mode|Ignore|Push,Varies based on action and team attributes
-EVT-236,Virtual Safety Car,14-38,0.14,Critical,Detected Virtual Safety Car with Critical severity.,Pit|Save Tires|Push,Varies based on action and team attributes
-EVT-237,Rain Stops,12-43,0.1,High,Detected Rain Stops with High severity.,Save Tires|Lift and Coast,Varies based on action and team attributes
-EVT-238,Undercut Threat,9-47,0.13,Medium,Detected Undercut Threat with Medium severity.,Change Engine Mode|Save Tires,Varies based on action and team attributes
-EVT-239,Overheating Issue,12-48,0.03,Critical,Detected Overheating Issue with Critical severity.,Lift and Coast|Change Engine Mode|Ignore|Push,Varies based on action and team attributes
-EVT-240,Yellow Flag,11-33,0.3,Medium,Detected Yellow Flag with Medium severity.,Ignore|Lift and Coast|Push|Save Tires,Varies based on action and team attributes
-EVT-241,Undercut Threat,13-43,0.15,Low,Detected Undercut Threat with Low severity.,Save Tires|Ignore,Varies based on action and team attributes
-EVT-242,Fuel Concern,17-45,0.35,High,Detected Fuel Concern with High severity.,Ignore|Defend|Change Engine Mode,Varies based on action and team attributes
-EVT-243,Overcut Opportunity,2-50,0.2,Critical,Detected Overcut Opportunity with Critical severity.,Pit|Change Engine Mode|Defend|Save Tires,Varies based on action and team attributes
-EVT-244,Pit Lane Congestion,20-40,0.05,Medium,Detected Pit Lane Congestion with Medium severity.,Save Tires|Pit,Varies based on action and team attributes
-EVT-245,Overcut Opportunity,19-45,0.31,Low,Detected Overcut Opportunity with Low severity.,Ignore|Push|Lift and Coast,Varies based on action and team attributes
-EVT-246,Undercut Threat,6-30,0.05,Low,Detected Undercut Threat with Low severity.,Defend|Push|Pit,Varies based on action and team attributes
-EVT-247,Brake Failure Warning,13-32,0.1,Medium,Detected Brake Failure Warning with Medium severity.,Change Engine Mode|Save Tires|Pit|Defend,Varies based on action and team attributes
-EVT-248,Gearbox Alert,12-44,0.21,Low,Detected Gearbox Alert with Low severity.,Defend|Push|Lift and Coast,Varies based on action and team attributes
-EVT-249,Rain Stops,1-34,0.09,Medium,Detected Rain Stops with Medium severity.,Change Engine Mode|Push|Save Tires|Ignore,Varies based on action and team attributes
-EVT-250,Yellow Flag,18-42,0.08,Low,Detected Yellow Flag with Low severity.,Defend|Push,Varies based on action and team attributes
+EVT-001,Overheating Issue,9-29,0.38,Low,Coolant temps climbing in traffic. Monitor air intakes.,Defend|Push,Varies based on action and team attributes
+EVT-002,Red Flag,4-26,0.17,Medium,Heavy rain forecast. Race director warning of a potential Red Flag if conditions worsen.,Save Tires|Lift and Coast,Varies based on action and team attributes
+EVT-003,Overheating Issue,10-34,0.16,Medium,Power unit overheating! Intakes blocked by debris. Divert out of dirty air.,Pit|Lift and Coast|Push,Varies based on action and team attributes
+EVT-004,Driver Complaint,20-45,0.38,High,"Driver: 'The wind is pushing me all over the track, I have no rear stability!'",Change Engine Mode|Lift and Coast|Defend,Varies based on action and team attributes
+EVT-005,Rain Stops,14-44,0.23,High,Dry line visible on track. Dampness is under 15%. Intermediate tires are starting to overheat.,Lift and Coast|Push,Varies based on action and team attributes
+EVT-006,Rain Stops,10-36,0.24,Critical,Track is completely dry! The dampness is 0%. Wet/Intermediate tires will disintegrate within a few laps!,Save Tires|Defend|Push|Pit,Varies based on action and team attributes
+EVT-007,Safety Car,19-48,0.06,Critical,Safety Car deployed! Multi-car incident at the start/finish straight. Heavy barrier damage. Strategic window is wide open!,Pit|Push|Lift and Coast|Defend,Varies based on action and team attributes
+EVT-008,Rain Starts,13-25,0.34,Critical,Torrential downpour! Heavy standing water on the straight. Track dampness exceeded 70%. Wet tires mandatory!,Pit|Lift and Coast,Varies based on action and team attributes
+EVT-009,Overheating Issue,20-27,0.17,Low,Coolant temps climbing in traffic. Monitor air intakes.,Pit|Push,Varies based on action and team attributes
+EVT-010,Yellow Flag,17-26,0.39,Medium,Yellow flag in Sector 1. Spun car blocking the run-off. Watch the micro-sector deltas.,Lift and Coast|Defend|Change Engine Mode|Ignore,Varies based on action and team attributes
+EVT-011,Undercut Threat,3-37,0.29,Low,Rival car behind is close to pit window. Keep alert.,Defend|Push|Pit|Lift and Coast,Varies based on action and team attributes
+EVT-012,Overcut Opportunity,6-49,0.18,Medium,Car ahead is pitting. We have clean air. Push now to execute the overcut!,Lift and Coast|Ignore|Save Tires,Varies based on action and team attributes
+EVT-013,Safety Car,1-49,0.25,Critical,Safety Car deployed! Multi-car incident at the start/finish straight. Heavy barrier damage. Strategic window is wide open!,Change Engine Mode|Pit,Varies based on action and team attributes
+EVT-014,Track Evolution,10-40,0.24,Critical,Grip levels are at their maximum. DRS zones are highly effective. Pace is flying!,Push|Lift and Coast|Save Tires|Defend,Varies based on action and team attributes
+EVT-015,Undercut Threat,18-48,0.24,Medium,Car behind has pitted for fresh Softs. They will attempt the undercut. Push hard to defend!,Change Engine Mode|Lift and Coast|Defend|Pit,Varies based on action and team attributes
+EVT-016,Rain Starts,6-43,0.36,Medium,Rain intensity increasing. Track dampness rising towards 20%. Strategic crossover point approaching.,Pit|Ignore|Defend|Push,Varies based on action and team attributes
+EVT-017,Track Evolution,18-47,0.2,Medium,Clean racing line established. Corner speeds climbing. Lap times improving.,Lift and Coast|Defend|Ignore,Varies based on action and team attributes
+EVT-018,Fuel Concern,12-30,0.35,High,Critical fuel delta! We are -1.5 laps under target. Driver must execute lift and coast immediately.,Lift and Coast|Ignore,Varies based on action and team attributes
+EVT-019,Rain Stops,6-27,0.16,Critical,Track is completely dry! The dampness is 0%. Wet/Intermediate tires will disintegrate within a few laps!,Save Tires|Ignore|Lift and Coast,Varies based on action and team attributes
+EVT-020,Virtual Safety Car,17-41,0.03,Low,Minor telemetry anomaly. Virtual Safety Car monitoring delta times.,Save Tires|Pit|Lift and Coast,Varies based on action and team attributes
+EVT-021,Overheating Issue,16-24,0.22,Low,Coolant temps climbing in traffic. Monitor air intakes.,Push|Change Engine Mode,Varies based on action and team attributes
+EVT-022,Brake Failure Warning,14-33,0.32,Critical,Major Brake Wear Warning! High risk of failure. Driver must manage temperature immediately or retire!,Defend|Change Engine Mode|Pit|Save Tires,Varies based on action and team attributes
+EVT-023,Overcut Opportunity,5-50,0.23,High,Leader has pitted into traffic. You have 2 laps of maximum ERS push to leapfrog them!,Lift and Coast|Pit|Defend,Varies based on action and team attributes
+EVT-024,Engine Mode Restriction,19-40,0.21,Medium,MGU-K deployment restriction. Hybrid assist reduced. Overtaking power drops.,Pit|Ignore|Change Engine Mode|Save Tires,Varies based on action and team attributes
+EVT-025,Safety Car,4-39,0.21,Medium,"Minor collision between Haas and Williams at the hairpin. Recovery vehicle on track, Safety Car preparing to deploy.",Pit|Defend|Change Engine Mode,Varies based on action and team attributes
+EVT-026,Driver Complaint,11-28,0.08,Medium,"Driver: 'These tires are vibrating like crazy, check the balance!'",Push|Save Tires|Change Engine Mode|Lift and Coast,Varies based on action and team attributes
+EVT-027,Track Evolution,14-46,0.1,Low,Track rubbering in. Grip levels increasing slightly.,Change Engine Mode|Pit,Varies based on action and team attributes
+EVT-028,Brake Failure Warning,15-36,0.14,High,Brake fluid pressure dropping! Reliability impacted. Lift and coast required to cool the system.,Ignore|Change Engine Mode|Pit,Varies based on action and team attributes
+EVT-029,Overcut Opportunity,5-29,0.34,High,Leader has pitted into traffic. You have 2 laps of maximum ERS push to leapfrog them!,Pit|Push,Varies based on action and team attributes
+EVT-030,Safety Car,10-41,0.2,Low,"Debris reported at Turn 4 from a minor lockup. Marshall flags are yellow, Safety Car standing by.",Change Engine Mode|Push,Varies based on action and team attributes
+EVT-031,Front Wing Damage,10-21,0.22,Medium,Front wing damage! Collision debris has damaged the main plane. Understeer increasing.,Lift and Coast|Defend,Varies based on action and team attributes
+EVT-032,Fuel Concern,10-37,0.32,Low,Fuel consumption is slightly above delta. Monitor usage.,Save Tires|Defend,Varies based on action and team attributes
+EVT-033,Red Flag,6-35,0.39,Medium,Heavy rain forecast. Race director warning of a potential Red Flag if conditions worsen.,Lift and Coast|Pit|Defend,Varies based on action and team attributes
+EVT-034,Track Evolution,16-30,0.22,High,High track evolution! Rapid track drying and high rubber deposit. Grip levels are peak.,Save Tires|Change Engine Mode|Lift and Coast,Varies based on action and team attributes
+EVT-035,Overheating Issue,2-42,0.04,High,Engine temperatures critical! Reliability is decaying rapidly. Drop engine mode to save unit.,Save Tires|Ignore,Varies based on action and team attributes
+EVT-036,Driver Complaint,9-37,0.23,High,"Driver: 'The wind is pushing me all over the track, I have no rear stability!'",Pit|Defend|Save Tires,Varies based on action and team attributes
+EVT-037,Fuel Concern,20-26,0.09,Critical,Extreme fuel warning! Car will not finish the race on current engine map. Switch to Mix 1 now!,Pit|Ignore|Change Engine Mode|Defend,Varies based on action and team attributes
+EVT-038,Front Wing Damage,8-33,0.4,High,Wing endplate has detached. Front grip is severely compromised. Pit stop box call needed for replacement.,Defend|Ignore,Varies based on action and team attributes
+EVT-039,Hydraulic Warning,17-50,0.38,Low,Hydraulic pressure sensor fluctuation detected. Status monitored.,Defend|Lift and Coast,Varies based on action and team attributes
+EVT-040,Undercut Threat,9-30,0.04,Low,Rival car behind is close to pit window. Keep alert.,Defend|Pit|Lift and Coast|Change Engine Mode,Varies based on action and team attributes
+EVT-041,Overheating Issue,14-37,0.4,Critical,Engine thermal warning active! Emergency cooling mode required. Back off from the cars ahead!,Ignore|Lift and Coast|Push,Varies based on action and team attributes
+EVT-042,Rain Starts,18-46,0.15,Medium,Rain intensity increasing. Track dampness rising towards 20%. Strategic crossover point approaching.,Push|Pit|Change Engine Mode|Save Tires,Varies based on action and team attributes
+EVT-043,Hydraulic Warning,11-31,0.28,Medium,Hydraulic warning on the dashboard. Gear changes starting to feel sluggish.,Pit|Change Engine Mode|Save Tires,Varies based on action and team attributes
+EVT-044,Overcut Opportunity,18-45,0.33,Critical,Overcut opportunity! Rival's out-lap is slow on cold tires. Give it everything to stay ahead!,Ignore|Change Engine Mode,Varies based on action and team attributes
+EVT-045,Red Flag,13-45,0.11,Medium,Heavy rain forecast. Race director warning of a potential Red Flag if conditions worsen.,Defend|Pit,Varies based on action and team attributes
+EVT-046,Overheating Issue,18-35,0.15,High,Engine temperatures critical! Reliability is decaying rapidly. Drop engine mode to save unit.,Ignore|Pit|Lift and Coast,Varies based on action and team attributes
+EVT-047,Yellow Flag,1-38,0.33,Medium,Yellow flag in Sector 1. Spun car blocking the run-off. Watch the micro-sector deltas.,Lift and Coast|Defend|Pit|Save Tires,Varies based on action and team attributes
+EVT-048,Safety Car,3-40,0.23,Low,"Debris reported at Turn 4 from a minor lockup. Marshall flags are yellow, Safety Car standing by.",Save Tires|Change Engine Mode,Varies based on action and team attributes
+EVT-049,Tire Blistering,8-21,0.26,Medium,Tire blistering is worsening. Driver complains of understeer in fast corners.,Pit|Lift and Coast,Varies based on action and team attributes
+EVT-050,Yellow Flag,5-28,0.12,High,Yellow flag! Debris at the exit of Turn 4. No overtaking permitted in this zone.,Change Engine Mode|Push,Varies based on action and team attributes
+EVT-051,Pit Lane Congestion,3-29,0.33,Medium,Double-stack risk: Sister car approaching the pit box. Strategic spacing needed.,Ignore|Pit|Save Tires|Push,Varies based on action and team attributes
+EVT-052,Overcut Opportunity,12-43,0.09,Medium,Car ahead is pitting. We have clean air. Push now to execute the overcut!,Defend|Change Engine Mode|Pit,Varies based on action and team attributes
+EVT-053,Safety Car,7-24,0.34,Low,"Debris reported at Turn 4 from a minor lockup. Marshall flags are yellow, Safety Car standing by.",Change Engine Mode|Defend|Ignore,Varies based on action and team attributes
+EVT-054,Red Flag,15-38,0.2,High,Red Flag! Barrier damage at Turn 3 requires immediate repairs. All cars returning to the pit lane.,Pit|Push|Ignore,Varies based on action and team attributes
+EVT-055,Pit Lane Congestion,4-46,0.3,Medium,Double-stack risk: Sister car approaching the pit box. Strategic spacing needed.,Change Engine Mode|Lift and Coast|Defend|Ignore,Varies based on action and team attributes
+EVT-056,Rain Stops,15-45,0.06,High,Dry line visible on track. Dampness is under 15%. Intermediate tires are starting to overheat.,Ignore|Lift and Coast|Change Engine Mode|Push,Varies based on action and team attributes
+EVT-057,Overheating Issue,15-29,0.37,Medium,Power unit overheating! Intakes blocked by debris. Divert out of dirty air.,Lift and Coast|Save Tires|Ignore,Varies based on action and team attributes
+EVT-058,Safety Car,4-23,0.38,Low,"Debris reported at Turn 4 from a minor lockup. Marshall flags are yellow, Safety Car standing by.",Push|Save Tires|Defend,Varies based on action and team attributes
+EVT-059,Red Flag,17-28,0.1,Low,Track warning: High winds. Red flag standby.,Ignore|Defend|Push|Change Engine Mode,Varies based on action and team attributes
+EVT-060,Rain Stops,1-38,0.28,Medium,Track is drying out quickly. Dampness dropping below 30%. Slicks might be faster soon.,Pit|Ignore|Push|Defend,Varies based on action and team attributes
+EVT-061,Driver Complaint,3-24,0.17,Low,"Driver: 'Seat feels a bit loose, but I can manage.'",Save Tires|Change Engine Mode|Defend,Varies based on action and team attributes
+EVT-062,Red Flag,15-43,0.31,Medium,Heavy rain forecast. Race director warning of a potential Red Flag if conditions worsen.,Lift and Coast|Push,Varies based on action and team attributes
+EVT-063,Gearbox Alert,11-42,0.17,Critical,Gearbox failure warning! Driver must short-shift and avoid redline to finish the race!,Defend|Save Tires|Ignore,Varies based on action and team attributes
+EVT-064,Rain Stops,2-22,0.15,Medium,Track is drying out quickly. Dampness dropping below 30%. Slicks might be faster soon.,Pit|Save Tires|Lift and Coast,Varies based on action and team attributes
+EVT-065,Safety Car,11-26,0.29,Critical,Safety Car deployed! Multi-car incident at the start/finish straight. Heavy barrier damage. Strategic window is wide open!,Push|Defend,Varies based on action and team attributes
+EVT-066,Driver Complaint,9-22,0.15,High,"Driver: 'The wind is pushing me all over the track, I have no rear stability!'",Change Engine Mode|Defend|Lift and Coast,Varies based on action and team attributes
+EVT-067,Overheating Issue,2-30,0.27,High,Engine temperatures critical! Reliability is decaying rapidly. Drop engine mode to save unit.,Push|Change Engine Mode|Lift and Coast,Varies based on action and team attributes
+EVT-068,Red Flag,8-28,0.32,Critical,Red Flag deployed! Massive incident at the main straight has halted the session. Complete race restart protocols active!,Defend|Lift and Coast|Ignore,Varies based on action and team attributes
+EVT-069,Overheating Issue,15-28,0.16,Critical,Engine thermal warning active! Emergency cooling mode required. Back off from the cars ahead!,Save Tires|Defend,Varies based on action and team attributes
+EVT-070,Undercut Threat,10-22,0.07,Medium,Car behind has pitted for fresh Softs. They will attempt the undercut. Push hard to defend!,Pit|Ignore,Varies based on action and team attributes
+EVT-071,Front Wing Damage,20-33,0.08,Medium,Front wing damage! Collision debris has damaged the main plane. Understeer increasing.,Save Tires|Ignore,Varies based on action and team attributes
+EVT-072,Brake Failure Warning,19-34,0.15,Critical,Major Brake Wear Warning! High risk of failure. Driver must manage temperature immediately or retire!,Lift and Coast|Pit,Varies based on action and team attributes
+EVT-073,Brake Failure Warning,19-29,0.29,Low,Brake temps climbing slightly. Watch your brake wear telemetry.,Save Tires|Lift and Coast,Varies based on action and team attributes
+EVT-074,Rain Starts,16-23,0.24,High,Rain is coming down hard now. Track dampness is at 45% and climbing. Intermediate tires required!,Defend|Pit,Varies based on action and team attributes
+EVT-075,Overheating Issue,19-32,0.31,Critical,Engine thermal warning active! Emergency cooling mode required. Back off from the cars ahead!,Defend|Ignore|Save Tires|Push,Varies based on action and team attributes
+EVT-076,Gearbox Alert,1-26,0.04,High,Gearbox wear active! Sluggish shifting and loss of 6th gear. Reliability dropping.,Defend|Pit,Varies based on action and team attributes
+EVT-077,Safety Car,14-44,0.01,Medium,"Minor collision between Haas and Williams at the hairpin. Recovery vehicle on track, Safety Car preparing to deploy.",Change Engine Mode|Ignore|Push,Varies based on action and team attributes
+EVT-078,DRS Train,15-28,0.29,Critical,DRS train active! Pushing now will only burn fuel and cook tires in dirty air. Conserve and wait!,Push|Change Engine Mode|Ignore,Varies based on action and team attributes
+EVT-079,Rain Stops,4-27,0.36,Medium,Track is drying out quickly. Dampness dropping below 30%. Slicks might be faster soon.,Lift and Coast|Save Tires,Varies based on action and team attributes
+EVT-080,Engine Mode Restriction,5-41,0.34,Critical,Power Unit in recovery mode! ICE producing 80% power. Reliability is severely hit.,Pit|Ignore,Varies based on action and team attributes
+EVT-081,DRS Train,14-34,0.14,Critical,DRS train active! Pushing now will only burn fuel and cook tires in dirty air. Conserve and wait!,Ignore|Push|Lift and Coast|Pit,Varies based on action and team attributes
+EVT-082,DRS Train,15-27,0.33,High,DRS train bottleneck. Leader is holding up the field. Strategic pit stop is the only exit.,Defend|Pit,Varies based on action and team attributes
+EVT-083,Overcut Opportunity,9-48,0.14,High,Leader has pitted into traffic. You have 2 laps of maximum ERS push to leapfrog them!,Change Engine Mode|Save Tires|Push|Lift and Coast,Varies based on action and team attributes
+EVT-084,DRS Train,15-42,0.03,High,DRS train bottleneck. Leader is holding up the field. Strategic pit stop is the only exit.,Defend|Change Engine Mode|Save Tires,Varies based on action and team attributes
+EVT-085,Red Flag,10-35,0.09,High,Red Flag! Barrier damage at Turn 3 requires immediate repairs. All cars returning to the pit lane.,Save Tires|Lift and Coast,Varies based on action and team attributes
+EVT-086,Brake Failure Warning,4-41,0.33,Low,Brake temps climbing slightly. Watch your brake wear telemetry.,Ignore|Pit|Save Tires,Varies based on action and team attributes
+EVT-087,Driver Complaint,10-42,0.32,High,"Driver: 'The wind is pushing me all over the track, I have no rear stability!'",Pit|Lift and Coast,Varies based on action and team attributes
+EVT-088,Yellow Flag,6-43,0.19,Low,Yellow flag in Sector 2. Driver went off track but rejoined.,Ignore|Push|Change Engine Mode,Varies based on action and team attributes
+EVT-089,Fuel Concern,7-43,0.03,Low,Fuel consumption is slightly above delta. Monitor usage.,Save Tires|Defend|Push|Ignore,Varies based on action and team attributes
+EVT-090,Track Evolution,6-28,0.12,High,High track evolution! Rapid track drying and high rubber deposit. Grip levels are peak.,Pit|Change Engine Mode|Save Tires,Varies based on action and team attributes
+EVT-091,Pit Lane Congestion,7-36,0.18,High,Pit lane bottleneck! Stalled car at the entry. Expect significant pit stop delays.,Push|Lift and Coast,Varies based on action and team attributes
+EVT-092,Front Wing Damage,16-47,0.07,Medium,Front wing damage! Collision debris has damaged the main plane. Understeer increasing.,Save Tires|Push,Varies based on action and team attributes
+EVT-093,Virtual Safety Car,5-21,0.3,Medium,Stalled car in Sector 3 run-off area. VSC deployed to safely retrieve the vehicle.,Pit|Defend|Ignore,Varies based on action and team attributes
+EVT-094,Undercut Threat,9-40,0.2,Low,Rival car behind is close to pit window. Keep alert.,Pit|Change Engine Mode,Varies based on action and team attributes
+EVT-095,Engine Mode Restriction,5-26,0.07,High,ICE power loss. Cylinder misfire detected. ERS must be used strategically to defend.,Change Engine Mode|Pit|Push,Varies based on action and team attributes
+EVT-096,Rain Starts,3-32,0.28,Medium,Rain intensity increasing. Track dampness rising towards 20%. Strategic crossover point approaching.,Pit|Change Engine Mode|Defend|Ignore,Varies based on action and team attributes
+EVT-097,Yellow Flag,18-25,0.3,Medium,Yellow flag in Sector 1. Spun car blocking the run-off. Watch the micro-sector deltas.,Ignore|Change Engine Mode|Push|Save Tires,Varies based on action and team attributes
+EVT-098,Red Flag,5-41,0.27,High,Red Flag! Barrier damage at Turn 3 requires immediate repairs. All cars returning to the pit lane.,Change Engine Mode|Pit|Ignore,Varies based on action and team attributes
+EVT-099,Pit Lane Congestion,10-47,0.27,Critical,Pit entry blocked! Pitting now will result in massive stationary delays. Abort box call!,Pit|Ignore|Lift and Coast,Varies based on action and team attributes
+EVT-100,Front Wing Damage,8-42,0.03,High,Wing endplate has detached. Front grip is severely compromised. Pit stop box call needed for replacement.,Push|Pit|Ignore|Save Tires,Varies based on action and team attributes
+EVT-101,Tire Blistering,12-34,0.18,High,Severe blistering on the rear tires. Thermal degradation is critical. Core grip has collapsed.,Defend|Ignore|Pit,Varies based on action and team attributes
+EVT-102,Rain Starts,4-39,0.11,Critical,Torrential downpour! Heavy standing water on the straight. Track dampness exceeded 70%. Wet tires mandatory!,Push|Pit,Varies based on action and team attributes
+EVT-103,Virtual Safety Car,8-48,0.2,Critical,VSC deployed! Sudden debris on track in Sector 1. Great opportunity to save fuel or execute a cheap pitstop!,Change Engine Mode|Save Tires|Ignore|Push,Varies based on action and team attributes
+EVT-104,Fuel Concern,3-43,0.28,High,Critical fuel delta! We are -1.5 laps under target. Driver must execute lift and coast immediately.,Defend|Push|Change Engine Mode|Pit,Varies based on action and team attributes
+EVT-105,Tire Blistering,7-41,0.26,Low,Minor blistering detected on the front-right tire. Temperature stable.,Push|Defend,Varies based on action and team attributes
+EVT-106,Rain Stops,11-44,0.39,Medium,Track is drying out quickly. Dampness dropping below 30%. Slicks might be faster soon.,Ignore|Pit|Change Engine Mode,Varies based on action and team attributes
+EVT-107,Front Wing Damage,1-49,0.11,Low,Minor endplate damage from light curb contact. Telemetry shows 2% downforce loss.,Pit|Defend,Varies based on action and team attributes
+EVT-108,Driver Complaint,10-31,0.15,Critical,"Driver: 'No grip! The rear is sliding everywhere, I'm skating on ice here!'",Lift and Coast|Push,Varies based on action and team attributes
+EVT-109,Tire Blistering,9-46,0.04,Low,Minor blistering detected on the front-right tire. Temperature stable.,Lift and Coast|Pit|Ignore|Defend,Varies based on action and team attributes
+EVT-110,Hydraulic Warning,9-22,0.02,Low,Hydraulic pressure sensor fluctuation detected. Status monitored.,Lift and Coast|Save Tires|Pit,Varies based on action and team attributes
+EVT-111,Safety Car,20-43,0.35,High,"Safety Car deployed! Esteban Ocon has spun off into the gravel barrier at Turn 7, leaving heavy carbon fiber debris on the racing line.",Pit|Defend|Push|Change Engine Mode,Varies based on action and team attributes
+EVT-112,Front Wing Damage,14-48,0.28,Critical,Structural wing collapse! Debris under the floor. Driver has lost steering control. Box immediately!,Lift and Coast|Defend|Save Tires|Push,Varies based on action and team attributes
+EVT-113,Engine Mode Restriction,2-33,0.11,Medium,MGU-K deployment restriction. Hybrid assist reduced. Overtaking power drops.,Change Engine Mode|Lift and Coast,Varies based on action and team attributes
+EVT-114,Virtual Safety Car,10-33,0.1,Low,Minor telemetry anomaly. Virtual Safety Car monitoring delta times.,Pit|Ignore|Save Tires|Push,Varies based on action and team attributes
+EVT-115,Brake Failure Warning,10-31,0.3,Low,Brake temps climbing slightly. Watch your brake wear telemetry.,Save Tires|Change Engine Mode|Defend|Lift and Coast,Varies based on action and team attributes
+EVT-116,Gearbox Alert,12-46,0.02,Critical,Gearbox failure warning! Driver must short-shift and avoid redline to finish the race!,Change Engine Mode|Lift and Coast|Push,Varies based on action and team attributes
+EVT-117,Hydraulic Warning,16-39,0.04,Low,Hydraulic pressure sensor fluctuation detected. Status monitored.,Lift and Coast|Push|Ignore|Change Engine Mode,Varies based on action and team attributes
+EVT-118,Pit Lane Congestion,9-25,0.28,Critical,Pit entry blocked! Pitting now will result in massive stationary delays. Abort box call!,Push|Save Tires|Defend|Pit,Varies based on action and team attributes
+EVT-119,DRS Train,8-40,0.24,Low,DRS is enabled. Gap to car ahead is 0.9s.,Defend|Change Engine Mode|Pit|Ignore,Varies based on action and team attributes
+EVT-120,Brake Failure Warning,17-41,0.03,High,Brake fluid pressure dropping! Reliability impacted. Lift and coast required to cool the system.,Ignore|Pit|Push,Varies based on action and team attributes
+EVT-121,Rain Stops,10-29,0.3,Critical,Track is completely dry! The dampness is 0%. Wet/Intermediate tires will disintegrate within a few laps!,Defend|Save Tires,Varies based on action and team attributes
+EVT-122,Hydraulic Warning,9-29,0.29,Critical,Critical hydraulic leak! Gearbox shifts failing. Shift to safe mode immediately!,Push|Pit|Defend,Varies based on action and team attributes
+EVT-123,Rain Stops,10-49,0.31,High,Dry line visible on track. Dampness is under 15%. Intermediate tires are starting to overheat.,Save Tires|Lift and Coast|Change Engine Mode,Varies based on action and team attributes
+EVT-124,Overheating Issue,11-33,0.05,High,Engine temperatures critical! Reliability is decaying rapidly. Drop engine mode to save unit.,Change Engine Mode|Ignore,Varies based on action and team attributes
+EVT-125,Engine Mode Restriction,5-31,0.35,Low,Engine map limited to save lifecycle. Pace slightly reduced.,Defend|Change Engine Mode|Push,Varies based on action and team attributes
+EVT-126,Overheating Issue,1-27,0.27,Critical,Engine thermal warning active! Emergency cooling mode required. Back off from the cars ahead!,Defend|Change Engine Mode|Lift and Coast|Pit,Varies based on action and team attributes
+EVT-127,Track Evolution,18-36,0.29,Medium,Clean racing line established. Corner speeds climbing. Lap times improving.,Save Tires|Push|Lift and Coast|Ignore,Varies based on action and team attributes
+EVT-128,Overheating Issue,1-48,0.18,Critical,Engine thermal warning active! Emergency cooling mode required. Back off from the cars ahead!,Save Tires|Pit|Push,Varies based on action and team attributes
+EVT-129,Track Evolution,10-27,0.27,Medium,Clean racing line established. Corner speeds climbing. Lap times improving.,Change Engine Mode|Defend,Varies based on action and team attributes
+EVT-130,Fuel Concern,18-22,0.31,Medium,Fuel flow warning. Current projection shows us finishing -0.5 laps under fuel margin. Save mode active.,Lift and Coast|Ignore|Change Engine Mode,Varies based on action and team attributes
+EVT-131,Tire Blistering,5-28,0.29,High,Severe blistering on the rear tires. Thermal degradation is critical. Core grip has collapsed.,Ignore|Change Engine Mode,Varies based on action and team attributes
+EVT-132,Gearbox Alert,10-37,0.22,Critical,Gearbox failure warning! Driver must short-shift and avoid redline to finish the race!,Push|Change Engine Mode|Save Tires|Pit,Varies based on action and team attributes
+EVT-133,Gearbox Alert,7-28,0.24,Low,Gearbox temperature warning. Sensor anomaly suspected.,Defend|Change Engine Mode,Varies based on action and team attributes
+EVT-134,Yellow Flag,19-31,0.24,Critical,Double wave yellow flags! Marshals on track recovering a car. Pushing now will incur penalties!,Change Engine Mode|Save Tires|Lift and Coast,Varies based on action and team attributes
+EVT-135,Undercut Threat,10-46,0.23,High,Undercut threat active! Rival is putting green sectors on fresh rubber. You must react next lap!,Change Engine Mode|Ignore,Varies based on action and team attributes
+EVT-136,Brake Failure Warning,20-35,0.12,Medium,Brake duct temperatures are critical. Driver complaining of spongy brake pedal feel.,Pit|Change Engine Mode,Varies based on action and team attributes
+EVT-137,Overcut Opportunity,14-33,0.3,Critical,Overcut opportunity! Rival's out-lap is slow on cold tires. Give it everything to stay ahead!,Ignore|Defend,Varies based on action and team attributes
+EVT-138,Pit Lane Congestion,12-28,0.16,Critical,Pit entry blocked! Pitting now will result in massive stationary delays. Abort box call!,Save Tires|Ignore,Varies based on action and team attributes
+EVT-139,Pit Lane Congestion,7-35,0.29,Critical,Pit entry blocked! Pitting now will result in massive stationary delays. Abort box call!,Change Engine Mode|Pit|Ignore|Defend,Varies based on action and team attributes
+EVT-140,Fuel Concern,8-30,0.24,Medium,Fuel flow warning. Current projection shows us finishing -0.5 laps under fuel margin. Save mode active.,Pit|Ignore,Varies based on action and team attributes
+EVT-141,Virtual Safety Car,20-31,0.27,Critical,VSC deployed! Sudden debris on track in Sector 1. Great opportunity to save fuel or execute a cheap pitstop!,Save Tires|Change Engine Mode,Varies based on action and team attributes
+EVT-142,Engine Mode Restriction,14-47,0.19,Low,Engine map limited to save lifecycle. Pace slightly reduced.,Pit|Ignore|Push|Save Tires,Varies based on action and team attributes
+EVT-143,Red Flag,18-32,0.34,High,Red Flag! Barrier damage at Turn 3 requires immediate repairs. All cars returning to the pit lane.,Change Engine Mode|Defend,Varies based on action and team attributes
+EVT-144,Overcut Opportunity,12-43,0.2,Low,Car ahead is showing signs of tire degradation. Watch the gap.,Save Tires|Lift and Coast|Push,Varies based on action and team attributes
+EVT-145,Overcut Opportunity,4-40,0.08,Low,Car ahead is showing signs of tire degradation. Watch the gap.,Pit|Push|Lift and Coast,Varies based on action and team attributes
+EVT-146,Undercut Threat,18-25,0.34,High,Undercut threat active! Rival is putting green sectors on fresh rubber. You must react next lap!,Change Engine Mode|Lift and Coast|Save Tires,Varies based on action and team attributes
+EVT-147,Hydraulic Warning,14-47,0.02,High,Pressure drop in the hydraulic loop! Steering weight has increased. Reliability is critical.,Lift and Coast|Ignore|Change Engine Mode,Varies based on action and team attributes
+EVT-148,Brake Failure Warning,3-41,0.19,High,Brake fluid pressure dropping! Reliability impacted. Lift and coast required to cool the system.,Push|Ignore|Lift and Coast,Varies based on action and team attributes
+EVT-149,Virtual Safety Car,9-21,0.14,Medium,Stalled car in Sector 3 run-off area. VSC deployed to safely retrieve the vehicle.,Change Engine Mode|Save Tires,Varies based on action and team attributes
+EVT-150,Overcut Opportunity,12-26,0.39,Low,Car ahead is showing signs of tire degradation. Watch the gap.,Ignore|Lift and Coast|Defend,Varies based on action and team attributes
+EVT-151,DRS Train,7-40,0.09,Critical,DRS train active! Pushing now will only burn fuel and cook tires in dirty air. Conserve and wait!,Pit|Change Engine Mode,Varies based on action and team attributes
+EVT-152,Fuel Concern,13-50,0.13,High,Critical fuel delta! We are -1.5 laps under target. Driver must execute lift and coast immediately.,Push|Lift and Coast|Ignore,Varies based on action and team attributes
+EVT-153,Pit Lane Congestion,11-47,0.22,Critical,Pit entry blocked! Pitting now will result in massive stationary delays. Abort box call!,Lift and Coast|Push,Varies based on action and team attributes
+EVT-154,Undercut Threat,3-37,0.15,High,Undercut threat active! Rival is putting green sectors on fresh rubber. You must react next lap!,Push|Ignore|Pit|Save Tires,Varies based on action and team attributes
+EVT-155,Gearbox Alert,4-48,0.05,High,Gearbox wear active! Sluggish shifting and loss of 6th gear. Reliability dropping.,Pit|Ignore|Defend,Varies based on action and team attributes
+EVT-156,Safety Car,18-48,0.33,Medium,"Minor collision between Haas and Williams at the hairpin. Recovery vehicle on track, Safety Car preparing to deploy.",Ignore|Pit|Lift and Coast,Varies based on action and team attributes
+EVT-157,Rain Stops,17-26,0.4,High,Dry line visible on track. Dampness is under 15%. Intermediate tires are starting to overheat.,Defend|Save Tires,Varies based on action and team attributes
+EVT-158,Rain Starts,3-41,0.34,Medium,Rain intensity increasing. Track dampness rising towards 20%. Strategic crossover point approaching.,Defend|Lift and Coast|Pit,Varies based on action and team attributes
+EVT-159,Fuel Concern,7-27,0.39,Medium,Fuel flow warning. Current projection shows us finishing -0.5 laps under fuel margin. Save mode active.,Pit|Ignore|Push|Save Tires,Varies based on action and team attributes
+EVT-160,Undercut Threat,2-35,0.01,Critical,Undercut successful! Rival has jumped us by pitting early. We must extend stint or change tactic.,Save Tires|Defend|Change Engine Mode,Varies based on action and team attributes
+EVT-161,Virtual Safety Car,4-33,0.16,High,VSC deployed! Magnussen stopped at Turn 10 with engine issues. Keep the target delta positive.,Pit|Ignore,Varies based on action and team attributes
+EVT-162,DRS Train,1-24,0.2,Critical,DRS train active! Pushing now will only burn fuel and cook tires in dirty air. Conserve and wait!,Push|Ignore|Save Tires|Pit,Varies based on action and team attributes
+EVT-163,Safety Car,17-43,0.16,Critical,Safety Car deployed! Multi-car incident at the start/finish straight. Heavy barrier damage. Strategic window is wide open!,Change Engine Mode|Save Tires,Varies based on action and team attributes
+EVT-164,Front Wing Damage,15-27,0.03,High,Wing endplate has detached. Front grip is severely compromised. Pit stop box call needed for replacement.,Defend|Ignore,Varies based on action and team attributes
+EVT-165,Track Evolution,5-32,0.33,Low,Track rubbering in. Grip levels increasing slightly.,Save Tires|Push,Varies based on action and team attributes
+EVT-166,Hydraulic Warning,17-48,0.31,Medium,Hydraulic warning on the dashboard. Gear changes starting to feel sluggish.,Lift and Coast|Push|Defend,Varies based on action and team attributes
+EVT-167,Tire Blistering,13-21,0.27,Low,Minor blistering detected on the front-right tire. Temperature stable.,Ignore|Save Tires|Defend,Varies based on action and team attributes
+EVT-168,Overcut Opportunity,17-30,0.06,High,Leader has pitted into traffic. You have 2 laps of maximum ERS push to leapfrog them!,Change Engine Mode|Defend|Lift and Coast|Ignore,Varies based on action and team attributes
+EVT-169,Front Wing Damage,10-29,0.35,High,Wing endplate has detached. Front grip is severely compromised. Pit stop box call needed for replacement.,Ignore|Push|Pit,Varies based on action and team attributes
+EVT-170,Gearbox Alert,12-29,0.03,High,Gearbox wear active! Sluggish shifting and loss of 6th gear. Reliability dropping.,Ignore|Lift and Coast|Save Tires,Varies based on action and team attributes
+EVT-171,Rain Stops,5-31,0.03,Medium,Track is drying out quickly. Dampness dropping below 30%. Slicks might be faster soon.,Push|Pit,Varies based on action and team attributes
+EVT-172,Driver Complaint,7-49,0.09,High,"Driver: 'The wind is pushing me all over the track, I have no rear stability!'",Push|Change Engine Mode,Varies based on action and team attributes
+EVT-173,Brake Failure Warning,5-46,0.21,Medium,Brake duct temperatures are critical. Driver complaining of spongy brake pedal feel.,Ignore|Lift and Coast|Change Engine Mode,Varies based on action and team attributes
+EVT-174,Track Evolution,4-24,0.3,Medium,Clean racing line established. Corner speeds climbing. Lap times improving.,Push|Ignore|Pit,Varies based on action and team attributes
+EVT-175,Driver Complaint,17-31,0.22,Medium,"Driver: 'These tires are vibrating like crazy, check the balance!'",Defend|Ignore,Varies based on action and team attributes
+EVT-176,Tire Blistering,2-45,0.35,Medium,Tire blistering is worsening. Driver complains of understeer in fast corners.,Defend|Ignore,Varies based on action and team attributes
+EVT-177,Brake Failure Warning,2-35,0.14,Low,Brake temps climbing slightly. Watch your brake wear telemetry.,Lift and Coast|Ignore|Push|Defend,Varies based on action and team attributes
+EVT-178,Pit Lane Congestion,1-29,0.12,Medium,Double-stack risk: Sister car approaching the pit box. Strategic spacing needed.,Lift and Coast|Defend|Pit|Ignore,Varies based on action and team attributes
+EVT-179,Red Flag,18-30,0.15,Medium,Heavy rain forecast. Race director warning of a potential Red Flag if conditions worsen.,Lift and Coast|Save Tires,Varies based on action and team attributes
+EVT-180,Rain Starts,14-33,0.35,Low,"Light spots of rain reported in Sector 2. Slicks still holding up, but grip is dropping.",Defend|Pit,Varies based on action and team attributes
+EVT-181,Red Flag,20-36,0.21,Critical,Red Flag deployed! Massive incident at the main straight has halted the session. Complete race restart protocols active!,Defend|Save Tires,Varies based on action and team attributes
+EVT-182,Front Wing Damage,7-29,0.27,Medium,Front wing damage! Collision debris has damaged the main plane. Understeer increasing.,Change Engine Mode|Pit|Ignore,Varies based on action and team attributes
+EVT-183,Driver Complaint,8-36,0.24,Critical,"Driver: 'No grip! The rear is sliding everywhere, I'm skating on ice here!'",Push|Defend,Varies based on action and team attributes
+EVT-184,Driver Complaint,11-30,0.04,Critical,"Driver: 'No grip! The rear is sliding everywhere, I'm skating on ice here!'",Defend|Pit|Lift and Coast,Varies based on action and team attributes
+EVT-185,Overcut Opportunity,11-40,0.14,Medium,Car ahead is pitting. We have clean air. Push now to execute the overcut!,Defend|Pit|Ignore,Varies based on action and team attributes
+EVT-186,Undercut Threat,13-45,0.25,High,Undercut threat active! Rival is putting green sectors on fresh rubber. You must react next lap!,Save Tires|Lift and Coast,Varies based on action and team attributes
+EVT-187,Hydraulic Warning,6-27,0.06,High,Pressure drop in the hydraulic loop! Steering weight has increased. Reliability is critical.,Change Engine Mode|Push|Save Tires|Pit,Varies based on action and team attributes
+EVT-188,Safety Car,14-42,0.36,Critical,Safety Car deployed! Multi-car incident at the start/finish straight. Heavy barrier damage. Strategic window is wide open!,Push|Pit,Varies based on action and team attributes
+EVT-189,Front Wing Damage,16-43,0.02,High,Wing endplate has detached. Front grip is severely compromised. Pit stop box call needed for replacement.,Ignore|Pit,Varies based on action and team attributes
+EVT-190,Hydraulic Warning,2-21,0.31,Low,Hydraulic pressure sensor fluctuation detected. Status monitored.,Save Tires|Change Engine Mode|Push|Lift and Coast,Varies based on action and team attributes
+EVT-191,Front Wing Damage,1-45,0.13,Critical,Structural wing collapse! Debris under the floor. Driver has lost steering control. Box immediately!,Defend|Change Engine Mode,Varies based on action and team attributes
+EVT-192,Rain Stops,14-44,0.32,Medium,Track is drying out quickly. Dampness dropping below 30%. Slicks might be faster soon.,Pit|Ignore|Lift and Coast,Varies based on action and team attributes
+EVT-193,Brake Failure Warning,6-27,0.17,High,Brake fluid pressure dropping! Reliability impacted. Lift and coast required to cool the system.,Change Engine Mode|Save Tires,Varies based on action and team attributes
+EVT-194,Pit Lane Congestion,3-26,0.07,High,Pit lane bottleneck! Stalled car at the entry. Expect significant pit stop delays.,Change Engine Mode|Defend,Varies based on action and team attributes
+EVT-195,Front Wing Damage,7-30,0.34,Medium,Front wing damage! Collision debris has damaged the main plane. Understeer increasing.,Pit|Ignore|Defend|Change Engine Mode,Varies based on action and team attributes
+EVT-196,Engine Mode Restriction,12-37,0.29,Low,Engine map limited to save lifecycle. Pace slightly reduced.,Pit|Defend|Lift and Coast,Varies based on action and team attributes
+EVT-197,Overheating Issue,11-37,0.31,Critical,Engine thermal warning active! Emergency cooling mode required. Back off from the cars ahead!,Lift and Coast|Defend|Ignore|Pit,Varies based on action and team attributes
+EVT-198,Rain Stops,5-46,0.09,Low,"Rain has stopped, but the track remains wet. Watch for dry line evolution.",Pit|Save Tires|Lift and Coast,Varies based on action and team attributes
+EVT-199,Safety Car,8-30,0.36,High,"Safety Car deployed! Esteban Ocon has spun off into the gravel barrier at Turn 7, leaving heavy carbon fiber debris on the racing line.",Lift and Coast|Ignore,Varies based on action and team attributes
+EVT-200,Yellow Flag,19-31,0.36,Medium,Yellow flag in Sector 1. Spun car blocking the run-off. Watch the micro-sector deltas.,Save Tires|Change Engine Mode,Varies based on action and team attributes
+EVT-201,Yellow Flag,18-36,0.31,Critical,Double wave yellow flags! Marshals on track recovering a car. Pushing now will incur penalties!,Push|Pit|Change Engine Mode,Varies based on action and team attributes
+EVT-202,DRS Train,13-35,0.31,Critical,DRS train active! Pushing now will only burn fuel and cook tires in dirty air. Conserve and wait!,Defend|Save Tires|Ignore|Change Engine Mode,Varies based on action and team attributes
+EVT-203,Yellow Flag,15-42,0.02,Critical,Double wave yellow flags! Marshals on track recovering a car. Pushing now will incur penalties!,Ignore|Pit|Lift and Coast,Varies based on action and team attributes
+EVT-204,Fuel Concern,7-24,0.04,High,Critical fuel delta! We are -1.5 laps under target. Driver must execute lift and coast immediately.,Defend|Save Tires|Push,Varies based on action and team attributes
+EVT-205,DRS Train,14-48,0.01,Low,DRS is enabled. Gap to car ahead is 0.9s.,Ignore|Change Engine Mode|Pit,Varies based on action and team attributes
+EVT-206,DRS Train,5-48,0.29,High,DRS train bottleneck. Leader is holding up the field. Strategic pit stop is the only exit.,Defend|Pit,Varies based on action and team attributes
+EVT-207,Overcut Opportunity,4-28,0.06,Medium,Car ahead is pitting. We have clean air. Push now to execute the overcut!,Pit|Push|Ignore,Varies based on action and team attributes
+EVT-208,Pit Lane Congestion,7-49,0.04,Low,Heavy traffic reported in the pit lane. Pit window tight.,Lift and Coast|Change Engine Mode|Ignore,Varies based on action and team attributes
+EVT-209,Pit Lane Congestion,17-37,0.39,High,Pit lane bottleneck! Stalled car at the entry. Expect significant pit stop delays.,Lift and Coast|Ignore,Varies based on action and team attributes
+EVT-210,Engine Mode Restriction,8-35,0.12,Low,Engine map limited to save lifecycle. Pace slightly reduced.,Defend|Lift and Coast,Varies based on action and team attributes
+EVT-211,Driver Complaint,18-47,0.38,Low,"Driver: 'Seat feels a bit loose, but I can manage.'",Lift and Coast|Defend|Pit|Change Engine Mode,Varies based on action and team attributes
+EVT-212,Overcut Opportunity,12-26,0.11,Low,Car ahead is showing signs of tire degradation. Watch the gap.,Save Tires|Defend|Push|Change Engine Mode,Varies based on action and team attributes
+EVT-213,Front Wing Damage,20-37,0.37,High,Wing endplate has detached. Front grip is severely compromised. Pit stop box call needed for replacement.,Save Tires|Change Engine Mode,Varies based on action and team attributes
+EVT-214,Front Wing Damage,17-37,0.07,Critical,Structural wing collapse! Debris under the floor. Driver has lost steering control. Box immediately!,Push|Save Tires|Ignore|Lift and Coast,Varies based on action and team attributes
+EVT-215,Overheating Issue,8-39,0.32,Medium,Power unit overheating! Intakes blocked by debris. Divert out of dirty air.,Pit|Ignore|Defend,Varies based on action and team attributes
+EVT-216,Safety Car,16-47,0.35,Low,"Debris reported at Turn 4 from a minor lockup. Marshall flags are yellow, Safety Car standing by.",Ignore|Pit|Defend|Change Engine Mode,Varies based on action and team attributes
+EVT-217,Driver Complaint,4-39,0.11,Critical,"Driver: 'No grip! The rear is sliding everywhere, I'm skating on ice here!'",Change Engine Mode|Save Tires,Varies based on action and team attributes
+EVT-218,Rain Starts,13-44,0.12,Medium,Rain intensity increasing. Track dampness rising towards 20%. Strategic crossover point approaching.,Pit|Push|Ignore,Varies based on action and team attributes
+EVT-219,Gearbox Alert,16-42,0.3,Critical,Gearbox failure warning! Driver must short-shift and avoid redline to finish the race!,Change Engine Mode|Defend|Pit|Push,Varies based on action and team attributes
+EVT-220,Engine Mode Restriction,7-26,0.39,Low,Engine map limited to save lifecycle. Pace slightly reduced.,Ignore|Pit|Lift and Coast|Defend,Varies based on action and team attributes
+EVT-221,Tire Blistering,19-25,0.22,Low,Minor blistering detected on the front-right tire. Temperature stable.,Push|Lift and Coast|Change Engine Mode,Varies based on action and team attributes
+EVT-222,Gearbox Alert,16-24,0.34,Low,Gearbox temperature warning. Sensor anomaly suspected.,Pit|Change Engine Mode|Push,Varies based on action and team attributes
+EVT-223,Red Flag,2-38,0.22,High,Red Flag! Barrier damage at Turn 3 requires immediate repairs. All cars returning to the pit lane.,Lift and Coast|Pit,Varies based on action and team attributes
+EVT-224,Brake Failure Warning,14-37,0.06,Critical,Major Brake Wear Warning! High risk of failure. Driver must manage temperature immediately or retire!,Lift and Coast|Save Tires|Pit|Ignore,Varies based on action and team attributes
+EVT-225,Driver Complaint,2-33,0.19,High,"Driver: 'The wind is pushing me all over the track, I have no rear stability!'",Pit|Defend|Push,Varies based on action and team attributes
+EVT-226,Engine Mode Restriction,7-22,0.03,Low,Engine map limited to save lifecycle. Pace slightly reduced.,Defend|Pit,Varies based on action and team attributes
+EVT-227,Tire Blistering,6-48,0.08,High,Severe blistering on the rear tires. Thermal degradation is critical. Core grip has collapsed.,Defend|Pit|Change Engine Mode,Varies based on action and team attributes
+EVT-228,Tire Blistering,19-26,0.3,Medium,Tire blistering is worsening. Driver complains of understeer in fast corners.,Defend|Pit,Varies based on action and team attributes
+EVT-229,Overcut Opportunity,1-34,0.07,Critical,Overcut opportunity! Rival's out-lap is slow on cold tires. Give it everything to stay ahead!,Lift and Coast|Defend,Varies based on action and team attributes
+EVT-230,Pit Lane Congestion,14-50,0.09,High,Pit lane bottleneck! Stalled car at the entry. Expect significant pit stop delays.,Push|Change Engine Mode|Pit,Varies based on action and team attributes
+EVT-231,Front Wing Damage,6-40,0.19,High,Wing endplate has detached. Front grip is severely compromised. Pit stop box call needed for replacement.,Push|Lift and Coast|Save Tires|Change Engine Mode,Varies based on action and team attributes
+EVT-232,Track Evolution,16-36,0.03,Critical,Grip levels are at their maximum. DRS zones are highly effective. Pace is flying!,Defend|Change Engine Mode,Varies based on action and team attributes
+EVT-233,Engine Mode Restriction,8-50,0.25,Medium,MGU-K deployment restriction. Hybrid assist reduced. Overtaking power drops.,Lift and Coast|Pit|Change Engine Mode,Varies based on action and team attributes
+EVT-234,Driver Complaint,17-34,0.3,Critical,"Driver: 'No grip! The rear is sliding everywhere, I'm skating on ice here!'",Push|Defend,Varies based on action and team attributes
+EVT-235,Gearbox Alert,4-37,0.19,Low,Gearbox temperature warning. Sensor anomaly suspected.,Save Tires|Pit,Varies based on action and team attributes
+EVT-236,Safety Car,4-47,0.38,Medium,"Minor collision between Haas and Williams at the hairpin. Recovery vehicle on track, Safety Car preparing to deploy.",Change Engine Mode|Pit,Varies based on action and team attributes
+EVT-237,Hydraulic Warning,18-45,0.03,Medium,Hydraulic warning on the dashboard. Gear changes starting to feel sluggish.,Change Engine Mode|Ignore,Varies based on action and team attributes
+EVT-238,Virtual Safety Car,9-24,0.23,High,VSC deployed! Magnussen stopped at Turn 10 with engine issues. Keep the target delta positive.,Push|Ignore,Varies based on action and team attributes
+EVT-239,Yellow Flag,9-25,0.19,Medium,Yellow flag in Sector 1. Spun car blocking the run-off. Watch the micro-sector deltas.,Lift and Coast|Pit,Varies based on action and team attributes
+EVT-240,Tire Blistering,14-41,0.3,High,Severe blistering on the rear tires. Thermal degradation is critical. Core grip has collapsed.,Pit|Lift and Coast,Varies based on action and team attributes
+EVT-241,Virtual Safety Car,11-21,0.24,Critical,VSC deployed! Sudden debris on track in Sector 1. Great opportunity to save fuel or execute a cheap pitstop!,Change Engine Mode|Defend|Ignore|Save Tires,Varies based on action and team attributes
+EVT-242,Pit Lane Congestion,19-29,0.06,Critical,Pit entry blocked! Pitting now will result in massive stationary delays. Abort box call!,Save Tires|Defend|Change Engine Mode|Lift and Coast,Varies based on action and team attributes
+EVT-243,DRS Train,20-46,0.13,High,DRS train bottleneck. Leader is holding up the field. Strategic pit stop is the only exit.,Ignore|Save Tires|Pit,Varies based on action and team attributes
+EVT-244,Gearbox Alert,14-31,0.16,Medium,Sluggish shifts reported by driver. Gearbox oil temperature is high.,Defend|Ignore|Save Tires,Varies based on action and team attributes
+EVT-245,Track Evolution,17-39,0.04,High,High track evolution! Rapid track drying and high rubber deposit. Grip levels are peak.,Save Tires|Defend|Pit,Varies based on action and team attributes
+EVT-246,Track Evolution,2-22,0.12,Medium,Clean racing line established. Corner speeds climbing. Lap times improving.,Lift and Coast|Ignore,Varies based on action and team attributes
+EVT-247,Fuel Concern,20-28,0.1,Critical,Extreme fuel warning! Car will not finish the race on current engine map. Switch to Mix 1 now!,Lift and Coast|Push|Change Engine Mode,Varies based on action and team attributes
+EVT-248,Safety Car,5-27,0.35,Low,"Debris reported at Turn 4 from a minor lockup. Marshall flags are yellow, Safety Car standing by.",Ignore|Lift and Coast|Defend,Varies based on action and team attributes
+EVT-249,Undercut Threat,16-50,0.23,Low,Rival car behind is close to pit window. Keep alert.,Lift and Coast|Defend|Push,Varies based on action and team attributes
+EVT-250,Gearbox Alert,4-22,0.07,Low,Gearbox temperature warning. Sensor anomaly suspected.,Lift and Coast|Push|Change Engine Mode,Varies based on action and team attributes

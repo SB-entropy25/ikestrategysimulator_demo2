@@ -98,6 +98,10 @@ class SimulationEngine:
             new_state["fuel_load"] = max(0.0, new_state["fuel_load"] - random.uniform(3.5, 5.0))
             new_state["risk_efficiency"] += 12
             
+            # Check for Fastest Lap Bonus: Pushing on low fuel and soft/fresh tires
+            if compound == "Soft" and new_state["fuel_load"] < 40 and new_state["tire_health"] > 50:
+                new_state["fastest_lap_bonus"] = 50
+            
         elif decision == "Save Tires":
             wear = random.randint(3, 7) * wear_rate
             new_state["tire_health"] = max(0, new_state["tire_health"] - int(wear))
@@ -171,24 +175,51 @@ class SimulationEngine:
 
     def calculate_final_score(self, state):
         pos = state.get("position", 10)
-        race_result_score = max(10, 300 - ((pos - 1) * 15))
         
-        strategy_score = min(250, 100 + state.get("strategy_bonus", 0))
-        risk_score = min(150, state.get("risk_efficiency", 50))
-        resource_score = min(100, state.get("resource_management", 50))
-        prediction_score = min(100, state.get("prediction_accuracy", 50))
-        driver_score = min(50, state.get("driver_confidence", 25))
-        innovation_score = min(50, random.randint(15, 45))
+        # F1 Championship points mapping scaled to 500 max points (F1 points * 20)
+        f1_points_map = {
+            1: 500,  # P1
+            2: 360,  # P2
+            3: 300,  # P3
+            4: 240,  # P4
+            5: 200,  # P5
+            6: 160,  # P6
+            7: 120,  # P7
+            8: 80,   # P8
+            9: 40,   # P9
+            10: 20,  # P10
+        }
+        race_result_score = f1_points_map.get(pos, 10)
+        if pos > 20 or state.get("reliability", 100) <= 0:
+            race_result_score = 0  # DNF
+            
+        # Strategy accuracy based on decisions and upgrades (up to 150 points)
+        strategy_score = min(150, 50 + state.get("strategy_bonus", 0) + int(state.get("risk_efficiency", 50) * 0.8))
         
-        total = race_result_score + strategy_score + risk_score + resource_score + prediction_score + driver_score + innovation_score
+        # Tire preservation (up to 120 points)
+        tire_score = min(120, int(state.get("tire_health", 50) * 1.2))
+        
+        # Fuel & energy efficiency (up to 100 points)
+        fuel_ers_score = min(100, int((state.get("fuel_load", 10.0) / 110.0 * 50) + (state.get("ers_percent", 50) / 100.0 * 50)))
+        
+        # Subsystem reliability preservation (up to 80 points)
+        reliability_score = min(80, int(state.get("reliability", 80) * 0.8))
+        
+        # Driver confidence & synergy (up to 50 points)
+        driver_score = min(50, int(state.get("driver_confidence", 50) * 0.5))
+        
+        # Fastest Lap Bonus (up to 50 points)
+        fastest_lap_score = state.get("fastest_lap_bonus", 0)
+        
+        total = race_result_score + strategy_score + tire_score + fuel_ers_score + reliability_score + driver_score + fastest_lap_score
         
         return {
             "race_result": race_result_score,
             "strategy_accuracy": strategy_score,
-            "risk_efficiency": risk_score,
-            "resource_management": resource_score,
-            "prediction_accuracy": prediction_score,
-            "driver_management": driver_score,
-            "innovation_bonus": innovation_score,
+            "tire_management": tire_score,
+            "fuel_ers_efficiency": fuel_ers_score,
+            "car_preservation": reliability_score,
+            "driver_confidence": driver_score,
+            "fastest_lap_bonus": fastest_lap_score,
             "total_score": total
         }

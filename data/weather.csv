@@ -1,6 +1,6 @@
 weather_id,condition,track_temp_modifier,grip_modifier,tire_wear_modifier
-WTH-1,Sunny,8,0.93,1.06
-WTH-2,Cloudy,2,1.06,0.98
-WTH-3,Light Rain,-8,0.87,1.49
-WTH-4,Heavy Rain,-7,0.58,1.19
-WTH-5,Mixed Conditions,8,0.91,0.89
+WTH-1,Sunny,2,0.57,1.21
+WTH-2,Cloudy,4,1.16,1.14
+WTH-3,Light Rain,2,0.86,1.43
+WTH-4,Heavy Rain,-4,0.71,1.03
+WTH-5,Mixed Conditions,-1,0.59,1.12

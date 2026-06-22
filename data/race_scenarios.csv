@@ -1,501 +1,501 @@
 scenario_id,lap,position,gap_ahead,gap_behind,tire_age,tire_compound,weather,track_temp,driver_condition,fuel_status,event_trigger,decision_options
-SCN-0001,2,10,3.59,9.96,15,Wet,Light Rain,29,Tired,39.21,None,Box|Push|Save|Defend
-SCN-0002,5,18,7.9,3.73,5,Intermediate,Cloudy,35,Confident,61.42,None,Box|Push|Save|Defend
-SCN-0003,12,13,12.83,9.48,1,Soft,Heavy Rain,37,Tired,13.79,EVT-123,Box|Push|Save|Defend
-SCN-0004,49,11,7.27,12.9,10,Intermediate,Heavy Rain,25,Frustrated,99.75,EVT-147,Box|Push|Save|Defend
-SCN-0005,4,19,12.69,4.98,23,Intermediate,Cloudy,28,Focused,91.98,None,Box|Push|Save|Defend
-SCN-0006,42,12,14.12,8.78,25,Soft,Sunny,49,Frustrated,53.33,EVT-166,Box|Push|Save|Defend
-SCN-0007,27,5,6.56,1.92,9,Soft,Cloudy,34,Tired,44.54,EVT-026,Box|Push|Save|Defend
-SCN-0008,10,3,11.47,7.5,16,Intermediate,Sunny,26,Focused,30.7,None,Box|Push|Save|Defend
-SCN-0009,42,5,11.89,9.48,3,Hard,Mixed Conditions,25,Focused,91.23,EVT-167,Box|Push|Save|Defend
-SCN-0010,18,5,8.68,3.95,9,Hard,Sunny,41,Confident,81.96,None,Box|Push|Save|Defend
-SCN-0011,39,5,6.8,10.5,25,Intermediate,Cloudy,21,Tired,34.15,None,Box|Push|Save|Defend
-SCN-0012,44,1,2.65,4.44,11,Hard,Sunny,43,Focused,82.47,None,Box|Push|Save|Defend
-SCN-0013,55,9,11.6,1.6,1,Medium,Sunny,21,Focused,92.38,None,Box|Push|Save|Defend
-SCN-0014,17,4,9.46,5.66,13,Hard,Mixed Conditions,40,Tired,43.35,EVT-042,Box|Push|Save|Defend
-SCN-0015,8,17,10.08,12.84,27,Wet,Cloudy,30,Focused,83.51,None,Box|Push|Save|Defend
-SCN-0016,40,10,7.87,9.33,25,Hard,Light Rain,42,Confident,42.4,None,Box|Push|Save|Defend
-SCN-0017,41,14,3.92,3.98,29,Soft,Mixed Conditions,50,Tired,63.82,None,Box|Push|Save|Defend
-SCN-0018,48,1,3.96,6.11,24,Hard,Sunny,24,Frustrated,19.52,EVT-207,Box|Push|Save|Defend
-SCN-0019,27,17,0.64,14.04,23,Soft,Mixed Conditions,42,Tired,28.87,None,Box|Push|Save|Defend
-SCN-0020,52,5,7.87,0.84,25,Soft,Light Rain,24,Focused,44.56,EVT-194,Box|Push|Save|Defend
-SCN-0021,33,3,12.98,0.96,12,Hard,Cloudy,37,Focused,36.37,None,Box|Push|Save|Defend
-SCN-0022,46,19,10.98,9.44,5,Intermediate,Cloudy,24,Focused,74.86,EVT-237,Box|Push|Save|Defend
-SCN-0023,41,13,3.14,8.11,17,Soft,Sunny,38,Frustrated,97.28,None,Box|Push|Save|Defend
-SCN-0024,54,13,3.0,3.66,4,Soft,Sunny,49,Focused,97.94,None,Box|Push|Save|Defend
-SCN-0025,12,3,6.59,12.07,23,Soft,Heavy Rain,23,Frustrated,82.76,None,Box|Push|Save|Defend
-SCN-0026,34,1,7.6,12.18,4,Wet,Cloudy,34,Confident,83.36,None,Box|Push|Save|Defend
-SCN-0027,46,1,1.05,11.99,20,Medium,Mixed Conditions,40,Tired,92.62,None,Box|Push|Save|Defend
-SCN-0028,45,15,9.92,7.21,5,Hard,Cloudy,30,Frustrated,67.95,None,Box|Push|Save|Defend
-SCN-0029,50,8,9.98,5.22,17,Medium,Cloudy,24,Confident,33.56,None,Box|Push|Save|Defend
-SCN-0030,24,13,0.31,6.15,3,Intermediate,Sunny,41,Tired,99.67,None,Box|Push|Save|Defend
-SCN-0031,4,7,2.05,3.16,20,Intermediate,Sunny,49,Focused,48.13,None,Box|Push|Save|Defend
-SCN-0032,2,7,11.74,10.75,4,Medium,Light Rain,23,Frustrated,50.23,None,Box|Push|Save|Defend
-SCN-0033,40,14,5.17,8.77,5,Hard,Sunny,20,Confident,80.65,None,Box|Push|Save|Defend
-SCN-0034,42,9,11.83,10.47,11,Soft,Cloudy,22,Frustrated,35.94,None,Box|Push|Save|Defend
-SCN-0035,50,19,9.33,5.94,9,Medium,Sunny,44,Tired,92.39,None,Box|Push|Save|Defend
-SCN-0036,15,13,11.14,5.79,10,Intermediate,Mixed Conditions,36,Tired,54.76,EVT-008,Box|Push|Save|Defend
-SCN-0037,37,5,11.51,12.75,20,Wet,Sunny,41,Confident,21.95,None,Box|Push|Save|Defend
-SCN-0038,14,3,9.19,6.43,13,Medium,Cloudy,29,Confident,69.71,EVT-091,Box|Push|Save|Defend
-SCN-0039,33,7,0.13,8.77,5,Intermediate,Sunny,50,Confident,70.93,None,Box|Push|Save|Defend
-SCN-0040,39,7,7.29,7.07,19,Wet,Mixed Conditions,23,Tired,87.39,None,Box|Push|Save|Defend
-SCN-0041,38,7,3.38,10.02,3,Soft,Sunny,23,Tired,14.9,None,Box|Push|Save|Defend
-SCN-0042,54,17,13.39,1.78,18,Wet,Heavy Rain,30,Focused,97.16,None,Box|Push|Save|Defend
-SCN-0043,8,3,1.81,1.27,21,Medium,Light Rain,43,Tired,23.86,None,Box|Push|Save|Defend
-SCN-0044,28,6,0.26,12.27,4,Intermediate,Cloudy,33,Confident,28.13,None,Box|Push|Save|Defend
-SCN-0045,50,9,12.13,10.94,7,Soft,Light Rain,26,Focused,64.67,EVT-050,Box|Push|Save|Defend
-SCN-0046,53,7,1.65,8.23,19,Intermediate,Heavy Rain,22,Confident,91.92,None,Box|Push|Save|Defend
-SCN-0047,43,12,14.48,7.73,25,Medium,Sunny,50,Tired,45.24,EVT-180,Box|Push|Save|Defend
-SCN-0048,35,18,6.8,0.91,6,Medium,Sunny,35,Focused,18.94,None,Box|Push|Save|Defend
-SCN-0049,50,10,14.88,8.82,27,Wet,Light Rain,40,Confident,13.74,None,Box|Push|Save|Defend
-SCN-0050,44,11,13.96,12.78,22,Wet,Mixed Conditions,50,Tired,25.14,None,Box|Push|Save|Defend
-SCN-0051,33,13,6.77,14.78,24,Hard,Cloudy,28,Confident,68.75,None,Box|Push|Save|Defend
-SCN-0052,52,7,12.71,0.1,17,Soft,Sunny,43,Focused,83.29,EVT-164,Box|Push|Save|Defend
-SCN-0053,38,16,8.91,8.93,10,Medium,Cloudy,49,Frustrated,89.05,None,Box|Push|Save|Defend
-SCN-0054,47,1,6.24,3.92,10,Medium,Sunny,44,Confident,82.98,None,Box|Push|Save|Defend
-SCN-0055,52,8,1.56,5.08,10,Wet,Heavy Rain,35,Frustrated,48.16,EVT-096,Box|Push|Save|Defend
-SCN-0056,35,7,13.31,4.81,1,Intermediate,Light Rain,22,Frustrated,15.21,None,Box|Push|Save|Defend
-SCN-0057,28,1,6.48,4.47,24,Medium,Sunny,32,Focused,46.25,EVT-044,Box|Push|Save|Defend
-SCN-0058,28,3,8.89,11.71,15,Soft,Heavy Rain,32,Focused,82.92,EVT-017,Box|Push|Save|Defend
-SCN-0059,42,11,9.57,11.04,15,Medium,Cloudy,38,Frustrated,65.54,None,Box|Push|Save|Defend
-SCN-0060,53,10,0.31,5.92,10,Medium,Cloudy,46,Confident,49.79,None,Box|Push|Save|Defend
-SCN-0061,59,9,12.71,8.11,27,Wet,Mixed Conditions,23,Frustrated,23.91,None,Box|Push|Save|Defend
-SCN-0062,56,1,7.44,5.52,27,Wet,Mixed Conditions,50,Confident,65.04,EVT-230,Box|Push|Save|Defend
-SCN-0063,14,14,11.62,9.84,12,Intermediate,Light Rain,29,Focused,19.26,None,Box|Push|Save|Defend
-SCN-0064,16,6,1.16,9.91,30,Soft,Cloudy,38,Frustrated,68.91,None,Box|Push|Save|Defend
-SCN-0065,20,18,13.64,14.53,12,Intermediate,Mixed Conditions,42,Confident,65.79,None,Box|Push|Save|Defend
-SCN-0066,11,7,2.84,9.06,30,Soft,Cloudy,38,Focused,23.72,None,Box|Push|Save|Defend
-SCN-0067,32,15,11.87,13.7,30,Wet,Sunny,34,Focused,39.65,None,Box|Push|Save|Defend
-SCN-0068,58,3,2.81,12.86,7,Intermediate,Mixed Conditions,47,Tired,53.41,None,Box|Push|Save|Defend
-SCN-0069,26,3,8.47,7.56,9,Intermediate,Heavy Rain,45,Tired,18.98,None,Box|Push|Save|Defend
-SCN-0070,5,9,8.42,0.14,29,Wet,Mixed Conditions,26,Frustrated,41.12,EVT-168,Box|Push|Save|Defend
-SCN-0071,29,4,12.09,10.81,4,Medium,Sunny,28,Focused,51.27,None,Box|Push|Save|Defend
-SCN-0072,16,11,2.01,3.26,29,Hard,Heavy Rain,45,Focused,47.85,EVT-068,Box|Push|Save|Defend
-SCN-0073,45,13,6.57,9.87,15,Wet,Mixed Conditions,49,Tired,19.9,None,Box|Push|Save|Defend
-SCN-0074,2,2,2.35,8.76,17,Medium,Mixed Conditions,26,Frustrated,59.0,None,Box|Push|Save|Defend
-SCN-0075,1,10,5.64,7.19,10,Intermediate,Light Rain,24,Focused,28.62,None,Box|Push|Save|Defend
-SCN-0076,38,2,8.47,0.6,24,Hard,Cloudy,41,Confident,47.15,None,Box|Push|Save|Defend
-SCN-0077,44,20,11.59,2.65,26,Medium,Light Rain,25,Focused,80.09,None,Box|Push|Save|Defend
-SCN-0078,15,2,0.34,7.16,26,Wet,Heavy Rain,42,Frustrated,86.4,None,Box|Push|Save|Defend
-SCN-0079,35,11,12.48,8.23,21,Intermediate,Heavy Rain,34,Tired,43.69,None,Box|Push|Save|Defend
-SCN-0080,38,17,11.8,11.94,10,Intermediate,Mixed Conditions,26,Confident,41.26,None,Box|Push|Save|Defend
-SCN-0081,22,16,10.14,13.19,26,Intermediate,Cloudy,33,Tired,67.72,EVT-028,Box|Push|Save|Defend
-SCN-0082,34,7,5.77,5.18,7,Hard,Cloudy,50,Tired,56.76,None,Box|Push|Save|Defend
-SCN-0083,13,9,10.17,12.26,3,Medium,Light Rain,50,Frustrated,86.27,EVT-026,Box|Push|Save|Defend
-SCN-0084,34,14,3.88,13.51,26,Hard,Heavy Rain,34,Tired,36.48,None,Box|Push|Save|Defend
-SCN-0085,38,11,4.07,6.44,1,Soft,Heavy Rain,50,Frustrated,84.32,None,Box|Push|Save|Defend
-SCN-0086,54,14,12.16,14.1,28,Medium,Sunny,29,Tired,28.26,EVT-045,Box|Push|Save|Defend
-SCN-0087,53,7,6.77,1.16,24,Wet,Mixed Conditions,30,Tired,20.28,None,Box|Push|Save|Defend
-SCN-0088,48,10,1.15,1.5,16,Medium,Mixed Conditions,33,Focused,11.53,None,Box|Push|Save|Defend
-SCN-0089,37,18,13.26,14.69,18,Medium,Cloudy,40,Tired,59.94,EVT-190,Box|Push|Save|Defend
-SCN-0090,12,18,9.36,2.44,7,Medium,Cloudy,29,Tired,59.66,None,Box|Push|Save|Defend
-SCN-0091,45,4,12.49,1.13,2,Soft,Mixed Conditions,50,Confident,22.55,None,Box|Push|Save|Defend
-SCN-0092,2,10,11.77,13.2,14,Intermediate,Heavy Rain,26,Tired,49.0,None,Box|Push|Save|Defend
-SCN-0093,30,10,3.1,14.03,11,Wet,Mixed Conditions,26,Confident,86.57,None,Box|Push|Save|Defend
-SCN-0094,56,13,11.43,2.13,9,Medium,Heavy Rain,37,Confident,88.89,EVT-076,Box|Push|Save|Defend
-SCN-0095,23,8,12.93,12.76,5,Intermediate,Cloudy,36,Focused,17.62,None,Box|Push|Save|Defend
-SCN-0096,8,5,10.23,1.96,24,Hard,Light Rain,47,Tired,30.06,None,Box|Push|Save|Defend
-SCN-0097,13,19,9.07,9.21,9,Wet,Cloudy,40,Confident,44.96,EVT-041,Box|Push|Save|Defend
-SCN-0098,16,18,3.09,14.75,30,Medium,Sunny,33,Focused,11.38,None,Box|Push|Save|Defend
-SCN-0099,7,9,9.4,8.96,18,Hard,Heavy Rain,45,Confident,19.16,None,Box|Push|Save|Defend
-SCN-0100,31,3,11.24,8.34,13,Wet,Heavy Rain,34,Focused,55.26,None,Box|Push|Save|Defend
-SCN-0101,33,6,10.06,10.44,12,Soft,Heavy Rain,26,Frustrated,59.88,None,Box|Push|Save|Defend
-SCN-0102,4,13,9.01,0.17,6,Wet,Light Rain,42,Frustrated,44.29,None,Box|Push|Save|Defend
-SCN-0103,40,1,0.22,9.28,22,Wet,Cloudy,31,Confident,67.04,None,Box|Push|Save|Defend
-SCN-0104,56,5,5.17,12.52,21,Hard,Cloudy,50,Frustrated,96.44,EVT-012,Box|Push|Save|Defend
-SCN-0105,32,14,3.03,13.84,18,Soft,Heavy Rain,34,Tired,76.07,None,Box|Push|Save|Defend
-SCN-0106,32,16,12.01,7.46,30,Hard,Sunny,47,Frustrated,72.37,EVT-094,Box|Push|Save|Defend
-SCN-0107,28,12,3.97,12.5,24,Intermediate,Cloudy,28,Frustrated,83.77,EVT-228,Box|Push|Save|Defend
-SCN-0108,54,19,11.94,13.73,30,Soft,Mixed Conditions,23,Frustrated,45.31,EVT-228,Box|Push|Save|Defend
-SCN-0109,27,18,5.67,12.87,17,Intermediate,Light Rain,43,Frustrated,38.29,None,Box|Push|Save|Defend
-SCN-0110,10,3,2.38,3.31,30,Wet,Sunny,35,Confident,14.96,None,Box|Push|Save|Defend
-SCN-0111,8,9,3.08,4.0,9,Wet,Sunny,40,Frustrated,94.1,None,Box|Push|Save|Defend
-SCN-0112,46,19,12.19,5.0,25,Wet,Mixed Conditions,38,Focused,53.08,EVT-001,Box|Push|Save|Defend
-SCN-0113,20,20,10.17,9.48,20,Wet,Light Rain,30,Focused,26.39,None,Box|Push|Save|Defend
-SCN-0114,58,13,12.24,2.14,27,Wet,Heavy Rain,36,Confident,47.56,None,Box|Push|Save|Defend
-SCN-0115,29,4,1.46,6.73,13,Medium,Light Rain,23,Confident,53.15,None,Box|Push|Save|Defend
-SCN-0116,36,1,0.83,4.18,25,Medium,Light Rain,42,Confident,27.82,None,Box|Push|Save|Defend
-SCN-0117,45,12,11.08,5.62,12,Soft,Sunny,47,Focused,42.77,None,Box|Push|Save|Defend
-SCN-0118,3,13,2.86,2.84,22,Hard,Cloudy,25,Tired,12.02,None,Box|Push|Save|Defend
-SCN-0119,39,19,5.64,13.46,3,Soft,Mixed Conditions,26,Focused,73.88,None,Box|Push|Save|Defend
-SCN-0120,5,11,10.23,3.82,20,Intermediate,Sunny,32,Confident,88.87,None,Box|Push|Save|Defend
-SCN-0121,53,6,7.1,8.62,6,Soft,Heavy Rain,38,Focused,15.85,None,Box|Push|Save|Defend
-SCN-0122,56,1,7.83,12.21,26,Medium,Sunny,27,Focused,56.25,None,Box|Push|Save|Defend
-SCN-0123,13,7,1.49,9.82,24,Soft,Heavy Rain,35,Confident,90.8,None,Box|Push|Save|Defend
-SCN-0124,41,5,8.48,13.33,2,Intermediate,Heavy Rain,42,Tired,38.78,EVT-091,Box|Push|Save|Defend
-SCN-0125,31,8,5.76,12.26,28,Soft,Cloudy,20,Frustrated,99.04,None,Box|Push|Save|Defend
-SCN-0126,34,20,9.03,11.62,2,Intermediate,Sunny,33,Frustrated,21.97,EVT-036,Box|Push|Save|Defend
-SCN-0127,6,2,4.91,11.87,1,Intermediate,Sunny,22,Frustrated,62.78,EVT-018,Box|Push|Save|Defend
-SCN-0128,11,11,0.66,4.24,19,Medium,Light Rain,29,Frustrated,22.55,EVT-008,Box|Push|Save|Defend
-SCN-0129,2,16,1.81,2.56,26,Intermediate,Cloudy,32,Focused,83.42,None,Box|Push|Save|Defend
-SCN-0130,44,12,11.44,2.05,29,Hard,Cloudy,41,Frustrated,89.67,None,Box|Push|Save|Defend
-SCN-0131,8,3,11.05,7.11,8,Hard,Light Rain,35,Focused,68.94,EVT-238,Box|Push|Save|Defend
-SCN-0132,28,16,14.19,14.16,14,Medium,Sunny,29,Confident,23.38,EVT-218,Box|Push|Save|Defend
-SCN-0133,23,7,6.73,3.91,6,Hard,Mixed Conditions,44,Confident,90.45,None,Box|Push|Save|Defend
-SCN-0134,9,17,7.6,6.6,20,Hard,Heavy Rain,41,Frustrated,19.27,EVT-054,Box|Push|Save|Defend
-SCN-0135,21,14,11.24,13.57,21,Intermediate,Cloudy,47,Focused,11.82,EVT-164,Box|Push|Save|Defend
-SCN-0136,53,9,1.88,6.85,13,Medium,Cloudy,45,Confident,20.83,None,Box|Push|Save|Defend
-SCN-0137,60,13,9.11,7.26,22,Intermediate,Cloudy,36,Frustrated,98.42,None,Box|Push|Save|Defend
-SCN-0138,22,13,2.92,4.38,24,Medium,Light Rain,37,Frustrated,36.18,None,Box|Push|Save|Defend
-SCN-0139,47,1,14.75,12.42,1,Medium,Heavy Rain,38,Focused,91.53,EVT-163,Box|Push|Save|Defend
-SCN-0140,39,14,12.45,8.68,20,Wet,Light Rain,21,Tired,18.9,None,Box|Push|Save|Defend
-SCN-0141,52,19,11.1,2.15,16,Hard,Heavy Rain,29,Focused,25.55,None,Box|Push|Save|Defend
-SCN-0142,15,3,13.56,6.2,7,Soft,Heavy Rain,23,Frustrated,33.34,None,Box|Push|Save|Defend
-SCN-0143,19,1,2.92,1.73,15,Intermediate,Light Rain,26,Tired,99.92,None,Box|Push|Save|Defend
-SCN-0144,42,10,2.66,10.37,14,Hard,Light Rain,28,Tired,31.72,None,Box|Push|Save|Defend
-SCN-0145,17,16,1.74,8.21,30,Medium,Light Rain,24,Tired,64.44,None,Box|Push|Save|Defend
-SCN-0146,33,8,5.74,14.03,29,Intermediate,Mixed Conditions,30,Focused,31.56,None,Box|Push|Save|Defend
-SCN-0147,3,12,9.05,13.21,17,Wet,Heavy Rain,26,Frustrated,22.13,None,Box|Push|Save|Defend
-SCN-0148,55,13,4.94,13.03,5,Medium,Sunny,28,Confident,36.24,None,Box|Push|Save|Defend
-SCN-0149,60,1,6.44,3.07,10,Wet,Sunny,49,Focused,23.88,None,Box|Push|Save|Defend
-SCN-0150,29,17,1.29,5.44,22,Intermediate,Cloudy,30,Confident,77.81,EVT-048,Box|Push|Save|Defend
-SCN-0151,46,6,11.19,1.18,30,Soft,Heavy Rain,46,Frustrated,86.04,EVT-108,Box|Push|Save|Defend
-SCN-0152,41,5,2.29,2.22,29,Soft,Heavy Rain,44,Confident,41.59,None,Box|Push|Save|Defend
-SCN-0153,22,3,14.96,6.42,3,Intermediate,Light Rain,22,Frustrated,27.11,None,Box|Push|Save|Defend
-SCN-0154,23,18,6.49,0.32,28,Soft,Mixed Conditions,25,Frustrated,30.07,None,Box|Push|Save|Defend
-SCN-0155,42,17,14.53,3.85,15,Medium,Heavy Rain,32,Confident,37.01,EVT-215,Box|Push|Save|Defend
-SCN-0156,24,10,5.74,12.56,22,Wet,Mixed Conditions,22,Tired,81.93,EVT-018,Box|Push|Save|Defend
-SCN-0157,11,9,4.22,9.85,19,Wet,Mixed Conditions,41,Tired,72.66,None,Box|Push|Save|Defend
-SCN-0158,38,4,13.39,6.43,8,Medium,Cloudy,40,Confident,36.08,EVT-073,Box|Push|Save|Defend
-SCN-0159,28,17,13.0,3.76,25,Soft,Heavy Rain,48,Frustrated,75.4,None,Box|Push|Save|Defend
-SCN-0160,29,5,0.64,6.81,25,Medium,Cloudy,38,Frustrated,66.51,None,Box|Push|Save|Defend
-SCN-0161,8,1,1.1,13.98,7,Intermediate,Sunny,50,Confident,76.61,EVT-154,Box|Push|Save|Defend
-SCN-0162,59,11,0.26,8.52,8,Hard,Sunny,25,Tired,10.2,None,Box|Push|Save|Defend
-SCN-0163,39,6,14.36,13.31,26,Hard,Heavy Rain,23,Focused,11.59,None,Box|Push|Save|Defend
-SCN-0164,7,20,10.27,1.01,14,Wet,Sunny,36,Focused,29.26,EVT-154,Box|Push|Save|Defend
-SCN-0165,25,4,4.51,6.96,16,Soft,Mixed Conditions,21,Frustrated,79.34,None,Box|Push|Save|Defend
-SCN-0166,31,6,2.35,5.01,10,Soft,Mixed Conditions,26,Frustrated,92.79,EVT-018,Box|Push|Save|Defend
-SCN-0167,6,2,9.51,8.87,4,Soft,Heavy Rain,45,Confident,59.82,EVT-224,Box|Push|Save|Defend
-SCN-0168,21,12,9.04,13.53,19,Wet,Cloudy,50,Focused,61.61,None,Box|Push|Save|Defend
-SCN-0169,7,13,13.44,14.08,29,Intermediate,Mixed Conditions,50,Tired,94.0,None,Box|Push|Save|Defend
-SCN-0170,11,8,11.11,13.26,28,Soft,Cloudy,29,Tired,94.41,None,Box|Push|Save|Defend
-SCN-0171,3,4,8.66,11.99,6,Wet,Mixed Conditions,22,Confident,65.17,None,Box|Push|Save|Defend
-SCN-0172,11,12,12.37,9.8,11,Medium,Light Rain,41,Focused,57.66,None,Box|Push|Save|Defend
-SCN-0173,54,7,6.2,9.93,9,Soft,Light Rain,22,Confident,78.49,EVT-222,Box|Push|Save|Defend
-SCN-0174,28,20,8.79,1.2,5,Intermediate,Mixed Conditions,40,Frustrated,77.22,None,Box|Push|Save|Defend
-SCN-0175,55,12,2.46,0.23,30,Hard,Heavy Rain,48,Frustrated,56.86,EVT-056,Box|Push|Save|Defend
-SCN-0176,22,4,10.87,10.8,1,Intermediate,Cloudy,41,Frustrated,15.77,None,Box|Push|Save|Defend
-SCN-0177,9,15,5.03,11.36,14,Wet,Cloudy,22,Focused,38.11,None,Box|Push|Save|Defend
-SCN-0178,34,17,8.89,4.39,4,Medium,Light Rain,23,Tired,58.21,EVT-051,Box|Push|Save|Defend
-SCN-0179,31,16,10.56,12.55,5,Hard,Heavy Rain,25,Tired,61.87,None,Box|Push|Save|Defend
-SCN-0180,1,11,4.79,11.28,11,Intermediate,Light Rain,20,Confident,29.13,None,Box|Push|Save|Defend
-SCN-0181,18,5,14.93,14.54,4,Soft,Mixed Conditions,35,Frustrated,40.86,None,Box|Push|Save|Defend
-SCN-0182,50,14,7.67,14.51,24,Wet,Light Rain,46,Frustrated,18.23,None,Box|Push|Save|Defend
-SCN-0183,44,10,6.89,6.37,7,Soft,Mixed Conditions,48,Confident,48.34,None,Box|Push|Save|Defend
-SCN-0184,22,11,7.34,9.76,4,Wet,Cloudy,21,Frustrated,45.07,None,Box|Push|Save|Defend
-SCN-0185,14,1,1.51,4.65,6,Hard,Cloudy,36,Confident,52.43,None,Box|Push|Save|Defend
-SCN-0186,21,8,4.68,12.47,10,Medium,Cloudy,31,Focused,96.25,None,Box|Push|Save|Defend
-SCN-0187,8,8,5.18,9.87,28,Intermediate,Light Rain,48,Tired,29.48,EVT-245,Box|Push|Save|Defend
-SCN-0188,43,20,7.21,3.65,14,Hard,Light Rain,22,Frustrated,15.34,EVT-098,Box|Push|Save|Defend
-SCN-0189,17,11,7.64,14.18,18,Medium,Light Rain,37,Focused,83.34,None,Box|Push|Save|Defend
-SCN-0190,9,9,4.92,3.64,18,Intermediate,Mixed Conditions,32,Focused,74.13,None,Box|Push|Save|Defend
-SCN-0191,29,4,0.94,11.61,11,Hard,Heavy Rain,33,Frustrated,81.26,None,Box|Push|Save|Defend
-SCN-0192,54,15,14.47,3.5,28,Intermediate,Light Rain,41,Confident,94.96,None,Box|Push|Save|Defend
-SCN-0193,46,6,3.86,8.78,22,Wet,Light Rain,23,Tired,14.48,EVT-208,Box|Push|Save|Defend
-SCN-0194,28,5,9.75,5.51,18,Medium,Cloudy,27,Focused,55.49,EVT-247,Box|Push|Save|Defend
-SCN-0195,24,14,5.1,5.02,10,Medium,Light Rain,36,Frustrated,75.65,None,Box|Push|Save|Defend
-SCN-0196,35,10,14.86,2.17,28,Hard,Cloudy,46,Confident,77.09,EVT-160,Box|Push|Save|Defend
-SCN-0197,41,18,14.22,7.98,9,Intermediate,Light Rain,28,Confident,62.94,EVT-092,Box|Push|Save|Defend
-SCN-0198,40,7,1.21,11.27,29,Hard,Sunny,27,Tired,29.9,None,Box|Push|Save|Defend
-SCN-0199,11,3,8.86,2.76,8,Soft,Sunny,27,Confident,44.12,EVT-089,Box|Push|Save|Defend
-SCN-0200,7,3,12.53,13.22,13,Hard,Cloudy,39,Confident,66.59,EVT-217,Box|Push|Save|Defend
-SCN-0201,22,5,9.95,11.06,21,Medium,Light Rain,26,Confident,35.86,None,Box|Push|Save|Defend
-SCN-0202,10,2,6.48,8.26,12,Intermediate,Mixed Conditions,40,Tired,57.83,None,Box|Push|Save|Defend
-SCN-0203,27,4,3.59,2.73,24,Wet,Sunny,46,Frustrated,75.95,EVT-059,Box|Push|Save|Defend
-SCN-0204,35,7,6.46,0.8,29,Wet,Cloudy,25,Frustrated,50.46,None,Box|Push|Save|Defend
-SCN-0205,1,11,7.22,2.55,21,Intermediate,Sunny,27,Frustrated,33.74,EVT-078,Box|Push|Save|Defend
-SCN-0206,50,8,7.99,10.44,11,Intermediate,Cloudy,40,Tired,50.49,None,Box|Push|Save|Defend
-SCN-0207,22,3,11.56,8.17,2,Hard,Cloudy,21,Confident,99.1,None,Box|Push|Save|Defend
-SCN-0208,54,8,1.55,9.94,9,Soft,Heavy Rain,47,Confident,22.62,None,Box|Push|Save|Defend
-SCN-0209,52,18,14.36,7.2,14,Medium,Light Rain,23,Frustrated,52.31,EVT-173,Box|Push|Save|Defend
-SCN-0210,17,13,12.92,6.73,12,Intermediate,Mixed Conditions,22,Confident,96.33,None,Box|Push|Save|Defend
-SCN-0211,7,18,14.67,7.11,11,Soft,Heavy Rain,30,Frustrated,81.9,EVT-111,Box|Push|Save|Defend
-SCN-0212,57,20,4.11,11.11,23,Hard,Sunny,50,Frustrated,26.3,EVT-043,Box|Push|Save|Defend
-SCN-0213,24,7,9.13,11.76,7,Medium,Cloudy,32,Frustrated,60.21,None,Box|Push|Save|Defend
-SCN-0214,6,9,3.28,4.61,22,Medium,Light Rain,48,Tired,85.54,None,Box|Push|Save|Defend
-SCN-0215,12,3,2.05,10.48,9,Soft,Light Rain,46,Focused,87.86,None,Box|Push|Save|Defend
-SCN-0216,18,16,14.72,14.17,14,Soft,Cloudy,49,Tired,99.31,EVT-208,Box|Push|Save|Defend
-SCN-0217,33,18,4.52,8.02,21,Hard,Cloudy,27,Focused,93.15,EVT-132,Box|Push|Save|Defend
-SCN-0218,32,15,12.08,0.51,5,Hard,Light Rain,31,Confident,56.14,None,Box|Push|Save|Defend
-SCN-0219,9,3,2.15,13.9,4,Hard,Sunny,22,Tired,85.76,None,Box|Push|Save|Defend
-SCN-0220,5,20,14.86,5.33,25,Medium,Sunny,35,Frustrated,67.42,None,Box|Push|Save|Defend
-SCN-0221,36,2,13.77,0.51,30,Medium,Mixed Conditions,25,Tired,85.32,EVT-047,Box|Push|Save|Defend
-SCN-0222,32,18,13.15,12.33,16,Medium,Mixed Conditions,40,Tired,50.62,None,Box|Push|Save|Defend
-SCN-0223,11,2,4.27,9.17,9,Medium,Cloudy,49,Tired,76.21,None,Box|Push|Save|Defend
-SCN-0224,47,8,11.99,7.92,19,Intermediate,Light Rain,39,Focused,48.2,EVT-236,Box|Push|Save|Defend
-SCN-0225,60,16,7.91,14.85,21,Intermediate,Sunny,25,Confident,74.94,None,Box|Push|Save|Defend
-SCN-0226,46,19,3.14,5.81,27,Intermediate,Sunny,34,Frustrated,17.31,EVT-054,Box|Push|Save|Defend
-SCN-0227,22,6,1.44,1.68,24,Wet,Mixed Conditions,22,Confident,56.67,None,Box|Push|Save|Defend
-SCN-0228,54,19,5.89,13.52,18,Hard,Cloudy,31,Confident,73.62,EVT-138,Box|Push|Save|Defend
-SCN-0229,6,14,0.53,5.2,17,Hard,Mixed Conditions,29,Frustrated,42.67,None,Box|Push|Save|Defend
-SCN-0230,55,13,9.89,2.32,24,Intermediate,Sunny,32,Frustrated,75.86,EVT-192,Box|Push|Save|Defend
-SCN-0231,36,9,14.25,2.64,9,Intermediate,Heavy Rain,44,Confident,44.02,EVT-185,Box|Push|Save|Defend
-SCN-0232,11,8,0.27,8.33,10,Wet,Heavy Rain,23,Focused,76.05,EVT-126,Box|Push|Save|Defend
-SCN-0233,47,20,13.26,6.94,26,Soft,Light Rain,31,Confident,64.88,EVT-057,Box|Push|Save|Defend
-SCN-0234,58,13,2.93,14.05,4,Hard,Light Rain,48,Focused,80.27,None,Box|Push|Save|Defend
-SCN-0235,60,19,14.76,1.23,30,Hard,Mixed Conditions,32,Tired,78.15,None,Box|Push|Save|Defend
-SCN-0236,58,19,4.38,0.49,26,Wet,Cloudy,48,Focused,52.91,None,Box|Push|Save|Defend
-SCN-0237,11,8,3.01,7.38,1,Intermediate,Mixed Conditions,39,Focused,55.56,None,Box|Push|Save|Defend
-SCN-0238,59,3,0.86,13.81,26,Hard,Cloudy,24,Confident,18.22,EVT-183,Box|Push|Save|Defend
-SCN-0239,59,19,0.26,1.18,3,Soft,Sunny,21,Focused,68.73,EVT-080,Box|Push|Save|Defend
-SCN-0240,55,18,14.1,2.24,12,Intermediate,Heavy Rain,43,Confident,15.01,EVT-015,Box|Push|Save|Defend
-SCN-0241,55,5,2.17,8.47,7,Soft,Mixed Conditions,47,Frustrated,64.74,EVT-170,Box|Push|Save|Defend
-SCN-0242,37,20,0.16,13.43,8,Wet,Light Rain,25,Frustrated,96.32,None,Box|Push|Save|Defend
-SCN-0243,8,11,5.88,0.59,27,Soft,Sunny,26,Confident,83.1,EVT-250,Box|Push|Save|Defend
-SCN-0244,52,20,4.3,2.93,8,Wet,Heavy Rain,22,Confident,84.11,EVT-055,Box|Push|Save|Defend
-SCN-0245,26,1,7.98,5.39,3,Wet,Cloudy,31,Frustrated,28.47,None,Box|Push|Save|Defend
-SCN-0246,21,8,13.37,14.2,26,Medium,Heavy Rain,41,Focused,71.67,None,Box|Push|Save|Defend
-SCN-0247,30,16,5.6,0.64,3,Wet,Sunny,21,Tired,70.29,None,Box|Push|Save|Defend
-SCN-0248,23,16,13.65,9.62,12,Hard,Sunny,34,Confident,11.93,EVT-030,Box|Push|Save|Defend
-SCN-0249,56,12,4.69,8.49,11,Hard,Heavy Rain,26,Focused,24.28,EVT-085,Box|Push|Save|Defend
-SCN-0250,3,3,13.86,9.56,20,Soft,Sunny,44,Confident,93.4,None,Box|Push|Save|Defend
-SCN-0251,27,20,2.61,9.35,20,Soft,Sunny,25,Frustrated,93.08,None,Box|Push|Save|Defend
-SCN-0252,20,3,13.75,4.44,19,Intermediate,Cloudy,34,Focused,80.94,None,Box|Push|Save|Defend
-SCN-0253,37,15,13.55,12.83,18,Hard,Mixed Conditions,44,Frustrated,40.66,EVT-235,Box|Push|Save|Defend
-SCN-0254,47,17,9.48,11.51,21,Medium,Mixed Conditions,36,Frustrated,92.37,None,Box|Push|Save|Defend
-SCN-0255,45,20,0.97,0.12,22,Hard,Heavy Rain,45,Focused,57.44,EVT-154,Box|Push|Save|Defend
-SCN-0256,6,7,8.25,3.27,19,Intermediate,Sunny,44,Focused,87.23,EVT-054,Box|Push|Save|Defend
-SCN-0257,45,6,14.3,14.66,28,Soft,Mixed Conditions,38,Tired,28.25,None,Box|Push|Save|Defend
-SCN-0258,11,11,13.32,0.85,26,Intermediate,Light Rain,38,Confident,15.47,EVT-094,Box|Push|Save|Defend
-SCN-0259,28,1,8.17,2.53,18,Intermediate,Heavy Rain,39,Frustrated,71.87,None,Box|Push|Save|Defend
-SCN-0260,30,3,4.18,10.82,21,Soft,Light Rain,47,Focused,62.14,EVT-191,Box|Push|Save|Defend
-SCN-0261,15,13,13.24,7.17,2,Hard,Heavy Rain,20,Tired,50.15,None,Box|Push|Save|Defend
-SCN-0262,39,7,10.15,6.19,19,Hard,Cloudy,50,Tired,78.48,None,Box|Push|Save|Defend
-SCN-0263,10,20,12.19,0.24,29,Intermediate,Mixed Conditions,30,Tired,59.44,None,Box|Push|Save|Defend
-SCN-0264,58,3,4.92,14.9,27,Wet,Mixed Conditions,21,Tired,40.51,None,Box|Push|Save|Defend
-SCN-0265,36,14,1.04,8.33,9,Hard,Heavy Rain,36,Focused,18.51,None,Box|Push|Save|Defend
-SCN-0266,57,4,8.94,3.73,28,Soft,Heavy Rain,45,Focused,82.78,None,Box|Push|Save|Defend
-SCN-0267,14,8,10.61,3.02,26,Medium,Mixed Conditions,48,Confident,89.0,None,Box|Push|Save|Defend
-SCN-0268,47,1,4.98,1.53,15,Hard,Sunny,42,Confident,25.17,None,Box|Push|Save|Defend
-SCN-0269,37,18,9.79,9.18,5,Wet,Heavy Rain,43,Focused,28.41,None,Box|Push|Save|Defend
-SCN-0270,41,10,4.81,8.65,8,Intermediate,Light Rain,22,Confident,99.07,None,Box|Push|Save|Defend
-SCN-0271,23,7,4.86,13.45,15,Intermediate,Sunny,30,Focused,54.82,None,Box|Push|Save|Defend
-SCN-0272,52,7,9.67,14.5,23,Soft,Light Rain,35,Confident,40.2,EVT-070,Box|Push|Save|Defend
-SCN-0273,17,5,0.73,4.54,2,Medium,Cloudy,25,Frustrated,17.79,EVT-195,Box|Push|Save|Defend
-SCN-0274,24,4,10.94,7.75,24,Medium,Light Rain,39,Frustrated,44.63,None,Box|Push|Save|Defend
-SCN-0275,13,20,9.5,14.32,24,Intermediate,Heavy Rain,46,Tired,78.85,EVT-168,Box|Push|Save|Defend
-SCN-0276,10,7,6.23,11.41,5,Soft,Sunny,47,Tired,33.27,EVT-081,Box|Push|Save|Defend
-SCN-0277,30,17,12.07,9.35,30,Soft,Mixed Conditions,21,Frustrated,62.13,None,Box|Push|Save|Defend
-SCN-0278,24,10,1.69,5.18,22,Intermediate,Sunny,41,Confident,80.08,None,Box|Push|Save|Defend
-SCN-0279,60,8,1.12,2.21,1,Wet,Mixed Conditions,28,Tired,29.24,EVT-118,Box|Push|Save|Defend
-SCN-0280,36,19,7.58,1.75,13,Intermediate,Light Rain,21,Focused,66.71,None,Box|Push|Save|Defend
-SCN-0281,32,9,9.52,5.04,6,Wet,Light Rain,49,Tired,46.45,None,Box|Push|Save|Defend
-SCN-0282,17,20,11.86,8.62,6,Intermediate,Light Rain,29,Confident,75.48,EVT-054,Box|Push|Save|Defend
-SCN-0283,5,13,8.3,14.61,7,Hard,Light Rain,24,Tired,55.84,EVT-075,Box|Push|Save|Defend
-SCN-0284,29,18,3.97,10.78,22,Wet,Mixed Conditions,23,Tired,17.44,EVT-127,Box|Push|Save|Defend
-SCN-0285,47,17,14.53,5.49,1,Intermediate,Mixed Conditions,31,Tired,88.54,None,Box|Push|Save|Defend
-SCN-0286,21,17,6.81,14.06,7,Medium,Light Rain,42,Frustrated,41.41,EVT-194,Box|Push|Save|Defend
-SCN-0287,51,7,13.73,7.91,23,Wet,Cloudy,36,Focused,57.6,None,Box|Push|Save|Defend
-SCN-0288,10,14,14.7,10.28,20,Medium,Sunny,22,Confident,64.03,None,Box|Push|Save|Defend
-SCN-0289,47,9,4.59,2.83,4,Medium,Heavy Rain,35,Tired,33.96,EVT-247,Box|Push|Save|Defend
-SCN-0290,10,10,12.81,1.99,8,Hard,Heavy Rain,26,Frustrated,91.09,EVT-187,Box|Push|Save|Defend
-SCN-0291,2,10,7.77,9.27,1,Soft,Sunny,36,Focused,45.09,None,Box|Push|Save|Defend
-SCN-0292,7,4,5.75,12.74,13,Soft,Cloudy,49,Tired,65.67,None,Box|Push|Save|Defend
-SCN-0293,5,14,0.92,7.13,15,Wet,Sunny,28,Focused,60.56,None,Box|Push|Save|Defend
-SCN-0294,55,14,13.97,1.59,23,Soft,Light Rain,43,Tired,47.94,EVT-184,Box|Push|Save|Defend
-SCN-0295,26,14,2.82,9.91,21,Hard,Heavy Rain,22,Confident,40.18,EVT-181,Box|Push|Save|Defend
-SCN-0296,16,2,7.66,13.3,20,Intermediate,Cloudy,26,Tired,57.38,None,Box|Push|Save|Defend
-SCN-0297,27,19,2.53,12.18,7,Hard,Mixed Conditions,46,Frustrated,74.79,None,Box|Push|Save|Defend
-SCN-0298,50,3,0.75,5.93,28,Hard,Light Rain,31,Focused,31.85,None,Box|Push|Save|Defend
-SCN-0299,46,19,13.38,12.47,3,Wet,Sunny,42,Tired,64.57,None,Box|Push|Save|Defend
-SCN-0300,60,2,5.83,11.7,13,Hard,Mixed Conditions,27,Confident,61.38,None,Box|Push|Save|Defend
-SCN-0301,10,17,12.86,0.39,14,Soft,Heavy Rain,47,Focused,26.48,None,Box|Push|Save|Defend
-SCN-0302,32,9,2.85,1.75,16,Wet,Cloudy,28,Tired,69.54,EVT-019,Box|Push|Save|Defend
-SCN-0303,13,19,11.92,9.73,6,Hard,Mixed Conditions,45,Confident,12.74,None,Box|Push|Save|Defend
-SCN-0304,34,7,3.8,4.1,5,Soft,Cloudy,34,Frustrated,39.99,None,Box|Push|Save|Defend
-SCN-0305,36,9,0.99,11.02,10,Intermediate,Cloudy,30,Tired,74.45,EVT-207,Box|Push|Save|Defend
-SCN-0306,34,8,13.46,1.71,9,Medium,Heavy Rain,22,Frustrated,84.52,None,Box|Push|Save|Defend
-SCN-0307,1,6,4.43,10.43,2,Intermediate,Sunny,29,Confident,51.73,None,Box|Push|Save|Defend
-SCN-0308,30,7,3.12,9.7,21,Wet,Heavy Rain,28,Tired,88.02,None,Box|Push|Save|Defend
-SCN-0309,19,8,13.5,14.36,29,Wet,Mixed Conditions,43,Focused,54.52,None,Box|Push|Save|Defend
-SCN-0310,8,18,12.89,10.45,24,Wet,Light Rain,31,Tired,52.12,None,Box|Push|Save|Defend
-SCN-0311,27,20,0.16,10.43,17,Intermediate,Light Rain,41,Focused,58.4,None,Box|Push|Save|Defend
-SCN-0312,37,17,7.87,5.67,3,Intermediate,Cloudy,20,Confident,53.25,EVT-085,Box|Push|Save|Defend
-SCN-0313,39,5,8.86,5.06,9,Medium,Heavy Rain,40,Tired,15.0,None,Box|Push|Save|Defend
-SCN-0314,4,10,6.69,9.08,26,Soft,Cloudy,36,Focused,10.6,None,Box|Push|Save|Defend
-SCN-0315,23,4,4.59,10.27,8,Wet,Light Rain,49,Focused,42.8,EVT-236,Box|Push|Save|Defend
-SCN-0316,3,10,5.3,13.52,28,Wet,Light Rain,37,Confident,65.23,None,Box|Push|Save|Defend
-SCN-0317,53,11,8.65,14.96,15,Hard,Heavy Rain,29,Frustrated,79.23,EVT-018,Box|Push|Save|Defend
-SCN-0318,60,3,3.62,14.04,24,Medium,Heavy Rain,41,Confident,89.84,EVT-247,Box|Push|Save|Defend
-SCN-0319,12,15,8.52,10.37,1,Soft,Mixed Conditions,20,Confident,44.79,None,Box|Push|Save|Defend
-SCN-0320,28,17,8.63,4.8,29,Wet,Light Rain,23,Confident,31.39,None,Box|Push|Save|Defend
-SCN-0321,57,4,14.99,2.46,29,Intermediate,Mixed Conditions,45,Frustrated,69.64,None,Box|Push|Save|Defend
-SCN-0322,25,16,14.97,4.04,6,Intermediate,Cloudy,26,Confident,42.88,None,Box|Push|Save|Defend
-SCN-0323,10,14,7.98,11.36,12,Wet,Heavy Rain,31,Confident,60.37,None,Box|Push|Save|Defend
-SCN-0324,54,17,5.14,13.6,24,Hard,Sunny,44,Focused,84.49,EVT-096,Box|Push|Save|Defend
-SCN-0325,36,2,13.05,5.73,23,Soft,Mixed Conditions,50,Tired,11.07,EVT-014,Box|Push|Save|Defend
-SCN-0326,46,4,1.78,7.75,15,Medium,Light Rain,25,Frustrated,34.54,None,Box|Push|Save|Defend
-SCN-0327,23,10,11.67,6.45,28,Intermediate,Heavy Rain,35,Focused,50.63,None,Box|Push|Save|Defend
-SCN-0328,10,14,9.05,9.16,17,Hard,Heavy Rain,27,Confident,11.35,EVT-107,Box|Push|Save|Defend
-SCN-0329,20,7,5.8,13.43,24,Hard,Cloudy,34,Tired,69.37,None,Box|Push|Save|Defend
-SCN-0330,34,19,5.07,12.51,26,Wet,Light Rain,35,Tired,20.94,EVT-077,Box|Push|Save|Defend
-SCN-0331,14,20,0.24,9.63,5,Wet,Light Rain,22,Focused,84.71,None,Box|Push|Save|Defend
-SCN-0332,12,14,1.69,2.55,10,Hard,Mixed Conditions,35,Tired,48.23,None,Box|Push|Save|Defend
-SCN-0333,43,12,4.77,14.31,19,Hard,Light Rain,48,Frustrated,45.68,EVT-149,Box|Push|Save|Defend
-SCN-0334,31,18,1.83,5.71,18,Soft,Heavy Rain,23,Frustrated,78.41,None,Box|Push|Save|Defend
-SCN-0335,56,12,2.62,2.67,30,Intermediate,Mixed Conditions,28,Frustrated,43.4,EVT-225,Box|Push|Save|Defend
-SCN-0336,52,1,8.59,0.16,6,Medium,Sunny,42,Frustrated,54.92,None,Box|Push|Save|Defend
-SCN-0337,10,16,14.08,3.73,3,Soft,Heavy Rain,28,Tired,27.92,None,Box|Push|Save|Defend
-SCN-0338,60,11,3.99,8.87,8,Hard,Heavy Rain,37,Frustrated,73.13,None,Box|Push|Save|Defend
-SCN-0339,41,16,10.03,0.7,1,Soft,Cloudy,45,Frustrated,85.47,None,Box|Push|Save|Defend
-SCN-0340,9,17,5.48,2.74,8,Hard,Cloudy,20,Frustrated,74.22,None,Box|Push|Save|Defend
-SCN-0341,44,19,12.12,6.15,24,Wet,Mixed Conditions,24,Frustrated,10.96,EVT-163,Box|Push|Save|Defend
-SCN-0342,7,5,11.43,4.87,21,Hard,Mixed Conditions,37,Confident,17.37,None,Box|Push|Save|Defend
-SCN-0343,39,13,8.53,14.55,10,Soft,Mixed Conditions,32,Frustrated,76.85,EVT-052,Box|Push|Save|Defend
-SCN-0344,41,12,6.35,5.54,1,Wet,Sunny,39,Confident,55.63,EVT-032,Box|Push|Save|Defend
-SCN-0345,40,18,3.59,7.6,13,Medium,Heavy Rain,50,Confident,68.48,EVT-136,Box|Push|Save|Defend
-SCN-0346,46,13,12.66,13.28,13,Intermediate,Cloudy,22,Focused,51.71,None,Box|Push|Save|Defend
-SCN-0347,9,5,6.49,7.24,24,Wet,Cloudy,32,Tired,55.82,None,Box|Push|Save|Defend
-SCN-0348,20,19,14.0,12.24,20,Intermediate,Light Rain,49,Tired,10.22,None,Box|Push|Save|Defend
-SCN-0349,2,1,14.25,5.89,3,Intermediate,Sunny,41,Frustrated,49.81,None,Box|Push|Save|Defend
-SCN-0350,2,9,8.82,2.43,3,Soft,Mixed Conditions,34,Frustrated,10.87,EVT-023,Box|Push|Save|Defend
-SCN-0351,54,17,9.25,9.95,5,Wet,Light Rain,26,Frustrated,33.48,None,Box|Push|Save|Defend
-SCN-0352,10,5,5.01,1.07,19,Soft,Heavy Rain,27,Confident,33.58,EVT-032,Box|Push|Save|Defend
-SCN-0353,10,18,0.95,11.32,8,Intermediate,Heavy Rain,23,Frustrated,31.05,EVT-063,Box|Push|Save|Defend
-SCN-0354,19,5,5.99,13.58,7,Intermediate,Cloudy,21,Focused,67.92,None,Box|Push|Save|Defend
-SCN-0355,50,17,10.96,2.19,4,Hard,Cloudy,48,Confident,38.86,EVT-036,Box|Push|Save|Defend
-SCN-0356,48,5,10.43,13.02,12,Intermediate,Sunny,27,Frustrated,54.3,None,Box|Push|Save|Defend
-SCN-0357,15,16,11.03,4.4,21,Intermediate,Sunny,33,Focused,63.15,None,Box|Push|Save|Defend
-SCN-0358,26,7,5.95,9.1,26,Intermediate,Sunny,24,Focused,85.49,None,Box|Push|Save|Defend
-SCN-0359,17,15,2.21,14.98,20,Intermediate,Light Rain,39,Focused,88.37,None,Box|Push|Save|Defend
-SCN-0360,9,16,7.72,5.85,6,Wet,Mixed Conditions,48,Focused,58.89,None,Box|Push|Save|Defend
-SCN-0361,29,13,7.3,8.05,5,Medium,Sunny,22,Confident,49.46,None,Box|Push|Save|Defend
-SCN-0362,47,20,0.78,0.46,19,Intermediate,Sunny,32,Tired,19.59,None,Box|Push|Save|Defend
-SCN-0363,53,5,6.2,4.76,17,Soft,Light Rain,20,Tired,24.96,None,Box|Push|Save|Defend
-SCN-0364,32,7,14.91,4.37,29,Medium,Heavy Rain,21,Focused,86.99,None,Box|Push|Save|Defend
-SCN-0365,4,11,13.22,2.0,21,Hard,Mixed Conditions,43,Frustrated,53.61,None,Box|Push|Save|Defend
-SCN-0366,19,11,10.84,13.58,13,Wet,Heavy Rain,46,Frustrated,84.38,None,Box|Push|Save|Defend
-SCN-0367,11,16,12.02,11.15,29,Soft,Heavy Rain,49,Tired,54.57,EVT-089,Box|Push|Save|Defend
-SCN-0368,10,16,0.91,10.78,13,Medium,Heavy Rain,29,Tired,30.46,None,Box|Push|Save|Defend
-SCN-0369,4,3,8.12,3.85,6,Hard,Heavy Rain,39,Frustrated,16.23,None,Box|Push|Save|Defend
-SCN-0370,53,9,12.6,5.5,17,Wet,Mixed Conditions,43,Confident,70.28,None,Box|Push|Save|Defend
-SCN-0371,36,2,1.94,12.92,11,Soft,Mixed Conditions,39,Frustrated,93.06,None,Box|Push|Save|Defend
-SCN-0372,46,2,1.05,4.56,11,Intermediate,Mixed Conditions,27,Confident,32.5,None,Box|Push|Save|Defend
-SCN-0373,57,20,12.1,3.43,14,Hard,Mixed Conditions,27,Frustrated,21.6,None,Box|Push|Save|Defend
-SCN-0374,17,19,8.37,5.49,15,Hard,Sunny,29,Frustrated,33.72,None,Box|Push|Save|Defend
-SCN-0375,16,14,7.87,1.11,3,Intermediate,Heavy Rain,48,Frustrated,77.22,None,Box|Push|Save|Defend
-SCN-0376,53,7,9.37,9.37,25,Wet,Mixed Conditions,31,Confident,67.39,None,Box|Push|Save|Defend
-SCN-0377,6,9,8.92,9.14,6,Hard,Cloudy,32,Focused,61.59,None,Box|Push|Save|Defend
-SCN-0378,60,2,5.39,0.48,25,Intermediate,Cloudy,26,Tired,98.34,None,Box|Push|Save|Defend
-SCN-0379,56,5,4.63,3.73,19,Intermediate,Mixed Conditions,38,Focused,39.63,None,Box|Push|Save|Defend
-SCN-0380,1,18,7.12,12.9,18,Hard,Light Rain,31,Frustrated,71.71,EVT-163,Box|Push|Save|Defend
-SCN-0381,53,7,8.38,3.63,25,Soft,Sunny,50,Confident,41.06,None,Box|Push|Save|Defend
-SCN-0382,51,11,6.25,8.15,4,Hard,Sunny,21,Confident,12.61,None,Box|Push|Save|Defend
-SCN-0383,27,10,1.29,4.01,4,Medium,Sunny,26,Confident,83.81,EVT-045,Box|Push|Save|Defend
-SCN-0384,41,16,9.17,10.28,19,Hard,Mixed Conditions,28,Frustrated,25.77,None,Box|Push|Save|Defend
-SCN-0385,35,10,5.39,0.78,13,Medium,Mixed Conditions,25,Frustrated,86.84,EVT-214,Box|Push|Save|Defend
-SCN-0386,39,6,7.97,2.4,23,Hard,Mixed Conditions,37,Tired,94.73,None,Box|Push|Save|Defend
-SCN-0387,53,14,14.5,13.99,12,Hard,Cloudy,34,Focused,49.78,None,Box|Push|Save|Defend
-SCN-0388,56,2,4.82,12.1,15,Soft,Light Rain,47,Focused,49.83,None,Box|Push|Save|Defend
-SCN-0389,34,9,13.79,10.95,29,Intermediate,Cloudy,48,Frustrated,73.49,None,Box|Push|Save|Defend
-SCN-0390,46,16,10.52,1.87,17,Hard,Mixed Conditions,28,Tired,84.87,None,Box|Push|Save|Defend
-SCN-0391,48,14,5.17,10.65,10,Wet,Mixed Conditions,24,Tired,85.24,None,Box|Push|Save|Defend
-SCN-0392,11,12,6.47,3.62,18,Wet,Cloudy,22,Frustrated,24.39,None,Box|Push|Save|Defend
-SCN-0393,44,5,13.65,11.96,20,Wet,Heavy Rain,39,Confident,73.65,None,Box|Push|Save|Defend
-SCN-0394,9,16,14.27,4.38,3,Hard,Sunny,49,Tired,30.23,None,Box|Push|Save|Defend
-SCN-0395,25,19,1.21,1.05,15,Hard,Mixed Conditions,34,Focused,26.51,EVT-106,Box|Push|Save|Defend
-SCN-0396,53,8,11.82,1.26,25,Medium,Light Rain,26,Confident,33.14,None,Box|Push|Save|Defend
-SCN-0397,57,15,13.07,13.18,12,Hard,Mixed Conditions,36,Tired,62.78,None,Box|Push|Save|Defend
-SCN-0398,28,14,3.4,4.28,25,Wet,Sunny,30,Frustrated,13.26,EVT-076,Box|Push|Save|Defend
-SCN-0399,58,1,5.49,0.5,1,Medium,Heavy Rain,26,Tired,53.83,EVT-010,Box|Push|Save|Defend
-SCN-0400,46,8,10.86,5.7,23,Wet,Sunny,43,Confident,60.7,EVT-014,Box|Push|Save|Defend
-SCN-0401,22,6,4.35,0.66,11,Soft,Sunny,45,Frustrated,17.55,None,Box|Push|Save|Defend
-SCN-0402,41,8,5.07,2.41,6,Wet,Light Rain,20,Confident,67.07,None,Box|Push|Save|Defend
-SCN-0403,57,8,3.31,5.36,9,Hard,Mixed Conditions,40,Focused,12.89,None,Box|Push|Save|Defend
-SCN-0404,51,10,2.43,8.43,21,Wet,Mixed Conditions,35,Tired,22.0,EVT-068,Box|Push|Save|Defend
-SCN-0405,25,7,11.93,8.48,14,Soft,Heavy Rain,50,Tired,18.12,None,Box|Push|Save|Defend
-SCN-0406,22,14,0.24,5.68,22,Medium,Cloudy,39,Tired,87.23,None,Box|Push|Save|Defend
-SCN-0407,16,9,9.16,3.27,2,Wet,Cloudy,47,Tired,20.87,EVT-042,Box|Push|Save|Defend
-SCN-0408,6,2,11.13,12.89,18,Medium,Mixed Conditions,34,Focused,97.04,EVT-140,Box|Push|Save|Defend
-SCN-0409,16,20,12.06,11.12,16,Intermediate,Heavy Rain,38,Frustrated,96.52,EVT-201,Box|Push|Save|Defend
-SCN-0410,35,5,12.25,7.02,8,Soft,Mixed Conditions,31,Focused,22.27,None,Box|Push|Save|Defend
-SCN-0411,23,10,3.07,9.88,29,Intermediate,Sunny,36,Tired,29.82,None,Box|Push|Save|Defend
-SCN-0412,7,15,8.47,5.79,14,Medium,Mixed Conditions,49,Frustrated,26.4,EVT-130,Box|Push|Save|Defend
-SCN-0413,59,17,4.73,10.24,13,Intermediate,Mixed Conditions,49,Tired,68.74,EVT-210,Box|Push|Save|Defend
-SCN-0414,4,13,12.08,13.46,25,Medium,Heavy Rain,49,Confident,11.15,None,Box|Push|Save|Defend
-SCN-0415,44,15,9.97,9.77,20,Soft,Heavy Rain,25,Focused,44.35,EVT-068,Box|Push|Save|Defend
-SCN-0416,26,13,11.18,13.9,8,Medium,Sunny,29,Focused,41.21,None,Box|Push|Save|Defend
-SCN-0417,25,8,12.41,2.05,29,Soft,Cloudy,27,Focused,21.48,None,Box|Push|Save|Defend
-SCN-0418,15,6,11.3,13.23,6,Wet,Light Rain,42,Confident,97.88,None,Box|Push|Save|Defend
-SCN-0419,2,2,13.11,14.54,29,Intermediate,Sunny,31,Frustrated,42.02,None,Box|Push|Save|Defend
-SCN-0420,43,11,4.8,2.62,16,Intermediate,Heavy Rain,20,Frustrated,99.09,None,Box|Push|Save|Defend
-SCN-0421,33,18,4.92,1.71,22,Intermediate,Light Rain,37,Focused,85.97,EVT-121,Box|Push|Save|Defend
-SCN-0422,8,20,1.04,11.85,5,Hard,Mixed Conditions,43,Tired,29.28,EVT-011,Box|Push|Save|Defend
-SCN-0423,53,12,6.17,9.02,5,Soft,Sunny,47,Frustrated,31.21,EVT-055,Box|Push|Save|Defend
-SCN-0424,59,16,13.63,7.87,9,Soft,Sunny,24,Tired,74.7,None,Box|Push|Save|Defend
-SCN-0425,38,9,1.03,4.9,17,Soft,Mixed Conditions,21,Frustrated,93.13,None,Box|Push|Save|Defend
-SCN-0426,8,2,12.12,2.5,8,Intermediate,Cloudy,21,Confident,43.26,None,Box|Push|Save|Defend
-SCN-0427,3,5,12.48,13.05,19,Hard,Heavy Rain,36,Frustrated,24.75,None,Box|Push|Save|Defend
-SCN-0428,53,6,13.05,3.39,22,Soft,Light Rain,22,Focused,73.31,EVT-061,Box|Push|Save|Defend
-SCN-0429,45,2,0.81,12.94,29,Wet,Cloudy,44,Frustrated,34.12,None,Box|Push|Save|Defend
-SCN-0430,24,6,10.11,13.1,1,Hard,Heavy Rain,32,Tired,58.53,None,Box|Push|Save|Defend
-SCN-0431,32,12,9.19,13.31,9,Intermediate,Cloudy,44,Tired,34.42,None,Box|Push|Save|Defend
-SCN-0432,52,18,10.55,14.93,25,Intermediate,Cloudy,49,Tired,19.9,None,Box|Push|Save|Defend
-SCN-0433,7,17,4.2,3.97,26,Hard,Light Rain,40,Frustrated,71.61,None,Box|Push|Save|Defend
-SCN-0434,23,19,3.51,14.2,8,Intermediate,Heavy Rain,46,Confident,66.19,None,Box|Push|Save|Defend
-SCN-0435,19,4,7.07,10.18,4,Intermediate,Mixed Conditions,37,Frustrated,46.69,None,Box|Push|Save|Defend
-SCN-0436,55,13,6.13,10.6,6,Intermediate,Sunny,24,Frustrated,48.08,None,Box|Push|Save|Defend
-SCN-0437,42,4,0.58,5.15,18,Soft,Mixed Conditions,24,Frustrated,33.78,None,Box|Push|Save|Defend
-SCN-0438,54,8,11.63,1.53,23,Wet,Light Rain,26,Confident,90.05,None,Box|Push|Save|Defend
-SCN-0439,37,10,11.1,2.2,1,Wet,Sunny,21,Confident,77.83,None,Box|Push|Save|Defend
-SCN-0440,48,3,8.92,1.2,19,Wet,Heavy Rain,25,Frustrated,70.67,None,Box|Push|Save|Defend
-SCN-0441,46,16,13.46,10.44,12,Hard,Heavy Rain,25,Confident,22.36,None,Box|Push|Save|Defend
-SCN-0442,36,2,4.12,4.76,6,Medium,Sunny,39,Frustrated,56.94,EVT-135,Box|Push|Save|Defend
-SCN-0443,31,1,1.94,10.74,7,Hard,Sunny,33,Frustrated,61.92,None,Box|Push|Save|Defend
-SCN-0444,46,8,3.27,4.47,18,Wet,Cloudy,28,Frustrated,36.33,None,Box|Push|Save|Defend
-SCN-0445,27,6,11.26,13.94,22,Hard,Light Rain,49,Frustrated,27.58,None,Box|Push|Save|Defend
-SCN-0446,8,14,13.36,9.85,21,Soft,Sunny,26,Confident,78.06,None,Box|Push|Save|Defend
-SCN-0447,19,12,4.33,5.27,14,Hard,Sunny,44,Tired,45.96,EVT-250,Box|Push|Save|Defend
-SCN-0448,40,1,1.26,5.57,16,Soft,Sunny,39,Tired,76.47,None,Box|Push|Save|Defend
-SCN-0449,23,1,12.96,11.72,25,Intermediate,Light Rain,48,Frustrated,89.37,None,Box|Push|Save|Defend
-SCN-0450,17,9,7.68,8.72,14,Medium,Light Rain,29,Focused,72.62,EVT-052,Box|Push|Save|Defend
-SCN-0451,55,1,10.22,3.92,18,Soft,Light Rain,23,Focused,27.63,None,Box|Push|Save|Defend
-SCN-0452,59,15,6.97,11.55,5,Intermediate,Sunny,50,Focused,56.17,EVT-028,Box|Push|Save|Defend
-SCN-0453,4,4,10.02,8.39,24,Hard,Light Rain,28,Confident,61.92,None,Box|Push|Save|Defend
-SCN-0454,15,10,3.73,1.03,18,Wet,Light Rain,49,Tired,80.32,None,Box|Push|Save|Defend
-SCN-0455,16,9,9.45,10.42,14,Hard,Sunny,42,Focused,71.45,None,Box|Push|Save|Defend
-SCN-0456,18,8,14.93,3.13,19,Wet,Cloudy,46,Confident,83.37,EVT-119,Box|Push|Save|Defend
-SCN-0457,9,18,9.19,5.34,10,Hard,Sunny,43,Frustrated,36.42,None,Box|Push|Save|Defend
-SCN-0458,35,10,6.07,9.42,15,Hard,Sunny,45,Tired,39.87,None,Box|Push|Save|Defend
-SCN-0459,53,12,5.69,3.18,29,Intermediate,Light Rain,31,Frustrated,90.04,None,Box|Push|Save|Defend
-SCN-0460,46,4,11.17,14.36,18,Medium,Heavy Rain,49,Focused,10.84,None,Box|Push|Save|Defend
-SCN-0461,25,15,7.17,4.19,11,Intermediate,Sunny,41,Focused,88.68,None,Box|Push|Save|Defend
-SCN-0462,55,17,3.26,2.3,13,Hard,Cloudy,40,Focused,78.08,None,Box|Push|Save|Defend
-SCN-0463,42,18,8.75,1.42,28,Medium,Heavy Rain,29,Frustrated,28.93,None,Box|Push|Save|Defend
-SCN-0464,54,14,0.23,10.76,29,Intermediate,Sunny,25,Frustrated,81.52,None,Box|Push|Save|Defend
-SCN-0465,8,6,4.81,3.67,9,Wet,Light Rain,27,Confident,19.79,None,Box|Push|Save|Defend
-SCN-0466,27,6,14.06,11.06,18,Intermediate,Heavy Rain,42,Confident,17.03,None,Box|Push|Save|Defend
-SCN-0467,9,11,4.21,3.7,8,Medium,Sunny,26,Tired,22.95,EVT-018,Box|Push|Save|Defend
-SCN-0468,8,10,6.83,3.75,13,Intermediate,Cloudy,47,Confident,69.07,None,Box|Push|Save|Defend
-SCN-0469,27,15,14.56,11.01,4,Soft,Mixed Conditions,26,Frustrated,73.14,None,Box|Push|Save|Defend
-SCN-0470,31,17,4.29,10.7,27,Soft,Light Rain,50,Focused,26.37,None,Box|Push|Save|Defend
-SCN-0471,33,7,11.68,4.06,10,Soft,Sunny,31,Confident,27.21,None,Box|Push|Save|Defend
-SCN-0472,8,16,5.14,6.0,11,Medium,Light Rain,33,Focused,77.4,None,Box|Push|Save|Defend
-SCN-0473,24,20,0.15,11.24,14,Wet,Sunny,22,Frustrated,28.32,None,Box|Push|Save|Defend
-SCN-0474,11,18,9.22,1.45,3,Medium,Cloudy,47,Frustrated,45.4,EVT-111,Box|Push|Save|Defend
-SCN-0475,34,12,11.78,11.49,19,Medium,Sunny,42,Tired,15.21,None,Box|Push|Save|Defend
-SCN-0476,43,6,7.1,11.81,16,Medium,Cloudy,45,Focused,76.3,None,Box|Push|Save|Defend
-SCN-0477,7,9,12.72,5.01,4,Medium,Light Rain,37,Frustrated,13.04,EVT-213,Box|Push|Save|Defend
-SCN-0478,55,3,6.55,10.66,21,Medium,Cloudy,46,Frustrated,94.01,None,Box|Push|Save|Defend
-SCN-0479,11,5,8.82,12.69,3,Hard,Cloudy,21,Frustrated,29.15,None,Box|Push|Save|Defend
-SCN-0480,31,8,10.44,12.69,25,Intermediate,Light Rain,48,Confident,88.59,EVT-161,Box|Push|Save|Defend
-SCN-0481,7,3,3.88,13.64,3,Soft,Mixed Conditions,49,Confident,55.42,None,Box|Push|Save|Defend
-SCN-0482,35,9,9.4,14.61,25,Hard,Sunny,48,Confident,59.52,None,Box|Push|Save|Defend
-SCN-0483,8,16,2.95,2.08,16,Soft,Sunny,24,Frustrated,80.64,None,Box|Push|Save|Defend
-SCN-0484,41,18,14.23,9.33,15,Soft,Cloudy,48,Focused,83.65,None,Box|Push|Save|Defend
-SCN-0485,47,20,2.69,14.89,10,Hard,Sunny,29,Frustrated,28.39,None,Box|Push|Save|Defend
-SCN-0486,40,8,0.81,13.75,25,Medium,Mixed Conditions,32,Tired,99.28,None,Box|Push|Save|Defend
-SCN-0487,34,9,8.33,9.7,10,Medium,Heavy Rain,37,Confident,93.44,EVT-148,Box|Push|Save|Defend
-SCN-0488,38,20,4.22,7.54,15,Intermediate,Sunny,33,Confident,98.43,None,Box|Push|Save|Defend
-SCN-0489,2,5,13.16,9.26,20,Intermediate,Light Rain,25,Tired,54.73,None,Box|Push|Save|Defend
-SCN-0490,44,13,12.25,8.3,30,Wet,Cloudy,20,Frustrated,82.48,None,Box|Push|Save|Defend
-SCN-0491,8,6,7.73,3.34,25,Intermediate,Heavy Rain,28,Frustrated,34.8,None,Box|Push|Save|Defend
-SCN-0492,52,7,8.57,13.45,16,Medium,Cloudy,35,Tired,74.24,None,Box|Push|Save|Defend
-SCN-0493,12,9,5.27,13.49,9,Wet,Heavy Rain,22,Frustrated,78.3,None,Box|Push|Save|Defend
-SCN-0494,24,1,4.53,13.01,25,Hard,Light Rain,25,Frustrated,84.76,EVT-135,Box|Push|Save|Defend
-SCN-0495,38,14,14.3,10.59,1,Intermediate,Mixed Conditions,36,Tired,17.58,None,Box|Push|Save|Defend
-SCN-0496,8,1,13.54,3.77,29,Wet,Light Rain,37,Confident,55.52,None,Box|Push|Save|Defend
-SCN-0497,45,6,8.12,5.51,1,Soft,Light Rain,38,Frustrated,26.08,None,Box|Push|Save|Defend
-SCN-0498,23,14,10.53,4.0,27,Hard,Heavy Rain,48,Focused,95.34,None,Box|Push|Save|Defend
-SCN-0499,50,12,10.8,0.99,10,Wet,Cloudy,26,Focused,43.32,None,Box|Push|Save|Defend
-SCN-0500,56,9,3.59,5.22,4,Intermediate,Cloudy,25,Confident,27.46,EVT-219,Box|Push|Save|Defend
+SCN-0001,27,9,7.55,6.7,30,Soft,Sunny,40,Focused,51.67,None,Box|Push|Save|Defend
+SCN-0002,39,19,10.34,0.76,28,Hard,Sunny,20,Focused,21.92,None,Box|Push|Save|Defend
+SCN-0003,9,7,12.8,8.28,15,Medium,Mixed Conditions,24,Frustrated,31.45,EVT-155,Box|Push|Save|Defend
+SCN-0004,7,6,14.73,14.25,5,Hard,Light Rain,31,Confident,14.37,None,Box|Push|Save|Defend
+SCN-0005,41,14,5.21,4.09,13,Wet,Sunny,34,Confident,99.15,None,Box|Push|Save|Defend
+SCN-0006,22,11,1.09,8.83,11,Wet,Cloudy,25,Frustrated,74.77,None,Box|Push|Save|Defend
+SCN-0007,58,1,14.11,12.68,27,Medium,Sunny,44,Frustrated,88.21,EVT-052,Box|Push|Save|Defend
+SCN-0008,18,9,10.38,13.57,22,Hard,Heavy Rain,39,Frustrated,23.33,EVT-079,Box|Push|Save|Defend
+SCN-0009,15,14,11.61,4.63,29,Medium,Mixed Conditions,43,Tired,70.4,EVT-218,Box|Push|Save|Defend
+SCN-0010,49,12,4.62,3.7,16,Hard,Sunny,46,Tired,42.19,EVT-022,Box|Push|Save|Defend
+SCN-0011,41,18,8.62,8.06,8,Medium,Heavy Rain,32,Tired,51.53,None,Box|Push|Save|Defend
+SCN-0012,49,19,12.22,6.79,20,Soft,Light Rain,50,Frustrated,43.59,None,Box|Push|Save|Defend
+SCN-0013,27,4,11.77,1.38,9,Hard,Mixed Conditions,35,Focused,49.54,None,Box|Push|Save|Defend
+SCN-0014,34,14,1.34,2.93,21,Wet,Mixed Conditions,23,Focused,78.83,EVT-240,Box|Push|Save|Defend
+SCN-0015,59,6,14.42,14.53,23,Hard,Light Rain,29,Focused,20.78,None,Box|Push|Save|Defend
+SCN-0016,42,16,12.38,2.65,23,Medium,Mixed Conditions,39,Tired,94.73,None,Box|Push|Save|Defend
+SCN-0017,8,20,13.51,11.45,23,Hard,Cloudy,28,Confident,97.63,None,Box|Push|Save|Defend
+SCN-0018,59,6,1.78,5.63,15,Hard,Mixed Conditions,25,Confident,13.71,None,Box|Push|Save|Defend
+SCN-0019,16,9,9.04,8.24,30,Medium,Cloudy,45,Frustrated,52.3,None,Box|Push|Save|Defend
+SCN-0020,48,2,7.41,0.36,28,Hard,Light Rain,45,Focused,97.35,None,Box|Push|Save|Defend
+SCN-0021,47,2,0.23,9.96,16,Medium,Sunny,32,Tired,62.0,None,Box|Push|Save|Defend
+SCN-0022,26,14,13.78,2.77,23,Soft,Heavy Rain,29,Confident,86.74,None,Box|Push|Save|Defend
+SCN-0023,26,11,6.39,13.31,11,Medium,Cloudy,39,Frustrated,80.63,EVT-010,Box|Push|Save|Defend
+SCN-0024,9,1,14.7,7.98,21,Soft,Mixed Conditions,32,Frustrated,50.92,EVT-201,Box|Push|Save|Defend
+SCN-0025,27,14,14.06,10.51,25,Intermediate,Heavy Rain,22,Confident,38.38,None,Box|Push|Save|Defend
+SCN-0026,23,6,13.13,8.42,30,Soft,Light Rain,49,Focused,70.59,None,Box|Push|Save|Defend
+SCN-0027,59,13,8.3,2.91,27,Hard,Mixed Conditions,34,Frustrated,34.14,None,Box|Push|Save|Defend
+SCN-0028,36,9,2.26,14.4,8,Soft,Cloudy,42,Focused,76.05,None,Box|Push|Save|Defend
+SCN-0029,14,16,10.69,5.61,8,Wet,Cloudy,34,Frustrated,70.47,None,Box|Push|Save|Defend
+SCN-0030,48,16,1.34,5.93,28,Hard,Heavy Rain,38,Confident,59.15,EVT-022,Box|Push|Save|Defend
+SCN-0031,34,16,3.27,13.43,30,Hard,Cloudy,47,Tired,28.99,None,Box|Push|Save|Defend
+SCN-0032,20,19,10.04,9.19,23,Soft,Light Rain,39,Focused,74.14,EVT-157,Box|Push|Save|Defend
+SCN-0033,4,13,13.73,2.78,18,Wet,Cloudy,40,Tired,38.03,EVT-185,Box|Push|Save|Defend
+SCN-0034,10,17,6.11,0.59,3,Hard,Sunny,33,Confident,51.64,None,Box|Push|Save|Defend
+SCN-0035,41,11,9.81,9.34,14,Intermediate,Sunny,21,Tired,74.92,None,Box|Push|Save|Defend
+SCN-0036,53,12,3.14,2.66,26,Soft,Heavy Rain,24,Focused,43.48,EVT-005,Box|Push|Save|Defend
+SCN-0037,2,19,7.64,3.56,24,Wet,Mixed Conditions,25,Confident,46.12,None,Box|Push|Save|Defend
+SCN-0038,53,16,14.32,3.76,30,Hard,Cloudy,49,Tired,23.55,None,Box|Push|Save|Defend
+SCN-0039,37,1,11.24,8.84,13,Medium,Mixed Conditions,28,Confident,94.05,EVT-168,Box|Push|Save|Defend
+SCN-0040,14,9,5.24,0.58,19,Hard,Light Rain,20,Confident,85.32,None,Box|Push|Save|Defend
+SCN-0041,60,10,14.63,6.72,2,Soft,Light Rain,46,Frustrated,71.15,None,Box|Push|Save|Defend
+SCN-0042,27,8,13.39,4.9,9,Soft,Heavy Rain,38,Focused,92.92,EVT-089,Box|Push|Save|Defend
+SCN-0043,12,17,4.94,9.09,15,Soft,Mixed Conditions,23,Confident,89.16,None,Box|Push|Save|Defend
+SCN-0044,43,15,5.67,7.65,15,Wet,Sunny,35,Tired,29.88,None,Box|Push|Save|Defend
+SCN-0045,45,13,7.29,1.49,2,Hard,Light Rain,50,Frustrated,58.97,EVT-145,Box|Push|Save|Defend
+SCN-0046,20,19,0.45,14.78,17,Soft,Sunny,24,Frustrated,33.24,EVT-217,Box|Push|Save|Defend
+SCN-0047,21,2,3.23,3.28,9,Soft,Heavy Rain,40,Frustrated,55.05,None,Box|Push|Save|Defend
+SCN-0048,36,5,6.01,1.43,30,Soft,Heavy Rain,47,Focused,39.06,EVT-171,Box|Push|Save|Defend
+SCN-0049,39,2,8.3,7.96,2,Intermediate,Cloudy,25,Frustrated,43.83,EVT-217,Box|Push|Save|Defend
+SCN-0050,17,3,12.06,8.24,24,Wet,Sunny,35,Frustrated,29.43,None,Box|Push|Save|Defend
+SCN-0051,49,2,3.98,6.65,7,Medium,Heavy Rain,27,Focused,91.01,EVT-067,Box|Push|Save|Defend
+SCN-0052,45,16,8.3,0.56,13,Hard,Light Rain,31,Frustrated,57.72,None,Box|Push|Save|Defend
+SCN-0053,18,15,11.0,14.22,12,Hard,Cloudy,38,Tired,18.79,EVT-015,Box|Push|Save|Defend
+SCN-0054,28,17,14.67,9.21,19,Wet,Heavy Rain,50,Frustrated,90.66,None,Box|Push|Save|Defend
+SCN-0055,22,20,1.26,0.15,19,Hard,Mixed Conditions,36,Frustrated,49.69,EVT-167,Box|Push|Save|Defend
+SCN-0056,14,5,8.18,2.84,22,Hard,Cloudy,22,Focused,66.93,None,Box|Push|Save|Defend
+SCN-0057,52,18,0.27,11.7,10,Hard,Sunny,28,Focused,94.64,EVT-053,Box|Push|Save|Defend
+SCN-0058,3,13,4.22,1.88,12,Soft,Sunny,26,Frustrated,51.85,EVT-027,Box|Push|Save|Defend
+SCN-0059,9,2,3.68,3.68,4,Hard,Sunny,32,Confident,22.43,EVT-136,Box|Push|Save|Defend
+SCN-0060,54,7,4.93,12.18,19,Soft,Heavy Rain,25,Confident,59.63,None,Box|Push|Save|Defend
+SCN-0061,1,17,11.06,12.27,7,Soft,Mixed Conditions,27,Tired,95.43,None,Box|Push|Save|Defend
+SCN-0062,46,18,11.87,5.84,26,Medium,Sunny,34,Confident,70.11,None,Box|Push|Save|Defend
+SCN-0063,17,1,7.54,2.55,18,Intermediate,Light Rain,31,Tired,63.07,None,Box|Push|Save|Defend
+SCN-0064,50,4,2.34,5.15,5,Intermediate,Mixed Conditions,27,Confident,83.43,None,Box|Push|Save|Defend
+SCN-0065,48,8,4.51,11.17,30,Soft,Cloudy,24,Confident,85.72,None,Box|Push|Save|Defend
+SCN-0066,29,10,12.24,11.64,4,Intermediate,Heavy Rain,43,Confident,65.21,None,Box|Push|Save|Defend
+SCN-0067,16,12,8.32,5.45,9,Hard,Heavy Rain,26,Frustrated,95.12,None,Box|Push|Save|Defend
+SCN-0068,29,12,10.94,0.83,27,Hard,Cloudy,33,Tired,29.84,None,Box|Push|Save|Defend
+SCN-0069,59,6,11.84,11.06,24,Wet,Light Rain,36,Focused,60.9,None,Box|Push|Save|Defend
+SCN-0070,19,2,5.52,0.16,2,Intermediate,Cloudy,28,Tired,64.99,None,Box|Push|Save|Defend
+SCN-0071,37,1,8.09,9.83,10,Intermediate,Sunny,42,Confident,46.24,EVT-101,Box|Push|Save|Defend
+SCN-0072,46,1,9.32,6.53,25,Intermediate,Light Rain,27,Tired,40.72,None,Box|Push|Save|Defend
+SCN-0073,17,18,13.44,4.88,11,Hard,Sunny,27,Confident,99.32,EVT-195,Box|Push|Save|Defend
+SCN-0074,16,12,14.83,3.17,15,Wet,Light Rain,42,Frustrated,23.07,None,Box|Push|Save|Defend
+SCN-0075,38,16,9.89,12.7,15,Medium,Heavy Rain,44,Frustrated,68.53,None,Box|Push|Save|Defend
+SCN-0076,21,9,5.24,1.86,15,Hard,Heavy Rain,34,Confident,34.53,None,Box|Push|Save|Defend
+SCN-0077,57,10,5.46,8.12,25,Intermediate,Mixed Conditions,36,Confident,67.06,EVT-229,Box|Push|Save|Defend
+SCN-0078,14,11,8.3,11.34,10,Medium,Sunny,20,Focused,50.0,EVT-022,Box|Push|Save|Defend
+SCN-0079,6,4,1.44,11.78,15,Medium,Cloudy,41,Frustrated,14.29,None,Box|Push|Save|Defend
+SCN-0080,26,9,12.35,13.02,29,Soft,Heavy Rain,40,Frustrated,31.83,EVT-148,Box|Push|Save|Defend
+SCN-0081,9,9,5.66,8.85,5,Wet,Heavy Rain,35,Tired,75.38,EVT-001,Box|Push|Save|Defend
+SCN-0082,55,4,3.94,5.45,23,Medium,Mixed Conditions,42,Frustrated,67.45,None,Box|Push|Save|Defend
+SCN-0083,30,16,12.12,13.23,28,Wet,Cloudy,48,Tired,60.13,None,Box|Push|Save|Defend
+SCN-0084,24,1,10.8,2.1,13,Medium,Light Rain,32,Focused,64.49,None,Box|Push|Save|Defend
+SCN-0085,45,13,6.18,1.43,28,Medium,Light Rain,37,Frustrated,80.72,None,Box|Push|Save|Defend
+SCN-0086,12,5,11.76,3.23,30,Soft,Light Rain,45,Confident,71.83,None,Box|Push|Save|Defend
+SCN-0087,52,18,12.29,14.85,17,Hard,Light Rain,32,Confident,70.63,EVT-174,Box|Push|Save|Defend
+SCN-0088,57,9,9.36,13.94,7,Wet,Sunny,39,Frustrated,16.03,None,Box|Push|Save|Defend
+SCN-0089,2,10,9.38,6.95,10,Wet,Light Rain,39,Tired,60.73,EVT-179,Box|Push|Save|Defend
+SCN-0090,7,5,7.44,0.53,13,Hard,Heavy Rain,31,Frustrated,96.7,None,Box|Push|Save|Defend
+SCN-0091,48,12,14.77,1.88,28,Medium,Mixed Conditions,48,Frustrated,26.18,EVT-154,Box|Push|Save|Defend
+SCN-0092,31,2,13.0,14.2,18,Intermediate,Mixed Conditions,47,Tired,98.14,EVT-098,Box|Push|Save|Defend
+SCN-0093,37,3,14.28,13.61,23,Soft,Light Rain,30,Frustrated,59.63,None,Box|Push|Save|Defend
+SCN-0094,31,6,11.53,10.14,2,Intermediate,Sunny,26,Tired,62.96,EVT-195,Box|Push|Save|Defend
+SCN-0095,36,3,12.86,9.9,13,Wet,Mixed Conditions,31,Tired,60.59,None,Box|Push|Save|Defend
+SCN-0096,37,5,14.05,4.3,8,Intermediate,Mixed Conditions,32,Tired,61.12,None,Box|Push|Save|Defend
+SCN-0097,16,10,4.22,12.42,6,Intermediate,Sunny,27,Confident,86.19,None,Box|Push|Save|Defend
+SCN-0098,57,12,4.4,5.29,9,Wet,Mixed Conditions,31,Confident,44.75,None,Box|Push|Save|Defend
+SCN-0099,33,17,1.19,11.41,24,Intermediate,Light Rain,32,Frustrated,30.87,EVT-066,Box|Push|Save|Defend
+SCN-0100,27,16,11.75,1.26,14,Medium,Heavy Rain,44,Confident,97.89,None,Box|Push|Save|Defend
+SCN-0101,56,4,10.91,2.97,19,Intermediate,Sunny,28,Tired,18.81,None,Box|Push|Save|Defend
+SCN-0102,22,2,3.08,11.73,10,Wet,Sunny,29,Frustrated,98.3,None,Box|Push|Save|Defend
+SCN-0103,7,4,4.16,1.56,9,Wet,Heavy Rain,29,Confident,61.8,None,Box|Push|Save|Defend
+SCN-0104,1,16,11.94,14.84,13,Wet,Mixed Conditions,38,Tired,32.05,None,Box|Push|Save|Defend
+SCN-0105,25,20,6.71,13.26,3,Intermediate,Light Rain,20,Focused,70.99,None,Box|Push|Save|Defend
+SCN-0106,34,6,2.68,2.34,28,Soft,Sunny,29,Frustrated,92.66,None,Box|Push|Save|Defend
+SCN-0107,51,8,5.41,11.89,28,Hard,Mixed Conditions,33,Confident,62.07,EVT-030,Box|Push|Save|Defend
+SCN-0108,43,11,1.49,8.55,27,Soft,Mixed Conditions,39,Focused,39.25,None,Box|Push|Save|Defend
+SCN-0109,32,7,1.43,11.06,14,Medium,Sunny,33,Focused,93.39,None,Box|Push|Save|Defend
+SCN-0110,17,5,9.91,14.33,1,Soft,Light Rain,22,Tired,15.01,None,Box|Push|Save|Defend
+SCN-0111,56,20,6.9,8.81,26,Wet,Heavy Rain,40,Frustrated,79.18,None,Box|Push|Save|Defend
+SCN-0112,49,17,13.43,12.96,25,Hard,Light Rain,45,Frustrated,28.87,None,Box|Push|Save|Defend
+SCN-0113,5,20,13.42,14.89,21,Hard,Heavy Rain,26,Frustrated,13.07,None,Box|Push|Save|Defend
+SCN-0114,19,7,8.4,5.72,29,Hard,Light Rain,30,Focused,48.05,None,Box|Push|Save|Defend
+SCN-0115,10,16,10.38,12.46,30,Medium,Light Rain,48,Confident,51.97,EVT-035,Box|Push|Save|Defend
+SCN-0116,9,15,5.06,10.15,22,Hard,Mixed Conditions,26,Focused,74.88,None,Box|Push|Save|Defend
+SCN-0117,42,4,8.5,1.14,7,Soft,Cloudy,45,Focused,22.37,None,Box|Push|Save|Defend
+SCN-0118,30,9,14.93,11.03,18,Soft,Heavy Rain,31,Confident,85.75,EVT-086,Box|Push|Save|Defend
+SCN-0119,27,10,4.05,9.57,6,Intermediate,Sunny,35,Tired,36.2,None,Box|Push|Save|Defend
+SCN-0120,60,16,6.93,7.58,27,Soft,Sunny,37,Focused,49.0,None,Box|Push|Save|Defend
+SCN-0121,32,19,14.01,7.92,8,Soft,Heavy Rain,36,Frustrated,58.64,None,Box|Push|Save|Defend
+SCN-0122,8,11,2.38,13.71,14,Soft,Sunny,24,Tired,89.39,None,Box|Push|Save|Defend
+SCN-0123,56,8,11.77,11.59,4,Soft,Light Rain,47,Tired,32.98,None,Box|Push|Save|Defend
+SCN-0124,26,7,4.1,1.35,16,Soft,Mixed Conditions,40,Tired,61.25,None,Box|Push|Save|Defend
+SCN-0125,41,14,8.94,12.33,5,Wet,Light Rain,31,Frustrated,61.06,EVT-214,Box|Push|Save|Defend
+SCN-0126,50,6,6.03,14.84,22,Hard,Cloudy,45,Frustrated,14.63,None,Box|Push|Save|Defend
+SCN-0127,4,10,14.24,1.99,23,Medium,Mixed Conditions,24,Tired,50.13,None,Box|Push|Save|Defend
+SCN-0128,3,8,11.02,3.97,10,Soft,Heavy Rain,20,Frustrated,97.58,EVT-049,Box|Push|Save|Defend
+SCN-0129,32,2,2.18,4.99,29,Hard,Heavy Rain,49,Confident,85.06,EVT-023,Box|Push|Save|Defend
+SCN-0130,60,2,14.36,0.74,3,Wet,Light Rain,28,Focused,66.96,EVT-056,Box|Push|Save|Defend
+SCN-0131,27,4,14.01,4.11,9,Wet,Heavy Rain,35,Focused,73.7,EVT-110,Box|Push|Save|Defend
+SCN-0132,54,4,4.98,7.51,3,Intermediate,Sunny,33,Tired,80.32,None,Box|Push|Save|Defend
+SCN-0133,27,5,14.78,5.28,25,Wet,Cloudy,37,Confident,53.71,None,Box|Push|Save|Defend
+SCN-0134,24,13,13.83,14.08,9,Wet,Cloudy,40,Frustrated,98.8,None,Box|Push|Save|Defend
+SCN-0135,50,10,3.72,10.87,20,Intermediate,Cloudy,49,Focused,98.54,None,Box|Push|Save|Defend
+SCN-0136,32,18,3.62,10.13,10,Intermediate,Cloudy,27,Frustrated,30.61,None,Box|Push|Save|Defend
+SCN-0137,13,3,7.05,9.71,17,Hard,Sunny,39,Focused,60.64,None,Box|Push|Save|Defend
+SCN-0138,14,1,5.13,2.04,30,Intermediate,Cloudy,50,Frustrated,17.72,None,Box|Push|Save|Defend
+SCN-0139,30,17,12.31,0.3,1,Soft,Sunny,25,Focused,79.46,None,Box|Push|Save|Defend
+SCN-0140,41,1,0.26,0.62,27,Hard,Light Rain,28,Focused,58.19,EVT-027,Box|Push|Save|Defend
+SCN-0141,47,20,4.62,11.24,21,Wet,Cloudy,38,Frustrated,96.03,EVT-168,Box|Push|Save|Defend
+SCN-0142,46,20,5.18,9.42,28,Wet,Light Rain,35,Confident,13.42,None,Box|Push|Save|Defend
+SCN-0143,48,11,10.91,9.12,14,Intermediate,Heavy Rain,46,Confident,49.59,None,Box|Push|Save|Defend
+SCN-0144,25,11,13.35,2.26,3,Hard,Light Rain,35,Focused,88.84,None,Box|Push|Save|Defend
+SCN-0145,35,2,14.38,13.33,1,Hard,Sunny,30,Focused,25.47,None,Box|Push|Save|Defend
+SCN-0146,14,11,2.75,8.58,8,Medium,Cloudy,37,Confident,79.13,EVT-214,Box|Push|Save|Defend
+SCN-0147,37,16,9.1,5.14,20,Wet,Sunny,40,Confident,55.47,EVT-084,Box|Push|Save|Defend
+SCN-0148,1,4,12.42,12.55,1,Medium,Sunny,33,Focused,73.68,None,Box|Push|Save|Defend
+SCN-0149,14,4,3.18,10.28,1,Intermediate,Heavy Rain,29,Focused,43.75,None,Box|Push|Save|Defend
+SCN-0150,54,3,9.33,6.84,3,Intermediate,Mixed Conditions,32,Confident,13.44,EVT-187,Box|Push|Save|Defend
+SCN-0151,41,16,1.3,7.16,11,Intermediate,Sunny,49,Tired,97.8,None,Box|Push|Save|Defend
+SCN-0152,21,15,13.76,13.05,26,Wet,Cloudy,44,Focused,22.64,EVT-198,Box|Push|Save|Defend
+SCN-0153,18,20,14.05,7.58,24,Wet,Sunny,50,Focused,44.9,EVT-179,Box|Push|Save|Defend
+SCN-0154,2,20,5.12,9.99,20,Soft,Mixed Conditions,38,Frustrated,16.98,None,Box|Push|Save|Defend
+SCN-0155,3,10,11.07,7.25,18,Soft,Cloudy,48,Focused,48.18,None,Box|Push|Save|Defend
+SCN-0156,60,19,9.36,0.2,19,Intermediate,Sunny,31,Frustrated,52.05,None,Box|Push|Save|Defend
+SCN-0157,4,15,0.16,7.1,25,Medium,Light Rain,28,Tired,36.15,None,Box|Push|Save|Defend
+SCN-0158,59,20,13.83,9.84,9,Soft,Heavy Rain,35,Frustrated,90.45,None,Box|Push|Save|Defend
+SCN-0159,6,4,9.31,6.39,16,Soft,Light Rain,34,Focused,42.42,EVT-119,Box|Push|Save|Defend
+SCN-0160,23,7,12.88,2.1,12,Wet,Light Rain,20,Focused,95.74,None,Box|Push|Save|Defend
+SCN-0161,50,6,14.09,3.62,11,Intermediate,Cloudy,35,Confident,72.42,EVT-124,Box|Push|Save|Defend
+SCN-0162,1,12,7.42,3.68,23,Soft,Light Rain,45,Frustrated,86.08,EVT-207,Box|Push|Save|Defend
+SCN-0163,19,3,7.75,10.36,21,Wet,Light Rain,26,Focused,48.14,None,Box|Push|Save|Defend
+SCN-0164,45,1,5.47,14.27,3,Medium,Light Rain,23,Focused,95.51,EVT-008,Box|Push|Save|Defend
+SCN-0165,25,3,3.65,4.28,2,Intermediate,Heavy Rain,21,Focused,16.96,None,Box|Push|Save|Defend
+SCN-0166,44,14,1.34,2.24,28,Soft,Cloudy,39,Frustrated,13.49,None,Box|Push|Save|Defend
+SCN-0167,27,5,6.24,5.85,3,Medium,Light Rain,36,Focused,24.96,EVT-007,Box|Push|Save|Defend
+SCN-0168,60,1,8.57,4.28,20,Hard,Heavy Rain,31,Focused,91.83,None,Box|Push|Save|Defend
+SCN-0169,3,3,7.88,4.58,25,Intermediate,Heavy Rain,37,Tired,16.49,EVT-211,Box|Push|Save|Defend
+SCN-0170,47,6,11.88,5.15,28,Intermediate,Heavy Rain,48,Frustrated,73.05,None,Box|Push|Save|Defend
+SCN-0171,25,11,9.71,10.63,18,Hard,Heavy Rain,36,Focused,39.42,None,Box|Push|Save|Defend
+SCN-0172,44,11,7.68,13.72,23,Intermediate,Sunny,43,Focused,84.23,EVT-022,Box|Push|Save|Defend
+SCN-0173,47,18,9.17,0.77,7,Wet,Heavy Rain,21,Tired,65.44,None,Box|Push|Save|Defend
+SCN-0174,56,16,2.87,4.43,14,Medium,Light Rain,44,Focused,88.69,None,Box|Push|Save|Defend
+SCN-0175,34,6,11.97,10.84,5,Wet,Light Rain,41,Frustrated,67.73,None,Box|Push|Save|Defend
+SCN-0176,8,16,0.15,7.83,13,Intermediate,Sunny,27,Focused,95.79,None,Box|Push|Save|Defend
+SCN-0177,46,4,5.35,0.44,15,Hard,Light Rain,33,Frustrated,45.87,EVT-135,Box|Push|Save|Defend
+SCN-0178,54,4,1.48,9.81,27,Hard,Light Rain,29,Tired,10.36,None,Box|Push|Save|Defend
+SCN-0179,60,10,14.66,7.63,12,Wet,Light Rain,49,Confident,72.73,None,Box|Push|Save|Defend
+SCN-0180,3,2,12.56,2.64,16,Medium,Cloudy,27,Tired,63.18,EVT-178,Box|Push|Save|Defend
+SCN-0181,15,9,9.33,14.41,12,Medium,Heavy Rain,26,Focused,21.32,EVT-009,Box|Push|Save|Defend
+SCN-0182,42,1,5.46,10.01,30,Intermediate,Heavy Rain,38,Tired,75.86,EVT-004,Box|Push|Save|Defend
+SCN-0183,9,6,13.63,7.53,13,Soft,Mixed Conditions,48,Frustrated,23.2,EVT-114,Box|Push|Save|Defend
+SCN-0184,13,9,13.75,10.98,28,Medium,Cloudy,30,Confident,48.27,None,Box|Push|Save|Defend
+SCN-0185,45,11,2.35,8.07,3,Medium,Light Rain,32,Confident,60.19,None,Box|Push|Save|Defend
+SCN-0186,7,13,13.46,1.29,25,Wet,Mixed Conditions,23,Confident,58.69,None,Box|Push|Save|Defend
+SCN-0187,2,15,14.69,5.49,13,Wet,Mixed Conditions,45,Frustrated,17.53,None,Box|Push|Save|Defend
+SCN-0188,26,9,2.03,11.43,25,Hard,Sunny,28,Confident,50.67,None,Box|Push|Save|Defend
+SCN-0189,33,19,9.97,8.02,29,Wet,Sunny,33,Tired,92.44,EVT-177,Box|Push|Save|Defend
+SCN-0190,26,15,14.77,7.17,24,Intermediate,Heavy Rain,23,Confident,83.43,None,Box|Push|Save|Defend
+SCN-0191,35,20,5.98,14.77,10,Medium,Mixed Conditions,31,Confident,22.95,None,Box|Push|Save|Defend
+SCN-0192,10,10,13.14,12.29,21,Wet,Sunny,29,Tired,18.5,None,Box|Push|Save|Defend
+SCN-0193,39,12,8.64,8.0,27,Medium,Mixed Conditions,21,Focused,97.86,None,Box|Push|Save|Defend
+SCN-0194,22,9,2.11,5.59,9,Hard,Cloudy,29,Focused,69.3,EVT-046,Box|Push|Save|Defend
+SCN-0195,58,7,12.12,2.68,5,Soft,Sunny,20,Frustrated,91.08,EVT-036,Box|Push|Save|Defend
+SCN-0196,44,11,11.63,8.07,30,Intermediate,Sunny,26,Confident,87.61,None,Box|Push|Save|Defend
+SCN-0197,54,9,3.48,13.52,16,Hard,Cloudy,31,Confident,69.05,None,Box|Push|Save|Defend
+SCN-0198,31,15,5.14,6.21,24,Soft,Cloudy,37,Frustrated,88.43,None,Box|Push|Save|Defend
+SCN-0199,27,14,4.28,5.11,1,Hard,Cloudy,50,Tired,67.43,None,Box|Push|Save|Defend
+SCN-0200,12,13,12.74,4.09,28,Hard,Heavy Rain,33,Frustrated,66.1,EVT-190,Box|Push|Save|Defend
+SCN-0201,56,7,13.87,1.01,20,Medium,Cloudy,43,Focused,89.27,None,Box|Push|Save|Defend
+SCN-0202,28,18,11.85,10.03,1,Hard,Light Rain,48,Confident,85.45,None,Box|Push|Save|Defend
+SCN-0203,40,5,6.1,6.76,13,Soft,Cloudy,49,Frustrated,94.49,None,Box|Push|Save|Defend
+SCN-0204,35,3,4.56,14.55,19,Hard,Mixed Conditions,33,Frustrated,98.18,None,Box|Push|Save|Defend
+SCN-0205,56,4,10.16,0.83,9,Hard,Cloudy,31,Confident,23.66,EVT-229,Box|Push|Save|Defend
+SCN-0206,17,4,6.83,14.92,26,Hard,Light Rain,46,Focused,89.26,None,Box|Push|Save|Defend
+SCN-0207,45,6,7.81,4.51,16,Hard,Mixed Conditions,46,Focused,95.32,None,Box|Push|Save|Defend
+SCN-0208,56,7,6.86,0.71,10,Wet,Cloudy,35,Focused,25.68,None,Box|Push|Save|Defend
+SCN-0209,18,4,9.15,12.79,6,Hard,Mixed Conditions,45,Confident,22.64,None,Box|Push|Save|Defend
+SCN-0210,9,4,3.83,12.98,18,Medium,Cloudy,39,Confident,46.5,None,Box|Push|Save|Defend
+SCN-0211,35,18,12.87,7.66,13,Intermediate,Mixed Conditions,22,Tired,65.14,None,Box|Push|Save|Defend
+SCN-0212,4,1,1.59,8.6,18,Intermediate,Light Rain,43,Focused,85.91,EVT-098,Box|Push|Save|Defend
+SCN-0213,2,4,5.61,1.72,21,Intermediate,Sunny,34,Tired,14.8,None,Box|Push|Save|Defend
+SCN-0214,51,14,2.17,2.46,15,Wet,Cloudy,44,Focused,67.29,EVT-022,Box|Push|Save|Defend
+SCN-0215,37,19,0.86,4.52,11,Soft,Cloudy,36,Focused,19.24,None,Box|Push|Save|Defend
+SCN-0216,12,8,3.79,9.7,20,Wet,Sunny,20,Frustrated,37.21,EVT-204,Box|Push|Save|Defend
+SCN-0217,4,3,9.78,4.25,3,Wet,Cloudy,27,Tired,53.03,EVT-008,Box|Push|Save|Defend
+SCN-0218,24,10,10.62,0.55,1,Hard,Sunny,31,Confident,27.21,None,Box|Push|Save|Defend
+SCN-0219,28,2,13.14,14.09,12,Wet,Mixed Conditions,44,Confident,30.27,None,Box|Push|Save|Defend
+SCN-0220,8,15,4.27,11.7,1,Intermediate,Light Rain,26,Tired,22.73,EVT-188,Box|Push|Save|Defend
+SCN-0221,45,16,12.49,8.24,16,Hard,Light Rain,38,Focused,18.13,EVT-212,Box|Push|Save|Defend
+SCN-0222,22,12,6.91,8.98,8,Soft,Light Rain,44,Frustrated,73.92,EVT-195,Box|Push|Save|Defend
+SCN-0223,7,11,10.39,4.92,18,Medium,Light Rain,31,Focused,47.38,None,Box|Push|Save|Defend
+SCN-0224,23,3,3.2,10.36,7,Soft,Heavy Rain,50,Tired,89.22,None,Box|Push|Save|Defend
+SCN-0225,22,18,14.12,1.78,1,Wet,Light Rain,47,Tired,36.73,None,Box|Push|Save|Defend
+SCN-0226,56,3,11.57,10.4,11,Wet,Heavy Rain,39,Frustrated,52.81,None,Box|Push|Save|Defend
+SCN-0227,24,1,10.72,8.12,2,Wet,Light Rain,23,Tired,42.07,EVT-157,Box|Push|Save|Defend
+SCN-0228,25,4,1.06,8.08,12,Hard,Cloudy,37,Confident,27.26,EVT-214,Box|Push|Save|Defend
+SCN-0229,5,1,7.23,7.94,4,Soft,Light Rain,39,Frustrated,56.87,None,Box|Push|Save|Defend
+SCN-0230,50,3,5.07,1.92,19,Soft,Sunny,28,Frustrated,65.52,None,Box|Push|Save|Defend
+SCN-0231,7,11,10.07,12.18,17,Medium,Sunny,34,Focused,10.23,EVT-113,Box|Push|Save|Defend
+SCN-0232,52,9,11.75,13.37,7,Soft,Cloudy,48,Focused,30.13,None,Box|Push|Save|Defend
+SCN-0233,9,3,0.77,1.41,7,Medium,Cloudy,38,Focused,68.44,None,Box|Push|Save|Defend
+SCN-0234,54,15,13.8,1.31,4,Hard,Mixed Conditions,40,Focused,66.93,EVT-036,Box|Push|Save|Defend
+SCN-0235,1,15,2.35,5.75,19,Hard,Cloudy,31,Frustrated,23.42,EVT-204,Box|Push|Save|Defend
+SCN-0236,55,1,10.05,10.75,30,Wet,Mixed Conditions,38,Frustrated,64.82,None,Box|Push|Save|Defend
+SCN-0237,8,11,1.44,1.25,20,Medium,Light Rain,20,Focused,31.44,None,Box|Push|Save|Defend
+SCN-0238,50,7,13.87,13.68,15,Soft,Light Rain,23,Tired,10.02,None,Box|Push|Save|Defend
+SCN-0239,14,20,6.07,9.1,26,Soft,Light Rain,47,Tired,54.09,EVT-133,Box|Push|Save|Defend
+SCN-0240,46,20,12.87,12.12,10,Intermediate,Heavy Rain,38,Focused,13.58,None,Box|Push|Save|Defend
+SCN-0241,16,9,0.12,6.89,18,Hard,Sunny,40,Frustrated,76.84,None,Box|Push|Save|Defend
+SCN-0242,35,4,10.86,14.16,22,Soft,Light Rain,22,Tired,53.82,None,Box|Push|Save|Defend
+SCN-0243,39,10,13.5,6.47,11,Wet,Light Rain,42,Focused,32.25,None,Box|Push|Save|Defend
+SCN-0244,24,3,12.66,13.09,8,Hard,Heavy Rain,26,Confident,13.81,EVT-034,Box|Push|Save|Defend
+SCN-0245,5,11,13.73,8.11,19,Soft,Sunny,32,Focused,60.86,None,Box|Push|Save|Defend
+SCN-0246,24,9,0.42,12.51,10,Soft,Mixed Conditions,31,Focused,99.03,None,Box|Push|Save|Defend
+SCN-0247,37,7,2.62,5.25,22,Soft,Sunny,43,Tired,38.33,EVT-046,Box|Push|Save|Defend
+SCN-0248,54,16,6.51,10.92,8,Hard,Light Rain,34,Frustrated,12.43,EVT-011,Box|Push|Save|Defend
+SCN-0249,2,8,9.8,1.4,16,Hard,Cloudy,44,Confident,13.95,EVT-239,Box|Push|Save|Defend
+SCN-0250,53,6,6.44,2.22,7,Hard,Sunny,30,Confident,25.34,EVT-096,Box|Push|Save|Defend
+SCN-0251,1,11,6.09,3.21,23,Wet,Cloudy,29,Focused,98.51,EVT-155,Box|Push|Save|Defend
+SCN-0252,27,18,6.17,5.85,26,Hard,Mixed Conditions,29,Confident,93.98,EVT-097,Box|Push|Save|Defend
+SCN-0253,11,1,11.53,1.92,16,Medium,Sunny,30,Tired,64.49,None,Box|Push|Save|Defend
+SCN-0254,17,6,7.42,8.35,29,Wet,Cloudy,31,Frustrated,97.88,None,Box|Push|Save|Defend
+SCN-0255,21,1,12.94,14.3,17,Medium,Cloudy,43,Focused,35.62,None,Box|Push|Save|Defend
+SCN-0256,11,13,4.27,0.55,5,Medium,Cloudy,26,Tired,33.34,EVT-164,Box|Push|Save|Defend
+SCN-0257,21,5,7.1,4.38,24,Intermediate,Light Rain,46,Confident,47.55,None,Box|Push|Save|Defend
+SCN-0258,4,17,10.77,12.12,22,Hard,Heavy Rain,30,Confident,58.65,None,Box|Push|Save|Defend
+SCN-0259,30,5,3.04,4.28,2,Soft,Sunny,46,Confident,94.7,EVT-193,Box|Push|Save|Defend
+SCN-0260,8,8,11.9,12.53,26,Hard,Light Rain,33,Frustrated,94.42,None,Box|Push|Save|Defend
+SCN-0261,31,7,11.76,13.9,26,Wet,Cloudy,45,Tired,39.8,None,Box|Push|Save|Defend
+SCN-0262,23,2,5.55,0.65,12,Soft,Cloudy,36,Focused,43.36,EVT-111,Box|Push|Save|Defend
+SCN-0263,21,7,7.12,3.19,11,Intermediate,Sunny,37,Frustrated,62.68,EVT-081,Box|Push|Save|Defend
+SCN-0264,36,15,2.37,1.75,27,Intermediate,Mixed Conditions,29,Confident,53.94,None,Box|Push|Save|Defend
+SCN-0265,39,10,8.32,6.58,28,Wet,Mixed Conditions,39,Tired,77.28,None,Box|Push|Save|Defend
+SCN-0266,23,15,5.25,4.75,13,Soft,Mixed Conditions,22,Tired,76.79,None,Box|Push|Save|Defend
+SCN-0267,1,15,6.69,4.53,21,Intermediate,Heavy Rain,32,Frustrated,26.95,None,Box|Push|Save|Defend
+SCN-0268,29,11,10.63,0.24,18,Soft,Cloudy,28,Frustrated,29.87,EVT-041,Box|Push|Save|Defend
+SCN-0269,1,8,5.82,8.02,9,Medium,Sunny,50,Tired,25.26,None,Box|Push|Save|Defend
+SCN-0270,48,14,8.68,12.43,9,Wet,Sunny,40,Confident,45.78,EVT-091,Box|Push|Save|Defend
+SCN-0271,37,7,13.4,9.61,3,Wet,Cloudy,28,Tired,15.24,None,Box|Push|Save|Defend
+SCN-0272,15,8,4.12,1.03,19,Wet,Sunny,45,Focused,96.71,EVT-005,Box|Push|Save|Defend
+SCN-0273,10,20,11.54,2.86,6,Intermediate,Light Rain,35,Frustrated,55.43,None,Box|Push|Save|Defend
+SCN-0274,38,7,14.62,1.1,3,Medium,Light Rain,36,Focused,82.7,None,Box|Push|Save|Defend
+SCN-0275,7,5,7.8,6.07,6,Soft,Heavy Rain,41,Tired,26.15,None,Box|Push|Save|Defend
+SCN-0276,46,19,14.86,9.53,10,Wet,Heavy Rain,49,Focused,15.45,None,Box|Push|Save|Defend
+SCN-0277,45,18,13.56,4.7,3,Intermediate,Heavy Rain,46,Focused,18.7,None,Box|Push|Save|Defend
+SCN-0278,45,5,3.31,9.62,2,Intermediate,Sunny,36,Focused,91.4,None,Box|Push|Save|Defend
+SCN-0279,51,20,13.99,7.65,21,Soft,Mixed Conditions,26,Tired,45.69,EVT-044,Box|Push|Save|Defend
+SCN-0280,17,7,2.65,14.27,15,Hard,Cloudy,31,Confident,43.93,EVT-065,Box|Push|Save|Defend
+SCN-0281,21,6,7.41,7.73,22,Soft,Mixed Conditions,23,Frustrated,39.18,EVT-102,Box|Push|Save|Defend
+SCN-0282,55,1,14.7,7.79,9,Intermediate,Cloudy,31,Tired,56.81,None,Box|Push|Save|Defend
+SCN-0283,49,5,14.09,13.4,11,Intermediate,Heavy Rain,29,Confident,52.31,None,Box|Push|Save|Defend
+SCN-0284,16,17,3.36,6.14,25,Wet,Mixed Conditions,37,Frustrated,94.21,EVT-185,Box|Push|Save|Defend
+SCN-0285,49,10,11.21,4.09,4,Medium,Sunny,49,Tired,10.31,None,Box|Push|Save|Defend
+SCN-0286,3,9,10.03,12.94,22,Hard,Heavy Rain,28,Frustrated,68.91,None,Box|Push|Save|Defend
+SCN-0287,14,19,8.95,7.48,25,Wet,Heavy Rain,37,Confident,26.77,None,Box|Push|Save|Defend
+SCN-0288,8,15,7.3,10.27,5,Soft,Mixed Conditions,25,Confident,68.06,None,Box|Push|Save|Defend
+SCN-0289,59,12,14.11,4.34,13,Intermediate,Heavy Rain,39,Tired,56.97,EVT-202,Box|Push|Save|Defend
+SCN-0290,19,14,14.66,10.4,13,Soft,Mixed Conditions,43,Confident,82.74,None,Box|Push|Save|Defend
+SCN-0291,31,18,8.7,8.81,27,Soft,Sunny,42,Confident,50.0,None,Box|Push|Save|Defend
+SCN-0292,30,13,2.31,5.94,14,Intermediate,Cloudy,32,Focused,59.62,None,Box|Push|Save|Defend
+SCN-0293,59,17,2.22,11.89,11,Wet,Light Rain,23,Frustrated,20.84,EVT-169,Box|Push|Save|Defend
+SCN-0294,33,1,10.35,3.26,10,Medium,Cloudy,31,Focused,78.49,None,Box|Push|Save|Defend
+SCN-0295,55,11,3.66,3.84,20,Intermediate,Mixed Conditions,23,Confident,41.69,None,Box|Push|Save|Defend
+SCN-0296,53,6,7.31,12.9,5,Intermediate,Mixed Conditions,21,Focused,22.07,EVT-207,Box|Push|Save|Defend
+SCN-0297,23,9,12.07,0.47,14,Intermediate,Heavy Rain,42,Frustrated,37.33,None,Box|Push|Save|Defend
+SCN-0298,37,1,10.72,3.63,26,Intermediate,Light Rain,41,Frustrated,67.43,None,Box|Push|Save|Defend
+SCN-0299,2,13,4.12,8.99,4,Medium,Heavy Rain,24,Focused,98.06,None,Box|Push|Save|Defend
+SCN-0300,55,11,5.17,8.18,12,Medium,Light Rain,37,Frustrated,87.33,None,Box|Push|Save|Defend
+SCN-0301,36,10,8.71,1.99,20,Wet,Sunny,34,Frustrated,28.72,None,Box|Push|Save|Defend
+SCN-0302,35,10,3.54,6.48,15,Soft,Cloudy,24,Tired,67.52,None,Box|Push|Save|Defend
+SCN-0303,16,11,11.41,14.91,5,Intermediate,Sunny,43,Frustrated,56.26,None,Box|Push|Save|Defend
+SCN-0304,48,3,4.35,7.56,30,Soft,Mixed Conditions,26,Frustrated,43.67,None,Box|Push|Save|Defend
+SCN-0305,5,20,4.62,0.74,19,Medium,Light Rain,35,Confident,40.36,None,Box|Push|Save|Defend
+SCN-0306,49,10,4.71,13.95,28,Soft,Light Rain,50,Tired,42.05,None,Box|Push|Save|Defend
+SCN-0307,19,12,0.54,3.46,26,Wet,Cloudy,23,Focused,35.33,EVT-102,Box|Push|Save|Defend
+SCN-0308,47,14,8.01,10.29,18,Wet,Light Rain,48,Frustrated,78.26,EVT-114,Box|Push|Save|Defend
+SCN-0309,31,8,11.98,5.53,10,Soft,Heavy Rain,45,Tired,10.94,None,Box|Push|Save|Defend
+SCN-0310,44,12,3.92,13.03,29,Hard,Light Rain,30,Frustrated,58.15,None,Box|Push|Save|Defend
+SCN-0311,13,19,4.26,10.02,27,Wet,Light Rain,35,Tired,29.89,EVT-005,Box|Push|Save|Defend
+SCN-0312,51,18,5.54,8.16,13,Wet,Cloudy,33,Tired,78.07,None,Box|Push|Save|Defend
+SCN-0313,13,9,8.0,4.1,20,Medium,Sunny,35,Focused,91.33,EVT-031,Box|Push|Save|Defend
+SCN-0314,59,1,11.14,2.69,5,Medium,Heavy Rain,23,Confident,73.93,None,Box|Push|Save|Defend
+SCN-0315,21,5,4.9,10.88,6,Medium,Heavy Rain,27,Tired,98.03,EVT-204,Box|Push|Save|Defend
+SCN-0316,33,18,9.71,14.47,15,Hard,Light Rain,36,Frustrated,10.7,EVT-140,Box|Push|Save|Defend
+SCN-0317,54,4,2.99,9.56,25,Wet,Mixed Conditions,34,Frustrated,91.93,EVT-064,Box|Push|Save|Defend
+SCN-0318,7,9,2.32,6.27,28,Medium,Light Rain,43,Focused,33.2,None,Box|Push|Save|Defend
+SCN-0319,16,12,6.63,1.41,30,Hard,Sunny,36,Confident,27.04,None,Box|Push|Save|Defend
+SCN-0320,48,6,10.88,8.48,11,Medium,Mixed Conditions,39,Confident,41.75,EVT-030,Box|Push|Save|Defend
+SCN-0321,26,6,9.63,13.71,28,Hard,Mixed Conditions,45,Frustrated,82.1,None,Box|Push|Save|Defend
+SCN-0322,57,8,2.07,10.04,25,Wet,Light Rain,24,Focused,50.18,None,Box|Push|Save|Defend
+SCN-0323,57,7,2.87,7.9,11,Wet,Cloudy,47,Focused,79.35,None,Box|Push|Save|Defend
+SCN-0324,25,8,2.39,0.51,25,Medium,Heavy Rain,45,Focused,35.58,EVT-214,Box|Push|Save|Defend
+SCN-0325,39,3,1.81,10.08,24,Soft,Heavy Rain,45,Focused,47.11,None,Box|Push|Save|Defend
+SCN-0326,18,18,12.95,14.27,29,Wet,Light Rain,25,Confident,16.32,EVT-220,Box|Push|Save|Defend
+SCN-0327,6,6,13.89,0.62,6,Wet,Mixed Conditions,28,Tired,78.44,None,Box|Push|Save|Defend
+SCN-0328,7,1,11.65,8.08,4,Wet,Cloudy,25,Tired,27.48,None,Box|Push|Save|Defend
+SCN-0329,54,4,9.49,13.18,11,Wet,Cloudy,44,Frustrated,94.52,EVT-159,Box|Push|Save|Defend
+SCN-0330,53,9,6.14,13.88,1,Hard,Heavy Rain,41,Focused,92.96,EVT-038,Box|Push|Save|Defend
+SCN-0331,51,19,7.98,7.91,2,Wet,Light Rain,23,Confident,31.41,EVT-088,Box|Push|Save|Defend
+SCN-0332,20,9,10.58,4.95,12,Soft,Cloudy,24,Confident,48.77,EVT-157,Box|Push|Save|Defend
+SCN-0333,16,10,5.66,2.16,6,Medium,Mixed Conditions,47,Focused,21.64,EVT-034,Box|Push|Save|Defend
+SCN-0334,57,5,8.43,3.13,7,Hard,Light Rain,20,Confident,43.7,None,Box|Push|Save|Defend
+SCN-0335,29,19,12.68,12.87,8,Soft,Mixed Conditions,22,Frustrated,26.78,None,Box|Push|Save|Defend
+SCN-0336,46,15,11.41,4.66,23,Intermediate,Sunny,37,Focused,20.57,None,Box|Push|Save|Defend
+SCN-0337,22,20,1.36,4.57,28,Intermediate,Light Rain,39,Confident,12.65,None,Box|Push|Save|Defend
+SCN-0338,15,20,9.45,9.37,15,Wet,Light Rain,47,Confident,25.14,EVT-221,Box|Push|Save|Defend
+SCN-0339,9,9,8.79,13.98,21,Intermediate,Light Rain,34,Focused,55.78,None,Box|Push|Save|Defend
+SCN-0340,6,19,3.28,2.66,29,Medium,Heavy Rain,42,Tired,97.83,None,Box|Push|Save|Defend
+SCN-0341,51,11,5.26,3.26,16,Medium,Heavy Rain,47,Confident,38.66,None,Box|Push|Save|Defend
+SCN-0342,14,3,14.63,14.44,20,Soft,Cloudy,44,Focused,14.43,EVT-045,Box|Push|Save|Defend
+SCN-0343,29,6,11.89,11.82,22,Wet,Heavy Rain,31,Focused,12.42,None,Box|Push|Save|Defend
+SCN-0344,25,11,3.95,6.91,19,Medium,Sunny,29,Confident,17.56,None,Box|Push|Save|Defend
+SCN-0345,37,6,10.69,12.83,28,Medium,Heavy Rain,27,Focused,10.83,None,Box|Push|Save|Defend
+SCN-0346,34,15,1.45,0.94,23,Intermediate,Light Rain,25,Tired,15.22,None,Box|Push|Save|Defend
+SCN-0347,17,3,13.98,11.05,5,Hard,Heavy Rain,46,Focused,43.24,None,Box|Push|Save|Defend
+SCN-0348,47,3,4.0,8.0,25,Intermediate,Mixed Conditions,24,Focused,74.85,None,Box|Push|Save|Defend
+SCN-0349,45,18,10.33,9.94,28,Medium,Light Rain,29,Confident,82.6,None,Box|Push|Save|Defend
+SCN-0350,59,18,1.65,12.24,19,Soft,Sunny,26,Confident,81.71,None,Box|Push|Save|Defend
+SCN-0351,30,20,2.52,11.94,30,Soft,Cloudy,27,Tired,72.83,None,Box|Push|Save|Defend
+SCN-0352,4,5,7.04,12.59,18,Medium,Light Rain,42,Confident,32.26,EVT-019,Box|Push|Save|Defend
+SCN-0353,58,7,4.08,14.99,9,Intermediate,Sunny,22,Frustrated,79.25,None,Box|Push|Save|Defend
+SCN-0354,27,16,3.88,8.14,24,Hard,Light Rain,33,Confident,77.05,EVT-034,Box|Push|Save|Defend
+SCN-0355,41,5,6.33,9.05,29,Soft,Heavy Rain,31,Tired,74.95,None,Box|Push|Save|Defend
+SCN-0356,8,20,13.79,13.94,5,Hard,Mixed Conditions,31,Confident,96.49,EVT-204,Box|Push|Save|Defend
+SCN-0357,39,6,13.48,9.03,4,Wet,Light Rain,35,Frustrated,17.59,None,Box|Push|Save|Defend
+SCN-0358,9,17,5.98,12.62,11,Hard,Cloudy,48,Tired,42.55,None,Box|Push|Save|Defend
+SCN-0359,60,3,1.61,11.8,10,Medium,Cloudy,50,Frustrated,82.65,None,Box|Push|Save|Defend
+SCN-0360,53,19,2.96,14.14,7,Wet,Sunny,48,Focused,56.36,None,Box|Push|Save|Defend
+SCN-0361,41,20,12.62,14.06,15,Hard,Cloudy,40,Focused,72.12,None,Box|Push|Save|Defend
+SCN-0362,25,16,10.85,5.71,11,Hard,Heavy Rain,20,Frustrated,45.38,None,Box|Push|Save|Defend
+SCN-0363,14,2,11.16,5.06,25,Intermediate,Heavy Rain,27,Confident,11.35,EVT-195,Box|Push|Save|Defend
+SCN-0364,29,17,4.24,4.96,21,Wet,Light Rain,48,Tired,95.86,None,Box|Push|Save|Defend
+SCN-0365,35,11,7.95,4.07,9,Hard,Cloudy,39,Focused,12.93,None,Box|Push|Save|Defend
+SCN-0366,20,6,3.74,10.92,27,Intermediate,Cloudy,41,Confident,13.47,EVT-221,Box|Push|Save|Defend
+SCN-0367,33,18,11.52,12.12,2,Intermediate,Heavy Rain,30,Focused,94.45,None,Box|Push|Save|Defend
+SCN-0368,30,8,12.12,10.15,8,Soft,Mixed Conditions,39,Focused,37.26,EVT-175,Box|Push|Save|Defend
+SCN-0369,35,13,12.45,12.55,12,Intermediate,Cloudy,49,Tired,31.14,None,Box|Push|Save|Defend
+SCN-0370,34,15,8.81,6.33,1,Hard,Heavy Rain,38,Tired,80.45,None,Box|Push|Save|Defend
+SCN-0371,53,3,6.81,0.34,13,Medium,Light Rain,41,Tired,62.54,None,Box|Push|Save|Defend
+SCN-0372,21,11,10.14,10.23,9,Wet,Heavy Rain,49,Frustrated,42.24,None,Box|Push|Save|Defend
+SCN-0373,27,4,10.82,13.88,7,Intermediate,Heavy Rain,21,Confident,40.25,None,Box|Push|Save|Defend
+SCN-0374,47,3,11.65,14.94,14,Soft,Mixed Conditions,25,Focused,39.95,EVT-189,Box|Push|Save|Defend
+SCN-0375,21,10,7.38,7.5,24,Soft,Light Rain,35,Tired,41.75,None,Box|Push|Save|Defend
+SCN-0376,52,6,2.07,6.93,10,Soft,Sunny,36,Confident,35.72,None,Box|Push|Save|Defend
+SCN-0377,30,16,10.89,7.37,10,Wet,Light Rain,42,Frustrated,12.83,EVT-202,Box|Push|Save|Defend
+SCN-0378,42,12,14.8,5.08,28,Wet,Cloudy,26,Confident,63.82,EVT-060,Box|Push|Save|Defend
+SCN-0379,34,10,0.79,5.04,10,Intermediate,Sunny,25,Frustrated,76.69,None,Box|Push|Save|Defend
+SCN-0380,33,6,13.63,14.23,20,Intermediate,Light Rain,20,Focused,57.14,None,Box|Push|Save|Defend
+SCN-0381,13,19,10.96,7.07,14,Hard,Sunny,31,Tired,83.93,EVT-158,Box|Push|Save|Defend
+SCN-0382,4,16,9.42,10.92,16,Soft,Light Rain,24,Focused,96.19,None,Box|Push|Save|Defend
+SCN-0383,32,16,11.45,2.01,7,Wet,Light Rain,38,Confident,20.57,None,Box|Push|Save|Defend
+SCN-0384,33,3,11.35,13.33,2,Soft,Sunny,26,Focused,57.39,EVT-123,Box|Push|Save|Defend
+SCN-0385,60,17,14.61,8.48,28,Intermediate,Light Rain,26,Tired,66.08,None,Box|Push|Save|Defend
+SCN-0386,47,4,5.48,5.95,17,Intermediate,Cloudy,20,Frustrated,39.85,None,Box|Push|Save|Defend
+SCN-0387,4,20,1.26,10.33,13,Wet,Mixed Conditions,43,Focused,64.92,None,Box|Push|Save|Defend
+SCN-0388,33,1,7.27,11.54,28,Medium,Mixed Conditions,36,Frustrated,85.19,None,Box|Push|Save|Defend
+SCN-0389,47,10,5.54,0.11,4,Hard,Light Rain,27,Tired,14.75,None,Box|Push|Save|Defend
+SCN-0390,58,19,7.97,10.41,26,Intermediate,Light Rain,42,Focused,65.95,None,Box|Push|Save|Defend
+SCN-0391,49,2,7.51,7.96,11,Medium,Cloudy,40,Focused,24.55,None,Box|Push|Save|Defend
+SCN-0392,33,3,9.48,10.31,23,Hard,Sunny,29,Frustrated,46.36,EVT-200,Box|Push|Save|Defend
+SCN-0393,30,5,2.69,2.1,25,Wet,Heavy Rain,36,Frustrated,45.52,None,Box|Push|Save|Defend
+SCN-0394,56,1,13.13,14.24,13,Wet,Mixed Conditions,29,Tired,95.56,EVT-216,Box|Push|Save|Defend
+SCN-0395,58,8,7.43,4.81,26,Medium,Cloudy,45,Frustrated,80.56,None,Box|Push|Save|Defend
+SCN-0396,9,4,5.23,4.3,27,Intermediate,Sunny,35,Tired,50.21,None,Box|Push|Save|Defend
+SCN-0397,8,11,9.43,8.11,15,Soft,Light Rain,27,Frustrated,26.23,None,Box|Push|Save|Defend
+SCN-0398,34,14,6.63,13.91,9,Hard,Heavy Rain,50,Frustrated,95.29,None,Box|Push|Save|Defend
+SCN-0399,52,2,5.61,11.22,7,Intermediate,Light Rain,49,Tired,84.07,None,Box|Push|Save|Defend
+SCN-0400,26,14,4.22,4.88,6,Medium,Heavy Rain,23,Frustrated,95.65,EVT-150,Box|Push|Save|Defend
+SCN-0401,44,2,6.24,14.83,27,Medium,Heavy Rain,35,Focused,65.59,None,Box|Push|Save|Defend
+SCN-0402,35,17,14.6,13.64,6,Hard,Light Rain,26,Focused,53.22,EVT-177,Box|Push|Save|Defend
+SCN-0403,30,5,0.69,8.08,21,Soft,Cloudy,39,Confident,18.42,None,Box|Push|Save|Defend
+SCN-0404,3,9,1.49,14.02,9,Wet,Sunny,48,Focused,44.82,None,Box|Push|Save|Defend
+SCN-0405,20,18,11.08,10.53,30,Soft,Light Rain,24,Tired,23.51,None,Box|Push|Save|Defend
+SCN-0406,4,13,5.65,12.37,13,Hard,Sunny,48,Tired,92.1,None,Box|Push|Save|Defend
+SCN-0407,27,12,9.11,8.2,15,Wet,Cloudy,45,Confident,14.24,None,Box|Push|Save|Defend
+SCN-0408,11,15,6.29,0.98,7,Wet,Heavy Rain,24,Tired,73.47,None,Box|Push|Save|Defend
+SCN-0409,26,6,2.02,5.6,19,Medium,Heavy Rain,47,Frustrated,92.24,None,Box|Push|Save|Defend
+SCN-0410,7,3,3.23,10.13,8,Intermediate,Mixed Conditions,36,Tired,55.43,None,Box|Push|Save|Defend
+SCN-0411,20,9,5.83,6.3,18,Wet,Cloudy,50,Confident,81.2,None,Box|Push|Save|Defend
+SCN-0412,17,8,13.78,7.98,9,Wet,Cloudy,46,Confident,68.69,None,Box|Push|Save|Defend
+SCN-0413,34,14,9.45,12.55,11,Intermediate,Mixed Conditions,43,Confident,11.11,None,Box|Push|Save|Defend
+SCN-0414,21,3,7.48,2.38,2,Hard,Heavy Rain,27,Tired,94.55,None,Box|Push|Save|Defend
+SCN-0415,57,16,1.25,9.47,1,Intermediate,Light Rain,37,Confident,64.73,None,Box|Push|Save|Defend
+SCN-0416,11,16,12.84,9.39,19,Medium,Heavy Rain,31,Tired,90.36,None,Box|Push|Save|Defend
+SCN-0417,39,12,6.2,4.03,5,Wet,Light Rain,27,Frustrated,49.85,None,Box|Push|Save|Defend
+SCN-0418,2,9,7.86,6.8,20,Wet,Heavy Rain,38,Frustrated,32.59,EVT-107,Box|Push|Save|Defend
+SCN-0419,29,8,14.83,5.13,17,Intermediate,Sunny,23,Focused,42.0,None,Box|Push|Save|Defend
+SCN-0420,52,12,2.98,1.66,16,Soft,Mixed Conditions,21,Confident,82.79,None,Box|Push|Save|Defend
+SCN-0421,59,2,5.19,12.67,29,Soft,Mixed Conditions,39,Focused,44.53,None,Box|Push|Save|Defend
+SCN-0422,3,8,1.51,13.19,13,Hard,Sunny,28,Confident,47.02,None,Box|Push|Save|Defend
+SCN-0423,37,5,9.49,3.58,2,Soft,Heavy Rain,43,Confident,81.47,EVT-206,Box|Push|Save|Defend
+SCN-0424,27,5,11.88,2.08,2,Intermediate,Heavy Rain,42,Tired,93.97,None,Box|Push|Save|Defend
+SCN-0425,17,2,13.22,13.27,29,Medium,Sunny,50,Frustrated,87.67,EVT-029,Box|Push|Save|Defend
+SCN-0426,17,20,4.14,3.3,15,Hard,Sunny,33,Confident,24.32,None,Box|Push|Save|Defend
+SCN-0427,45,19,9.51,12.47,23,Soft,Heavy Rain,26,Focused,18.21,None,Box|Push|Save|Defend
+SCN-0428,43,6,7.22,14.67,25,Hard,Heavy Rain,25,Focused,36.91,None,Box|Push|Save|Defend
+SCN-0429,20,12,9.32,12.68,29,Medium,Cloudy,48,Tired,39.64,None,Box|Push|Save|Defend
+SCN-0430,47,10,2.15,1.98,20,Intermediate,Light Rain,44,Tired,64.62,EVT-041,Box|Push|Save|Defend
+SCN-0431,47,1,8.41,3.3,14,Intermediate,Sunny,35,Frustrated,56.75,EVT-109,Box|Push|Save|Defend
+SCN-0432,50,14,2.12,11.03,16,Hard,Sunny,50,Confident,78.75,None,Box|Push|Save|Defend
+SCN-0433,5,18,1.24,12.37,26,Hard,Cloudy,23,Confident,98.91,None,Box|Push|Save|Defend
+SCN-0434,37,8,1.45,13.84,24,Intermediate,Light Rain,27,Frustrated,61.54,None,Box|Push|Save|Defend
+SCN-0435,35,9,7.32,6.37,28,Soft,Sunny,42,Frustrated,84.52,None,Box|Push|Save|Defend
+SCN-0436,18,18,10.85,2.59,3,Intermediate,Sunny,39,Focused,90.34,None,Box|Push|Save|Defend
+SCN-0437,49,15,3.85,9.61,18,Wet,Cloudy,49,Tired,34.77,EVT-031,Box|Push|Save|Defend
+SCN-0438,59,18,0.76,14.89,24,Soft,Light Rain,45,Tired,90.37,None,Box|Push|Save|Defend
+SCN-0439,55,1,11.71,3.46,21,Wet,Cloudy,46,Tired,93.98,EVT-195,Box|Push|Save|Defend
+SCN-0440,24,19,9.61,13.2,27,Intermediate,Mixed Conditions,28,Focused,66.65,None,Box|Push|Save|Defend
+SCN-0441,60,11,2.43,12.81,21,Soft,Cloudy,30,Tired,20.6,None,Box|Push|Save|Defend
+SCN-0442,21,7,5.74,13.04,11,Intermediate,Light Rain,47,Tired,69.01,EVT-021,Box|Push|Save|Defend
+SCN-0443,38,2,2.83,9.72,26,Soft,Sunny,23,Focused,78.12,None,Box|Push|Save|Defend
+SCN-0444,55,10,5.29,7.63,6,Wet,Light Rain,36,Focused,34.23,None,Box|Push|Save|Defend
+SCN-0445,7,3,9.91,4.22,6,Wet,Light Rain,25,Focused,47.09,EVT-131,Box|Push|Save|Defend
+SCN-0446,6,20,14.6,8.65,17,Hard,Heavy Rain,29,Tired,18.19,None,Box|Push|Save|Defend
+SCN-0447,16,2,5.7,0.1,6,Wet,Cloudy,44,Focused,32.1,None,Box|Push|Save|Defend
+SCN-0448,45,7,1.36,10.72,13,Wet,Mixed Conditions,49,Confident,56.65,EVT-195,Box|Push|Save|Defend
+SCN-0449,1,2,11.18,4.14,10,Hard,Sunny,41,Frustrated,99.68,None,Box|Push|Save|Defend
+SCN-0450,54,11,3.69,10.79,8,Medium,Light Rain,46,Tired,71.12,EVT-170,Box|Push|Save|Defend
+SCN-0451,36,14,0.25,1.19,11,Hard,Mixed Conditions,29,Frustrated,25.87,None,Box|Push|Save|Defend
+SCN-0452,13,12,11.2,2.99,6,Soft,Light Rain,28,Frustrated,30.79,EVT-243,Box|Push|Save|Defend
+SCN-0453,15,6,12.69,8.3,1,Wet,Mixed Conditions,50,Confident,61.43,None,Box|Push|Save|Defend
+SCN-0454,26,13,8.82,8.43,28,Medium,Heavy Rain,43,Confident,60.37,None,Box|Push|Save|Defend
+SCN-0455,23,3,14.93,0.88,23,Wet,Heavy Rain,29,Focused,84.87,None,Box|Push|Save|Defend
+SCN-0456,9,2,8.14,11.72,2,Wet,Cloudy,30,Frustrated,93.72,EVT-092,Box|Push|Save|Defend
+SCN-0457,56,15,1.66,5.2,6,Soft,Light Rain,44,Confident,57.18,EVT-109,Box|Push|Save|Defend
+SCN-0458,46,3,2.65,7.87,8,Soft,Light Rain,25,Tired,24.62,EVT-039,Box|Push|Save|Defend
+SCN-0459,16,16,3.56,4.88,28,Medium,Light Rain,28,Tired,36.96,None,Box|Push|Save|Defend
+SCN-0460,23,15,11.25,14.47,24,Wet,Sunny,27,Tired,31.38,EVT-025,Box|Push|Save|Defend
+SCN-0461,28,16,3.24,8.42,3,Hard,Mixed Conditions,44,Confident,81.41,None,Box|Push|Save|Defend
+SCN-0462,24,1,11.86,11.94,11,Wet,Cloudy,27,Focused,90.9,None,Box|Push|Save|Defend
+SCN-0463,12,17,12.51,4.88,9,Medium,Light Rain,28,Frustrated,91.11,None,Box|Push|Save|Defend
+SCN-0464,7,12,7.32,6.54,7,Medium,Light Rain,30,Tired,45.15,EVT-113,Box|Push|Save|Defend
+SCN-0465,11,17,11.61,8.63,11,Medium,Light Rain,34,Focused,49.08,EVT-090,Box|Push|Save|Defend
+SCN-0466,21,5,12.21,6.36,25,Soft,Cloudy,40,Tired,87.13,EVT-137,Box|Push|Save|Defend
+SCN-0467,34,20,2.32,7.06,9,Wet,Mixed Conditions,45,Focused,54.6,None,Box|Push|Save|Defend
+SCN-0468,51,5,7.43,9.94,6,Wet,Mixed Conditions,28,Confident,61.17,None,Box|Push|Save|Defend
+SCN-0469,8,8,5.32,8.2,5,Hard,Heavy Rain,26,Tired,28.28,None,Box|Push|Save|Defend
+SCN-0470,41,10,7.79,8.38,5,Medium,Mixed Conditions,41,Tired,62.93,EVT-045,Box|Push|Save|Defend
+SCN-0471,25,3,11.12,2.41,7,Wet,Heavy Rain,40,Confident,66.96,None,Box|Push|Save|Defend
+SCN-0472,46,20,4.57,5.37,8,Soft,Sunny,38,Focused,33.42,None,Box|Push|Save|Defend
+SCN-0473,4,16,2.47,2.15,28,Hard,Cloudy,24,Frustrated,52.91,None,Box|Push|Save|Defend
+SCN-0474,45,17,1.62,12.59,23,Hard,Light Rain,40,Focused,87.7,EVT-133,Box|Push|Save|Defend
+SCN-0475,22,10,6.24,10.19,8,Soft,Sunny,20,Focused,50.26,EVT-209,Box|Push|Save|Defend
+SCN-0476,56,1,11.16,5.74,11,Intermediate,Heavy Rain,41,Tired,24.87,None,Box|Push|Save|Defend
+SCN-0477,36,19,7.56,2.74,17,Wet,Light Rain,42,Tired,57.71,None,Box|Push|Save|Defend
+SCN-0478,8,14,0.6,4.5,17,Wet,Mixed Conditions,29,Frustrated,28.56,EVT-013,Box|Push|Save|Defend
+SCN-0479,49,17,5.04,5.11,11,Medium,Cloudy,47,Focused,97.99,EVT-240,Box|Push|Save|Defend
+SCN-0480,52,13,7.94,8.06,20,Intermediate,Mixed Conditions,44,Focused,35.86,None,Box|Push|Save|Defend
+SCN-0481,50,19,0.97,3.84,5,Wet,Heavy Rain,36,Focused,25.14,EVT-162,Box|Push|Save|Defend
+SCN-0482,23,2,10.99,3.65,21,Medium,Light Rain,42,Focused,35.43,None,Box|Push|Save|Defend
+SCN-0483,1,16,5.32,2.79,8,Soft,Mixed Conditions,48,Focused,50.66,None,Box|Push|Save|Defend
+SCN-0484,12,12,14.74,11.82,13,Hard,Sunny,37,Confident,62.55,None,Box|Push|Save|Defend
+SCN-0485,59,1,10.59,8.59,20,Soft,Cloudy,27,Tired,75.17,EVT-041,Box|Push|Save|Defend
+SCN-0486,54,14,9.76,0.38,1,Intermediate,Heavy Rain,40,Tired,41.12,EVT-091,Box|Push|Save|Defend
+SCN-0487,20,20,4.41,0.82,11,Intermediate,Heavy Rain,20,Confident,99.42,None,Box|Push|Save|Defend
+SCN-0488,17,3,10.82,7.29,10,Medium,Light Rain,46,Frustrated,22.46,None,Box|Push|Save|Defend
+SCN-0489,42,3,14.96,13.16,4,Intermediate,Heavy Rain,41,Frustrated,45.25,EVT-006,Box|Push|Save|Defend
+SCN-0490,39,3,2.49,1.18,4,Intermediate,Cloudy,25,Frustrated,91.31,None,Box|Push|Save|Defend
+SCN-0491,17,7,7.27,1.13,2,Medium,Cloudy,50,Focused,49.01,None,Box|Push|Save|Defend
+SCN-0492,4,12,4.83,5.23,18,Wet,Heavy Rain,44,Tired,53.74,EVT-043,Box|Push|Save|Defend
+SCN-0493,47,5,5.94,8.21,27,Hard,Sunny,21,Tired,34.08,None,Box|Push|Save|Defend
+SCN-0494,50,17,6.26,0.7,13,Intermediate,Mixed Conditions,46,Frustrated,19.03,EVT-179,Box|Push|Save|Defend
+SCN-0495,19,14,14.85,14.9,4,Soft,Heavy Rain,20,Frustrated,97.51,None,Box|Push|Save|Defend
+SCN-0496,37,6,2.52,13.0,23,Hard,Heavy Rain,33,Focused,63.64,None,Box|Push|Save|Defend
+SCN-0497,28,13,11.97,2.2,18,Medium,Sunny,26,Confident,94.17,None,Box|Push|Save|Defend
+SCN-0498,57,1,3.9,4.3,28,Medium,Sunny,23,Focused,83.2,None,Box|Push|Save|Defend
+SCN-0499,60,10,14.65,2.2,14,Wet,Cloudy,20,Tired,66.11,None,Box|Push|Save|Defend
+SCN-0500,47,15,8.74,6.2,15,Wet,Cloudy,23,Frustrated,41.06,None,Box|Push|Save|Defend
