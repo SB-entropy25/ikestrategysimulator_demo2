@@ -61,13 +61,27 @@ class StorageHandler:
             if not creds:
                 try:
                     import streamlit as st
+                    sec_key = None
                     if "gcp_service_account" in st.secrets:
+                        sec_key = "gcp_service_account"
+                    elif "GOOGLE_SERVICE_ACCOUNT_JSON" in st.secrets:
+                        sec_key = "GOOGLE_SERVICE_ACCOUNT_JSON"
+                        
+                    if sec_key:
+                        secret_val = st.secrets[sec_key]
+                        if isinstance(secret_val, str):
+                            # It's a raw JSON string
+                            info = json.loads(secret_val)
+                        else:
+                            # It's a TOML table / dict
+                            info = dict(secret_val)
                         creds = Credentials.from_service_account_info(
-                            dict(st.secrets["gcp_service_account"]),
+                            info,
                             scopes=scopes
                         )
-                except Exception:
-                    pass
+                except Exception as e:
+                    print(f"[StorageHandler] Secrets load error: {e}")
+                    self.error_details = f"Secrets load error ({type(e).__name__}): {str(e)}"
             
             if not creds:
                 print("[StorageHandler] No Google credentials found. Using local storage fallback.")
